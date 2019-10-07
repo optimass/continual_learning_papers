@@ -16,6 +16,12 @@ Monday 1:30PM
 * Lifelong Reinforcement Learning
 * Relevants (non-continual learning papers that can help us. Generalization, Biology, Psychology, etc)
 
+#### Abreviations
+
+Continual Learning (CL)
+Catastrophic Forgetting (CF)
+
+
 ## Papers
 
 #### Classics
@@ -28,8 +34,8 @@ Title | Year | tl;dr
 Title | Year | tl;dr
 --- | --- | ---
 [An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks](https://arxiv.org/abs/1312.6211) | 2013 | Investigates CF in neural networks
-[Elastic Weight Consolidation](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | 2017 | Introduces prior-focused methods
-[Gradient Episodic Memory](https://arxiv.org/abs/1706.08840) | 2017 | a model that alliviates CF via constrained optimization (doesn't increase loss on previous stored data)
+[Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | 2017 | Introduces prior-focused methods
+[Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) | 2017 | a model that alliviates CF via constrained optimization (doesn't increase loss on previous stored data)
 [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) | 2018 | More efficient GEM; Introduces online continual learning
 
 #### Rookies
@@ -41,7 +47,7 @@ Title | Year | tl;dr
 
 Title | Year | tl;dr
 --- | --- | ---
-[Elastic Weight Consolidation](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | 2017 | Introduces prior-focused methods
+[Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | 2017 | Introduces prior-focused methods
 
 
 #### Dynamic Architectures
@@ -53,7 +59,7 @@ Title | Year | tl;dr
 
 Title | Year | tl;dr
 --- | --- | ---
-[Gradient Episodic Memory](https://arxiv.org/abs/1706.08840) | 2017 | a model that alliviates CF via constrained optimization (doesn't increase loss on previous stored data)
+[Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) | 2017 | a model that alliviates CF via constrained optimization (doesn't increase loss on previous stored data)
 [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) | 2018 | More efficient GEM; Introduces online continual learning
 
 
