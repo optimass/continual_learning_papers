@@ -19,6 +19,7 @@ Monday 1:30PM
 #### Abreviations
 
 Continual Learning (CL)
+
 Catastrophic Forgetting (CF)
 
 
