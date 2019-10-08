@@ -54,6 +54,7 @@ Title | Year | tl;dr
 
 Title | Year | tl;dr
 --- | --- | ---
+[Progressive neural networks](https://arxiv.org/abs/1606.04671) | 2016 |
 
 #### Rehearsal Methdods
 
