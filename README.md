@@ -85,5 +85,5 @@ Title | Year | tl;dr
 
 
 Title | Family | Single-Head | Task Agnostic | Online | Supervised | Generative | RL
---- | --- | --- | --- | --- | --- | --- | ---
-[Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | Prior | :heavy_check_mark: | | | :heavy_check_mark: | | :heavy_check_mark: 
+---   | ---    | ---         | ---           | ---    | ---        | ---        | ---
+[Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | Prior | | | | :heavy_check_mark: | | :heavy_check_mark: 
