@@ -14,7 +14,7 @@ Monday 1:30PM
 * Rehearsal Methods
 * Meta-Continual Learning
 * Lifelong Reinforcement Learning
-* Relevants (non-continual learning papers that can help us. Generalization, Biology, Psychology, etc)
+* Relevants (non-continual learning papers that can help us. Generalization, Biology, Psychology, Meta-Learning, etc)
 
 #### Abreviations
 
