@@ -40,6 +40,7 @@ Title | Year | tl;dr
 [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) | 2018 | More efficient GEM; Introduces online continual learning
 [Continual Learning with Deep Generative Replay (GR)](https://arxiv.org/abs/1705.08690) | 2017 | Introduces generative replay
 [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569) | 2018 | A extensive review of CL
+[Towards Robust Evaluations of Continual Learning](https://arxiv.org/abs/1805.09733) | 2018 | Proposes desideratas and reexamines the evaluation protocol
 
 #### Rookies
 
