@@ -2,7 +2,7 @@
 
 ## Schedule
 
-Monday 1:30PM, Room F01
+Monday 1:30PM, Room H06 (6650 St-Urbain)
 
 ## Categories
 
