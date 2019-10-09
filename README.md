@@ -2,7 +2,7 @@
 
 ## Schedule
 
-Monday 1:30PM
+Monday 1:30PM, Room F01
 
 ## Categories
 
