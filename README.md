@@ -97,4 +97,4 @@ Title | Family | Single-Head | Task Agnostic | Online | Supervised | Generative 
 [Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | Prior | | | | :heavy_check_mark: | | :heavy_check_mark: 
 [Continual Learning with Deep Generative Replay (GR)](https://arxiv.org/abs/1705.08690) | Rehearsal | | | | :heavy_check_mark: | :heavy_check_mark: || 
 [Gradient based sample selection for online continual learning](https://arxiv.org/abs/1903.08671) | Rehearsal |  :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  |  | 
-[Generative replay with feedback connections as a general strategy for continual learning](https://arxiv.org/abs/1809.10635) | Rehearsal | :heavy_check_mark: | | | | :heavy_check_mark: | :heavy_check_mark: | 
+[Generative replay with feedback connections as a general strategy for continual learning](https://arxiv.org/abs/1809.10635) | Rehearsal | :heavy_check_mark: | | | :heavy_check_mark: | :heavy_check_mark: | | 
