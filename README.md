@@ -6,15 +6,15 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 
 ## Categories
 
-* [Classics](#Classics) (papers before Deep Learning area. Motivates and sets the stage for Continual Learning)
-* Influencials (well cited papers. More general contributions like proposing new desideratas, frameworks, evaluations, etc)
-* Rookies (new papers. e.g. NeurIPS 2019, ICLR 2020 submissions)
-* Prior-Focused Methods
-* Dynamic Architectures
-* Rehearsal Methods
-* Meta-Continual Learning
-* Lifelong Reinforcement Learning
-* Relevants (non-continual learning papers that can help us. Generalization, Biology, Psychology, Meta-Learning, etc)
+* [Classics](#classics) (papers before Deep Learning area. Motivates and sets the stage for Continual Learning)
+* [Influencials](#influentials) (well cited papers. More general contributions like proposing new desideratas, frameworks, evaluations, etc)
+* [Rookies](#rookies) (new papers. e.g. NeurIPS 2019, ICLR 2020 submissions)
+* [Prior-Focused Methods](#prior-focused-methods)
+* [Dynamic Architectures](#dynamic-architectures)
+* [Rehearsal Methods](#rehearsal-methods)
+* [Meta-Continual Learning](#meta-continual-learning)
+* [Lifelong Reinforcement Learning](#lifelong-reinforcement-learning)
+* [Relevants](#relevants) (non-continual learning papers that can help us. Generalization, Biology, Psychology, Meta-Learning, etc)
 
 #### Abreviations
 
@@ -60,7 +60,7 @@ Title | Year | tl;dr
 --- | --- | ---
 [Progressive neural networks](https://arxiv.org/abs/1606.04671) | 2016 |
 
-#### Rehearsal Methdods
+#### Rehearsal Methods
 
 Title | Year | tl;dr
 --- | --- | ---
