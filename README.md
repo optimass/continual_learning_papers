@@ -66,7 +66,10 @@ Title | Year | tl;dr
 --- | --- | ---
 [Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) | 2017 | a model that alliviates CF via constrained optimization (doesn't increase loss on previous stored data)
 [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) | 2018 | More efficient GEM; Introduces online continual learning
-
+[Continual Learning with Deep Generative Replay (GR)](https://arxiv.org/abs/1705.08690) | 2017 | Introduces generative replay
+[Gradient based sample selection for online continual learning](https://arxiv.org/abs/1903.08671) | 2019 | sample selection as a constraint reduction problem based on the constrained optimization view of continual learning
+[Generative replay with feedback connections as a general strategy for continual learning](https://arxiv.org/abs/1809.10635) | 2018 | smarter GR
+[Generative Models from the perspective of Continual Learning](https://arxiv.org/abs/1812.09111) | 2018 | Extensive evaluation of CL methods for generative modeling
 
 #### Meta Continual Learning
 
@@ -93,3 +96,5 @@ Title | Family | Single-Head | Task Agnostic | Online | Supervised | Generative 
 ---   | ---    | ---         | ---           | ---    | ---        | ---        | ---
 [Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | Prior | | | | :heavy_check_mark: | | :heavy_check_mark: 
 [Continual Learning with Deep Generative Replay (GR)](https://arxiv.org/abs/1705.08690) | Rehearsal | | | | :heavy_check_mark: | :heavy_check_mark: || 
+[Gradient based sample selection for online continual learning](https://arxiv.org/abs/1903.08671) | Rehearsal |  :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  |  | 
+[Generative replay with feedback connections as a general strategy for continual learning](https://arxiv.org/abs/1809.10635) | Rehearsal | :heavy_check_mark: | | | | :heavy_check_mark: | :heavy_check_mark: | 
