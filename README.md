@@ -20,7 +20,7 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 
 #### Abreviations
 
-Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR)
+Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR), Continual Meta Learning (CML)
 
 
 ## Papers
