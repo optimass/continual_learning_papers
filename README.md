@@ -6,7 +6,7 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 
 ## Categories
 
-* [Classics](#classics) (papers before Deep Learning area. Motivates and sets the stage for Continual Learning)
+* [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
 * [Influencials](#influentials) (well cited papers. More general contributions like proposing new desideratas, frameworks, evaluations, etc)
 * [Surveys](#surveys)
 * [Rookies](#rookies) (new papers. e.g. NeurIPS 2019, ICLR 2020 submissions)
