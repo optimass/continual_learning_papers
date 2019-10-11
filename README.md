@@ -8,6 +8,7 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 
 * [Classics](#classics) (papers before Deep Learning area. Motivates and sets the stage for Continual Learning)
 * [Influencials](#influentials) (well cited papers. More general contributions like proposing new desideratas, frameworks, evaluations, etc)
+* [Surveys](#surveys)
 * [Rookies](#rookies) (new papers. e.g. NeurIPS 2019, ICLR 2020 submissions)
 * [Prior-Focused Methods](#prior-focused-methods)
 * [Dynamic Architectures](#dynamic-architectures)
@@ -39,8 +40,14 @@ Title | Year | tl;dr
 [Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) | 2017 | a model that alliviates CF via constrained optimization
 [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) | 2018 | More efficient GEM; Introduces online continual learning
 [Continual Learning with Deep Generative Replay (GR)](https://arxiv.org/abs/1705.08690) | 2017 | Introduces generative replay
-[Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569) | 2018 | A extensive review of CL
 [Towards Robust Evaluations of Continual Learning](https://arxiv.org/abs/1805.09733) | 2018 | Proposes desideratas and reexamines the evaluation protocol
+
+
+#### Surveys
+
+[Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569) | 2018 | A extensive review of CL
+
+
 
 #### Rookies
 
