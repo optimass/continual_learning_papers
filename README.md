@@ -45,6 +45,8 @@ Title | Year | tl;dr
 
 #### Surveys
 
+Title | Year | tl;dr
+--- | --- | ---
 [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569) | 2018 | A extensive review of CL
 
 
