@@ -105,7 +105,7 @@ Title | Year | tl;dr
 
 ## Paper Classification
 
-family = {prior, rehearsal, dynamic}
+family = {prior, rehearsal, dynamic, CML}
 
 
 Title | Family | Single-Head | Task Agnostic | Online | Supervised | Generative | RL
