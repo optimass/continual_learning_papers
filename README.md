@@ -12,7 +12,8 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 * [Prior-Focused Methods](#prior-focused-methods)
 * [Dynamic Architectures](#dynamic-architectures)
 * [Rehearsal Methods](#rehearsal-methods)
-* [Meta-Continual Learning](#meta-continual-learning)
+* [Meta Continual Learning](#meta-continual-learning) (learning to continually learn)
+* [Continual Meta Learning](#continual-meta-learning) (continually learning to learn)
 * [Lifelong Reinforcement Learning](#lifelong-reinforcement-learning)
 * [Relevants](#relevants) (non-continual learning papers that can help us. Generalization, Biology, Psychology, Meta-Learning, etc)
 
@@ -74,6 +75,15 @@ Title | Year | tl;dr
 
 Title | Year | tl;dr
 --- | --- | ---
+
+#### Continual Meta Learning
+
+Title | Year | tl;dr
+--- | --- | ---
+[Task Agnostic Continual Learning via Meta Learning](https://arxiv.org/abs/1906.05201) | 2019 | Introduces What and How framework; enables Task Agnostic CL with meta learned task inference
+[Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080) | 2019 | Meta-learns a tasks structure; continual adaptation via non-parametric prior
+
+
 
 #### Lifelong Reinforcement Learning
 
