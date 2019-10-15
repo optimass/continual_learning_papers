@@ -61,6 +61,17 @@ Title | Year | tl;dr
 Title | Year | tl;dr
 --- | --- | ---
 [Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | 2017 | Introduces prior-focused methods
+[Synaptic Intelligence (SI)](https://arxiv.org/abs/1703.04200)| 2017 | Importance of parameter measured based on their contribution to change in the loss.
+[Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence](https://arxiv.org/abs/1801.10112) | 2018 | Formalizes the shortcomings of multi-head evaluation, as well as the importance of replay in single-head setup. Presenting an improved version of EWC. 
+[Memory Aware Synapses: Learning what (not) to forget](https://arxiv.org/pdf/1711.09601.pdf) | 2018 | Importance of parameter measured based on their contribution to change in the learned prediction function.
+[Learning without Forgetting](https://arxiv.org/abs/1606.09282) | 2016 | Functional regularization through distillation (keeping the output of the updated network on the new data close to the output of the old network on the new data)
+[Overcoming catastrophic forgetting with hard attention to the task (HAT)](https://arxiv.org/abs/1801.01423) | 2018 | Introducing a "hard attention" idea with binary masks |
+[Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights](https://arxiv.org/abs/1801.06519) | 2018 | Hard masking of a fixed pretrained network. |
+[Variational Continual Learning (VCL)](https://arxiv.org/abs/1710.10628) | 2017 | Introduces the idea of using previous task's posterior as the new task's prior.
+[Improving and Understanding Variational Continual Learning](https://arxiv.org/abs/1905.02099) | 2019 | Improved results and interpretation of VCL.
+[Uncertainty-guided Continual Learning with Bayesian Neural Networks](https://arxiv.org/abs/1906.02425) | 2019 | Uses Bayes by Backprop for variational COntinual Learning.
+[Uncertainty-based Continual Learning with Adaptive Regularization](https://arxiv.org/pdf/1905.11614.pdf) | 2019 | Introduces VCL with uncertainty measured for neurons instead of weights.
+
 
 
 #### Dynamic Architectures
@@ -68,6 +79,7 @@ Title | Year | tl;dr
 Title | Year | tl;dr
 --- | --- | ---
 [Progressive neural networks](https://arxiv.org/abs/1606.04671) | 2016 |
+[Incremental Learning Through Deep Adaptation](https://arxiv.org/pdf/1705.04228.pdf) | 2018
 
 #### Rehearsal Methods
 
