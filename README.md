@@ -11,8 +11,9 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 * [Surveys](#surveys)
 * [Rookies](#rookies) (new papers. e.g. NeurIPS 2019, ICLR 2020 submissions)
 * [Prior-Focused Methods](#prior-focused-methods)
-* [Dynamic Architectures](#dynamic-architectures)
+* [Dynamic Architectures Methods](#dynamic-architectures-methods)
 * [Rehearsal Methods](#rehearsal-methods)
+* [Hybrid Methods](#hybrid-methods)
 * [Meta Continual Learning](#meta-continual-learning) (learning to continually learn)
 * [Continual Meta Learning](#continual-meta-learning) (continually learning to learn)
 * [Lifelong Reinforcement Learning](#lifelong-reinforcement-learning)
@@ -73,7 +74,7 @@ Title | Year | tl;dr
 [Uncertainty-based Continual Learning with Adaptive Regularization](https://arxiv.org/pdf/1905.11614.pdf) | 2019 | Introduces VCL with uncertainty measured for neurons instead of weights.
 [Task Agnostic Continual Learning Using Online Variational Bayes](https://arxiv.org/pdf/1803.10123.pdf) | 2019  | Introduces an optimizer for CL that relies on closed form updates of mu and sigma of BNN; introduce label trick for "class learning" (single-head)
 
-#### Dynamic Architectures
+#### Dynamic Architectures Methods
 
 Title | Year | tl;dr
 --- | --- | ---
@@ -91,6 +92,12 @@ Title | Year | tl;dr
 [Gradient based sample selection for online continual learning](https://arxiv.org/abs/1903.08671) | 2019 | sample selection as a constraint reduction problem based on the constrained optimization view of continual learning
 [Generative replay with feedback connections as a general strategy for continual learning](https://arxiv.org/abs/1809.10635) | 2018 | smarter GR
 [Generative Models from the perspective of Continual Learning](https://arxiv.org/abs/1812.09111) | 2018 | Extensive evaluation of CL methods for generative modeling
+
+#### Hybrid Methods
+
+Title | Year | tl;dr
+--- | --- | ---
+[Continual Learning Using Bayesian Neural Networks](https://arxiv.org/abs/1910.04112) | 2019 |
 
 #### Meta Continual Learning
 
