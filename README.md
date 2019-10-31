@@ -30,7 +30,7 @@ Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR), C
 
 * [Lifelong robot learning](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.71.3723&rep=rep1&type=pdf) (1995)
 ``` 
-argues that knowledge transfer is essential if robots are to learn control with moderate learning times
+argues knowledge transfer is essential if robots are to learn control with moderate learning times
 ```
 
 ### Influencials
