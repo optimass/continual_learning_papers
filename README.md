@@ -27,17 +27,20 @@ Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR), C
 
 #### Classics
 
-Title | Year | tl;dr
---- | --- | --- 
-<img width=1800/>|<img width=200/> | <img width=2000/>
-[Lifelong robot learning](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.71.3723&rep=rep1&type=pdf) | 1995 | argues that knowledge transfer is essential if robots are to learn control with moderate learning times in complex scenarios 
+
+* [Lifelong robot learning](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.71.3723&rep=rep1&type=pdf) (1995)
+``` 
+argues that knowledge transfer is essential if robots are to learn control with moderate learning times in complex scenarios
+```
 
 #### Influencials
 
-Title | Year | tl;dr
---- | --- | ---
-<img width=1800/>|<img width=200/> | <img width=2000/>
-[An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks](https://arxiv.org/abs/1312.6211) | 2013 | Investigates CF in neural networks
+
+[An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks](https://arxiv.org/abs/1312.6211) (2013) 
+```
+Investigates CF in neural networks
+```
+
 [Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | 2017 | Introduces prior-focused methods
 [Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) | 2017 | a model that alliviates CF via constrained optimization
 [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) | 2018 | More efficient GEM; Introduces online continual learning
