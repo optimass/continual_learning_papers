@@ -17,6 +17,7 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 * [Continual Meta Learning](#continual-meta-learning) (continually learning to learn)
 * [Lifelong Reinforcement Learning](#lifelong-reinforcement-learning)
 * [Relevants](#relevants) (non-continual learning papers that can help us e.g. Generalization, Biology, Meta-Learning, etc)
+* [Unclassified](#unclassified) (yet!)
 
 #### Abreviations
 
@@ -217,6 +218,8 @@ Meta-learns a tasks structure; continual adaptation via non-parametric prior
 
 
 ### Relevants 
+
+### Unclassified
 
 
 
