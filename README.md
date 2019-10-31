@@ -67,7 +67,7 @@ Proposes desideratas and reexamines the evaluation protocol
 ```
 
 
-#### Surveys
+### Surveys
 
 Title | Year | tl;dr
 --- | --- | ---
@@ -75,7 +75,7 @@ Title | Year | tl;dr
 [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569) | 2018 | A extensive review of CL
 
 
-#### Prior-focused Methods
+### Prior-focused Methods
 
 Title | Year | tl;dr
 --- | --- | ---
@@ -93,7 +93,7 @@ Title | Year | tl;dr
 [Uncertainty-based Continual Learning with Adaptive Regularization](https://arxiv.org/pdf/1905.11614.pdf) | 2019 | Introduces VCL with uncertainty measured for neurons instead of weights.
 [Task Agnostic Continual Learning Using Online Variational Bayes](https://arxiv.org/pdf/1803.10123.pdf) | 2019  | Introduces an optimizer for CL that relies on closed form updates of mu and sigma of BNN; introduce label trick for "class learning" (single-head)
 
-#### Dynamic Architectures Methods
+### Dynamic Architectures Methods
 
 Title | Year | tl;dr
 --- | --- | ---
@@ -102,7 +102,7 @@ Title | Year | tl;dr
 [Incremental Learning Through Deep Adaptation](https://arxiv.org/pdf/1705.04228.pdf) | 2018
 [Continual Learning Using Bayesian Neural Networks](https://arxiv.org/abs/1910.04112) | 2019 | Learns a separate set of posterior distributions for each weight for each task (for a BNN), which are merged using EM updates from time to time (thus posteriors are GMMs)
 
-#### Rehearsal Methods
+### Rehearsal Methods
 
 Title | Year | tl;dr
 --- | --- | ---
@@ -114,21 +114,21 @@ Title | Year | tl;dr
 [Generative replay with feedback connections as a general strategy for continual learning](https://arxiv.org/abs/1809.10635) | 2018 | smarter GR
 [Generative Models from the perspective of Continual Learning](https://arxiv.org/abs/1812.09111) | 2018 | Extensive evaluation of CL methods for generative modeling
 
-#### Hybrid Methods
+### Hybrid Methods
 
 Title | Year | tl;dr
 --- | --- | ---
 <img width=1800/>|<img width=200/> | <img width=2000/>
 [Continual Learning Using Bayesian Neural Networks](https://arxiv.org/abs/1910.04112) | 2019 |
 
-#### Meta Continual Learning
+### Meta Continual Learning
 
 Title | Year | tl;dr
 --- | --- | ---
 <img width=1800/>|<img width=200/> | <img width=2000/>
 [Meta-Learning Representations for Continual Learning (MRCL)](https://arxiv.org/abs/1905.12588) | 2019 | Learns how to continually learn i.e. learns how to do online updates without forgetting.
 
-#### Continual Meta Learning
+### Continual Meta Learning
 
 Title | Year | tl;dr
 --- | --- | ---
@@ -138,13 +138,13 @@ Title | Year | tl;dr
 
 
 
-#### Lifelong Reinforcement Learning
+### Lifelong Reinforcement Learning
 
 Title | Year | tl;dr
 --- | --- | ---
 <img width=1800/>|<img width=200/> | <img width=2000/>
 
-#### Relevants 
+### Relevants 
 
 Title | Year | tl;dr
 --- | --- | ---
