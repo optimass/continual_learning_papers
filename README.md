@@ -1,6 +1,6 @@
-# Continual Learning Reading Group
+# Continual Learning Litterature
 
-## Schedule
+## Reading Group Schedule
 
 Monday 1:30PM, Room H06 (6650 St-Urbain)
 
