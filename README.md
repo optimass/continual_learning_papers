@@ -61,7 +61,7 @@ More efficient GEM; Introduces online continual learning
 Introduces generative replay
 ```
 
-[Towards Robust Evaluations of Continual Learning](https://arxiv.org/abs/1805.09733) (2018)
+[Towards Robust Evaluations of Continual Learning](https://arxiv.org/abs/1805.09733) (2018) [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Towards_Robust_Evaluation_of_Continual_Learning.md)
 ```
 Proposes desideratas and reexamines the evaluation protocol
 ```
