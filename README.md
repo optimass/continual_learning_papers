@@ -79,7 +79,7 @@ Title | Year | tl;dr
 <img width=1800/>|<img width=200/> | <img width=2000/>
 [Progressive neural networks](https://arxiv.org/abs/1606.04671) | 2016 |
 [Incremental Learning Through Deep Adaptation](https://arxiv.org/pdf/1705.04228.pdf) | 2018
-[Continual Learning Using Bayesian Neural Networks](https://arxiv.org/abs/1910.04112) | 2019 | Learns a separate set of posterior distributions for each weight for each task (for a BNN), which are merged using EM updates from time to time (thus posteriors are GMMs); Presents some useful ideas for automatically inferring the task identity in multi-head scenario in BNNs; 
+[Continual Learning Using Bayesian Neural Networks](https://arxiv.org/abs/1910.04112) | 2019 | Learns a separate set of posterior distributions for each weight for each task (for a BNN), which are merged using EM updates from time to time (thus posteriors are GMMs)
 
 #### Rehearsal Methods
 
