@@ -9,7 +9,6 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 * [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
 * [Influencials](#influentials) (well cited papers. More general contributions like proposing new desideratas, frameworks, evaluations, etc)
 * [Surveys](#surveys)
-* [Rookies](#rookies) (new papers. e.g. NeurIPS 2019, ICLR 2020 submissions)
 * [Prior-Focused Methods](#prior-focused-methods)
 * [Dynamic Architectures Methods](#dynamic-architectures-methods)
 * [Rehearsal Methods](#rehearsal-methods)
@@ -24,18 +23,21 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR), Continual Meta Learning (CML)
 
 
+
 ## Papers
 
 #### Classics
 
 Title | Year | tl;dr
---- | --- | ---
-[Lifelong robot learning](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.71.3723&rep=rep1&type=pdf) | 1995 | argues that knowledge transfer is essential if robots are to learn control with moderate learning times in complex scenarios
+--- | --- | --- 
+<img width=1800/>|<img width=200/> | <img width=2000/>
+[Lifelong robot learning](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.71.3723&rep=rep1&type=pdf) | 1995 | argues that knowledge transfer is essential if robots are to learn control with moderate learning times in complex scenarios 
 
 #### Influencials
 
 Title | Year | tl;dr
 --- | --- | ---
+<img width=1800/>|<img width=200/> | <img width=2000/>
 [An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks](https://arxiv.org/abs/1312.6211) | 2013 | Investigates CF in neural networks
 [Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | 2017 | Introduces prior-focused methods
 [Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) | 2017 | a model that alliviates CF via constrained optimization
@@ -48,19 +50,15 @@ Title | Year | tl;dr
 
 Title | Year | tl;dr
 --- | --- | ---
+<img width=1800/>|<img width=200/> | <img width=2000/>
 [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569) | 2018 | A extensive review of CL
 
-
-
-#### Rookies
-
-Title | Year | tl;dr
---- | --- | ---
 
 #### Prior-focused Methods
 
 Title | Year | tl;dr
 --- | --- | ---
+<img width=1800/>|<img width=200/> | <img width=2000/>
 [Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | 2017 | Introduces prior-focused methods
 [Synaptic Intelligence (SI)](https://arxiv.org/abs/1703.04200)| 2017 | Importance of parameter measured based on their contribution to change in the loss. 
 [Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence](https://arxiv.org/abs/1801.10112) | 2018 | Formalizes the shortcomings of multi-head evaluation, as well as the importance of replay in single-head setup. Presenting an improved version of EWC. 
@@ -78,6 +76,7 @@ Title | Year | tl;dr
 
 Title | Year | tl;dr
 --- | --- | ---
+<img width=1800/>|<img width=200/> | <img width=2000/>
 [Progressive neural networks](https://arxiv.org/abs/1606.04671) | 2016 |
 [Incremental Learning Through Deep Adaptation](https://arxiv.org/pdf/1705.04228.pdf) | 2018
 [Continual Learning Using Bayesian Neural Networks](https://arxiv.org/abs/1910.04112) | 2019 | Learns a separate set of posterior distributions for each weight for each task (for a BNN), which are merged using EM updates from time to time (thus posteriors are GMMs); Presents some useful ideas for automatically inferring the task identity in multi-head scenario in BNNs; 
@@ -86,6 +85,7 @@ Title | Year | tl;dr
 
 Title | Year | tl;dr
 --- | --- | ---
+<img width=1800/>|<img width=200/> | <img width=2000/>
 [Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) | 2017 | a model that alliviates CF via constrained optimization (doesn't increase loss on previous stored data)
 [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) | 2018 | More efficient GEM; Introduces online continual learning
 [Continual Learning with Deep Generative Replay (GR)](https://arxiv.org/abs/1705.08690) | 2017 | Introduces generative replay
@@ -97,17 +97,20 @@ Title | Year | tl;dr
 
 Title | Year | tl;dr
 --- | --- | ---
+<img width=1800/>|<img width=200/> | <img width=2000/>
 [Continual Learning Using Bayesian Neural Networks](https://arxiv.org/abs/1910.04112) | 2019 |
 
 #### Meta Continual Learning
 
 Title | Year | tl;dr
 --- | --- | ---
+<img width=1800/>|<img width=200/> | <img width=2000/>
 
 #### Continual Meta Learning
 
 Title | Year | tl;dr
 --- | --- | ---
+<img width=1800/>|<img width=200/> | <img width=2000/>
 [Task Agnostic Continual Learning via Meta Learning](https://arxiv.org/abs/1906.05201) | 2019 | Introduces What and How framework; enables Task Agnostic CL with meta learned task inference
 [Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080) | 2019 | Meta-learns a tasks structure; continual adaptation via non-parametric prior
 
@@ -117,11 +120,13 @@ Title | Year | tl;dr
 
 Title | Year | tl;dr
 --- | --- | ---
+<img width=1800/>|<img width=200/> | <img width=2000/>
 
 #### Relevants 
 
 Title | Year | tl;dr
 --- | --- | ---
+<img width=1800/>|<img width=200/> | <img width=2000/>
 
 
 ## Paper Classification
