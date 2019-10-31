@@ -131,7 +131,7 @@ Title | Year | tl;dr
 
 ## Paper Classification
 
-family = {prior, rehearsal, dynamic, CML}
+family = {prior, rehearsal, dynamic, meta, hybrid}
 
 
 Title | Family | Single-Head | Task Agnostic | Online | Supervised | Generative | RL
