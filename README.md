@@ -36,32 +36,32 @@ argues knowledge transfer is essential if robots are to learn control with moder
 ### Influencials
 
 
-[An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks](https://arxiv.org/abs/1312.6211) (2013) 
+* [An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks](https://arxiv.org/abs/1312.6211) (2013) 
 ```
 Investigates CF in neural networks
 ```
 
-[Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) (2017)
+* [Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) (2017)
 ```
 Introduces prior-focused methods
 ```
 
-[Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) (2017) 
+* [Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) (2017) 
 ```
 a model that alliviates CF via constrained optimization
 ```
 
-[Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) (2018) 
+* [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) (2018) 
 ```
 More efficient GEM; Introduces online continual learning
 ```
 
-[Continual Learning with Deep Generative Replay (GR)](https://arxiv.org/abs/1705.08690) (2017)
+* [Continual Learning with Deep Generative Replay (GR)](https://arxiv.org/abs/1705.08690) (2017)
 ```
 Introduces generative replay
 ```
 
-[Towards Robust Evaluations of Continual Learning](https://arxiv.org/abs/1805.09733) (2018)
+* [Towards Robust Evaluations of Continual Learning](https://arxiv.org/abs/1805.09733) (2018)
 ```
 Proposes desideratas and reexamines the evaluation protocol
 ```
@@ -69,18 +69,18 @@ Proposes desideratas and reexamines the evaluation protocol
 
 ### Surveys
 
-Title | Year | tl;dr
---- | --- | ---
-<img width=1800/>|<img width=200/> | <img width=2000/>
-[Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569) | 2018 | A extensive review of CL
+
+* [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569)  (2018) 
+```
+A extensive review of CL
+```
+
 
 
 ### Prior-focused Methods
 
-Title | Year | tl;dr
---- | --- | ---
-<img width=1800/>|<img width=200/> | <img width=2000/>
-[Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | 2017 | Introduces prior-focused methods
+
+* [Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) | 2017 | Introduces prior-focused methods
 [Synaptic Intelligence (SI)](https://arxiv.org/abs/1703.04200)| 2017 | Importance of parameter measured based on their contribution to change in the loss. 
 [Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence](https://arxiv.org/abs/1801.10112) | 2018 | Formalizes the shortcomings of multi-head evaluation, as well as the importance of replay in single-head setup. Presenting an improved version of EWC. 
 [Memory Aware Synapses: Learning what (not) to forget](https://arxiv.org/pdf/1711.09601.pdf) | 2018 | Importance of parameter measured based on their contribution to change in the learned prediction function.
