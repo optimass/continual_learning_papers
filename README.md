@@ -7,7 +7,7 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 ## Categories
 
 * [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
-* [Influencials](#influentials) (well cited papers. More general contributions like proposing new desideratas, frameworks, evaluations, etc)
+* [Influencials](#influencials) (well cited papers. More general contributions like proposing new frameworks, evaluations, etc)
 * [Surveys](#surveys)
 * [Prior-Focused Methods](#prior-focused-methods)
 * [Dynamic Architectures Methods](#dynamic-architectures-methods)
@@ -21,7 +21,6 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 #### Abreviations
 
 Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR), Continual Meta Learning (CML)
-
 
 
 ## Papers
@@ -105,6 +104,7 @@ Title | Year | tl;dr
 Title | Year | tl;dr
 --- | --- | ---
 <img width=1800/>|<img width=200/> | <img width=2000/>
+[Meta-Learning Representations for Continual Learning (MRCL)](https://arxiv.org/abs/1905.12588) | 2019 | Learns how to continually learn i.e. learns how to do online updates without forgetting.
 
 #### Continual Meta Learning
 
@@ -141,5 +141,6 @@ Title | Family | Single-Head | Task Agnostic | Online | Supervised | Generative 
 [Gradient based sample selection for online continual learning](https://arxiv.org/abs/1903.08671) | Rehearsal |  :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |  |  | 
 [Generative replay with feedback connections as a general strategy for continual learning](https://arxiv.org/abs/1809.10635) | Rehearsal | :heavy_check_mark: | | | :heavy_check_mark: | :heavy_check_mark: | | 
 [Task Agnostic Continual Learning via Meta Learning](https://arxiv.org/abs/1906.05201) | CML | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: | | 
-[Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080) | CML | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: | | 
-[Task Agnostic Continual Learning Using Online Variational Bayes](https://arxiv.org/pdf/1803.10123.pdf)| Prior | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+[Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080) | Meta | :heavy_check_mark: | :heavy_check_mark: | | :heavy_check_mark: | | 
+[Task Agnostic Continual Learning Using Online Variational Bayes](https://arxiv.org/pdf/1803.10123.pdf)| Meta | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
+[Meta-Learning Representations for Continual Learning (MRCL)](https://arxiv.org/abs/1905.12588) | Meta | :heavy_check_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
