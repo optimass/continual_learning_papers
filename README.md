@@ -229,6 +229,11 @@ Introduces unsupervised continual learning (no task label and no task boundaries
 
 ### Relevants 
 
+[A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms](https://arxiv.org/abs/1901.10912) (2019)
+```
+propose to meta-learn causal structures based on how fast a learner adapts to new distributions arising from sparse distributional changes, e.g. due to interventions, actions of agents and other sources of non-stationarities
+```
+
 ### Unclassified
 
 
