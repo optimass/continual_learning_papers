@@ -16,6 +16,7 @@ Monday 1:30PM, Room H06 (6650 St-Urbain)
 * [Meta Continual Learning](#meta-continual-learning) (learning to continually learn)
 * [Continual Meta Learning](#continual-meta-learning) (continually learning to learn)
 * [Lifelong Reinforcement Learning](#lifelong-reinforcement-learning)
+* [Continual Generative Modeling](#continual-generative-modeling)
 * [Relevants](#relevants) (non-continual learning papers that can help us e.g. Generalization, Biology, Meta-Learning, etc)
 * [Unclassified](#unclassified) (yet!)
 
@@ -175,11 +176,6 @@ More efficient GEM; Introduces online continual learning
 smarter GR
 ```
 
-[Generative Models from the perspective of Continual Learning](https://arxiv.org/abs/1812.09111) (2018)
-```
-Extensive evaluation of CL methods for generative modeling
-```
-
 [Gradient based sample selection for online continual learning](https://arxiv.org/abs/1903.08671) (2019)
 ```
 sample selection as a constraint reduction problem based on the constrained optimization view of continual learning
@@ -215,6 +211,20 @@ Meta-learns a tasks structure; continual adaptation via non-parametric prior
 
 
 ### Lifelong Reinforcement Learning
+
+
+### Continual Generative Modeling
+
+
+[Generative Models from the perspective of Continual Learning](https://arxiv.org/abs/1812.09111) (2018)
+```
+Extensive evaluation of CL methods for generative modeling
+```
+
+[Continual Unsupervised Representation Learning] (2019)
+```
+Introduces unsupervised continual learning (no task label and no task boundaries)
+```
 
 
 ### Relevants 
