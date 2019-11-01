@@ -221,7 +221,7 @@ Meta-learns a tasks structure; continual adaptation via non-parametric prior
 Extensive evaluation of CL methods for generative modeling
 ```
 
-[Continual Unsupervised Representation Learning] (2019)
+[Continual Unsupervised Representation Learning](https://arxiv.org/pdf/1910.14481.pdf) (2019)
 ```
 Introduces unsupervised continual learning (no task label and no task boundaries)
 ```
