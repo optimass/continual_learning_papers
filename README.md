@@ -179,7 +179,7 @@ sample selection as a constraint reduction problem based on the constrained opti
 
 [Online Continual Learning with Maximaly Interfered Retrieval](https://arxiv.org/abs/1903.08671) (2019) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/1908.04742)
 ```
-Controlled sampling of memories for replay: retrieving the samples which are most interfered
+Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting
 ```
 
 
