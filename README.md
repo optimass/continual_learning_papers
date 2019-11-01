@@ -177,7 +177,7 @@ smarter GR
 sample selection as a constraint reduction problem based on the constrained optimization view of continual learning
 ```
 
-[Online Continual Learning with Maximaly Interfered Retrieval](https://arxiv.org/abs/1903.08671) (2019)
+[Online Continual Learning with Maximaly Interfered Retrieval](https://arxiv.org/abs/1903.08671) (2019) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/1908.04742)
 ```
 Controlled sampling of memories for replay: retrieving the samples which are most interfered
 ```
@@ -229,6 +229,10 @@ Introduces unsupervised continual learning (no task label and no task boundaries
 ```
 propose to meta-learn causal structures based on how fast a learner adapts to new distributions arising from sparse distributional changes, e.g. due to interventions, actions of agents and other sources of non-stationarities
 ```
+
+[Reccurent Independant Mechanisms](https://arxiv.org/pdf/1909.10893.pdf) (2019)
+
+
 
 ### Unclassified
 
