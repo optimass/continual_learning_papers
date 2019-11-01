@@ -1,27 +1,7 @@
-# [Title](https://arxiv.org/)
-## Authors
-  
-### Introduction/Contributions
+# Schedule
 
-tl;dr
+### Mondays 1:30PM in room H06 (6650 st-urbain)
 
-* contrib 1
-* contrib 2
-
-### Title of a important section
-  
-* important point
-* another important point
-  
-  
-### Title of another important section
-  
-* important point
-* another important point
-  
-  
-### Some notes
-
-
-* this paper made me think about that
-* also, makes me question this
+* Meeting #3 [Learning to Learn without Forgetting by Maximizing Transfer and Minimizing Interference](https://arxiv.org/abs/1810.11910)
+* Meeting #2 [Continual Learning Using Bayesian Neural Networks](https://arxiv.org/abs/1910.04112)
+* Meeting #1 [Towards Robust Evaluations of Continual Learning](https://arxiv.org/abs/1805.09733) [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Towards_Robust_Evaluation_of_Continual_Learning.md)
