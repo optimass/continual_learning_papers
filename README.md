@@ -1,9 +1,5 @@
 # Continual Learning Litterature
 
-## Reading Group Schedule
-
-Monday 1:30PM, Room H06 (6650 St-Urbain)
-
 ## Categories
 
 * [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
