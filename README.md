@@ -1,6 +1,6 @@
 # Continual Learning Litterature
 
-## Categories
+### [Papers](#papers)
 
 * [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
 * [Influencials](#influencials) (well cited papers. More general contributions like proposing new frameworks, evaluations, etc)
@@ -15,6 +15,15 @@
 * [Continual Generative Modeling](#continual-generative-modeling)
 * [Relevants](#relevants) (non-continual learning papers that can help us e.g. Generalization, Biology, Meta-Learning, etc)
 * [Unclassified](#unclassified) (yet!)
+
+
+### [Papers classified in more details](#paper-classification)
+
+{Family, Single-Head, Task Agnostic, Online, Supervised Learning, Generative Modeling, Reinforcement Learning}
+
+### [Continual Learning codebases](#Continual-Learning-codebases)
+
+list of interesting codebases for continual learning
 
 #### Abreviations
 
@@ -258,3 +267,12 @@ Title                                                                           
 [Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080)                  | Meta       | :heavy_check_mark: | :heavy_check_mark: |                    | :heavy_check_mark: |                    |
 [Task Agnostic Continual Learning Using Online Variational Bayes](https://arxiv.org/pdf/1803.10123.pdf)                             | Meta       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
 [Meta-Learning Representations for Continual Learning (MRCL)](https://arxiv.org/abs/1905.12588)                                     | Meta       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |                    |
+
+## Continual Learning codebases
+
+
+[Generative Models from the perspective of Continual Learning](https://github.com/TLESORT/Generative_Continual_Learning)
+```
+Complete repo for experiments in Generative Continual Learning
+```
+
