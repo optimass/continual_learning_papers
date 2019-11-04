@@ -186,7 +186,7 @@ smarter GR
 sample selection as a constraint reduction problem based on the constrained optimization view of continual learning
 ```
 
-[Online Continual Learning with Maximaly Interfered Retrieval](https://arxiv.org/abs/1903.08671) (2019) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/1908.04742)
+[Online Continual Learning with Maximaly Interfered Retrieval (MIR)](https://arxiv.org/abs/1903.08671) (2019) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/1908.04742)
 ```
 Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting
 ```
@@ -275,9 +275,24 @@ Title                                                                           
 
 ## Continual Learning codebases
 
+[Gradient Episodic Memory for Continual Learning](https://github.com/facebookresearch/GradientEpisodicMemory)
+```
+Reproduce paper. Nice repo because baselines and GEM are seamlessly interchangable
+```
+
 
 [Generative Models from the perspective of Continual Learning](https://github.com/TLESORT/Generative_Continual_Learning)
 ```
 Complete repo for experiments in Generative Continual Learning
+```
+
+[Online Continual Learning with Maximally Interfered Retrieval](https://github.com/optimass/Maximally_Interfered_Retrieval)
+```
+Reproduce paper
+```
+
+[Learning to Learn without Forgetting by Maximizing Transfer and Minimizing Interference (MER)](https://github.com/mattriemer/mer)
+```
+Reproduce paper
 ```
 
