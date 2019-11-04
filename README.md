@@ -82,6 +82,11 @@ Proposes desideratas and reexamines the evaluation protocol
 A extensive review of CL
 ```
 
+[Continual learning: A comparative study on how to defy forgetting in classification tasks](https://arxiv.org/abs/1909.08383) (2019)
+```
+Extensive empirical study of CL methods (in the multi-head setting)
+```
+
 
 ### Prior-focused Methods
 
