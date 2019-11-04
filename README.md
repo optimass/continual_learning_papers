@@ -219,6 +219,11 @@ Learns how to update the model such that weight sharing maximises transfer and m
 
 ### Continual Meta Learning
 
+[Deep Online Learning via Meta-Learning: Continual Adaptation for Model-Based RL](https://arxiv.org/abs/1812.07671) (2018)
+```
+Formulates an online learning procedure that uses SGD to update model parameters, and an EM with a Chinese restaurant process prior to develop and maintain a mixture of models to handle non-stationary task distribution
+```
+
 [Task Agnostic Continual Learning via Meta Learning](https://arxiv.org/abs/1906.05201) (2019)
 ```
 Introduces What and How framework; enables Task Agnostic CL with meta learned task inference
@@ -227,6 +232,11 @@ Introduces What and How framework; enables Task Agnostic CL with meta learned ta
 [Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080) (2019)
 ```
 Meta-learns a tasks structure; continual adaptation via non-parametric prior
+```
+
+[Online Meta-Learning](https://arxiv.org/abs/1902.08438) (2019)
+```
+Online MAML
 ```
 
 
@@ -249,10 +259,11 @@ Introduces unsupervised continual learning (no task label and no task boundaries
 
 ### Relevants 
 
-[Deep Online Learning via Meta-Learning: Continual Adaptation for Model-Based RL](https://arxiv.org/abs/1812.07671) (2018)
+[Modular Meta-learning](https://arxiv.org/abs/1806.10166) (2018)
 ```
-Formulates an online learning procedure that uses SGD to update model parameters, and an EM with a Chinese restaurant process prior to develop and maintain a mixture of models to handle non-stationary task distribution
+Trains different modular (neural nets) structures on a set of related tasks and generalize to new tasks by composing the learned modules in new ways
 ```
+
 
 [A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms](https://arxiv.org/abs/1901.10912) (2019)
 ```
@@ -260,6 +271,8 @@ propose to meta-learn causal structures based on how fast a learner adapts to ne
 ```
 
 [Reccurent Independant Mechanisms](https://arxiv.org/pdf/1909.10893.pdf) (2019)
+
+
 
 
 
