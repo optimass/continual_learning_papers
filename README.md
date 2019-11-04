@@ -27,7 +27,7 @@ list of interesting codebases for continual learning
 
 #### Abreviations
 
-Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR), Continual Meta Learning (CML)
+Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR), Continual Meta Learning (CML), Meta Continual Learning (MCL)
 
 
 ## Papers
@@ -192,7 +192,7 @@ Controlled sampling of memories for replay to automatically rehearse on tasks cu
 ```
 
 
-### Hybrid Methods
+[//]: ### (Hybrid Methods)
 
 
 ### Meta Continual Learning
@@ -200,6 +200,11 @@ Controlled sampling of memories for replay to automatically rehearse on tasks cu
 [Meta-Learning Representations for Continual Learning (MRCL)](https://arxiv.org/abs/1905.12588) (2019)
 ```
 Learns how to continually learn i.e. learns how to do online updates without forgetting.
+```
+
+[Learning to Learn without Forgetting by Maximizing Transfer and Minimizing Interference (MER)](https://arxiv.org/abs/1810.11910) (2018)
+```
+Learns how to update the model such that weight sharing maximises transfer and minimizes interference, via REPTILE
 ```
 
 ### Continual Meta Learning
@@ -215,7 +220,7 @@ Meta-learns a tasks structure; continual adaptation via non-parametric prior
 ```
 
 
-### Lifelong Reinforcement Learning
+[//]: ### (Lifelong Reinforcement Learning)
 
 
 ### Continual Generative Modeling
@@ -248,13 +253,13 @@ propose to meta-learn causal structures based on how fast a learner adapts to ne
 
 
 
-### Unclassified
+[//]: ### (Unclassified)
 
 
 
 ## Paper Classification
 
-family = {prior, rehearsal, dynamic, meta, hybrid}
+family = {prior, rehearsal, dynamic, MCL, CML, hybrid}
 
 
 Title                                                                                                                               | Family     | Single-Head        | Task Agnostic      | Online             | Supervised         | Generative         | RL
