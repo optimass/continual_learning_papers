@@ -96,6 +96,11 @@ A extensive review of CL
 Importance of parameter measured based on their contribution to change in the loss. 
 ```
 
+[Overcoming Catastrophic Interference using Conceptor-Aided Backpropagation (CAB)](https://openreview.net/pdf?id=B1al7jg0b) (2018)
+```
+"Conceptor-Aided Backprop" (CAB): gradients are shielded by conceptors against degradation of previously learned tasks
+```
+
 [Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence](https://arxiv.org/abs/1801.10112) (2018)
 ```
 Formalizes the shortcomings of multi-head evaluation, as well as the importance of replay in single-head setup. Presenting an improved version of EWC. 
@@ -190,6 +195,11 @@ sample selection as a constraint reduction problem based on the constrained opti
 ```
 Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting
 ```
+
+[Orthogonal Gradient Descent for Continual Learning](https://arxiv.org/abs/1910.07104) (2019)
+```
+projecting the gradients from new tasks onto a subspace in which the neural network output on previous task does not change and the projected gradient is still in a useful direction for learning the new task
+``` 
 
 
 [//]: ### (Hybrid Methods)
