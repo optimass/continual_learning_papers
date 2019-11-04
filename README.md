@@ -113,12 +113,12 @@ Functional regularization through distillation (keeping the output of the update
 
 [Overcoming catastrophic forgetting with hard attention to the task (HAT)](https://arxiv.org/abs/1801.01423) (2018)
 ```
-Introducing a "hard attention" idea with binary masks |
+Introducing a "hard attention" idea with binary masks 
 ```
 
 [Piggyback: Adapting a Single Network to Multiple Tasks by Learning to Mask Weights](https://arxiv.org/abs/1801.06519) (2018)
 ```
-Hard masking of a fixed pretrained network. |
+Hard masking of a fixed pretrained network. 
 ```
 
 [Variational Continual Learning (VCL)](https://arxiv.org/abs/1710.10628) (2017)
