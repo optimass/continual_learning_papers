@@ -1,4 +1,4 @@
-# Continual Learning Litterature
+# Continual Learning Literature
 
 ### [Papers](#papers)
 
