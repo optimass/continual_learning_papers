@@ -110,7 +110,7 @@ Uses Bayes by Backprop for variational Continual Learning.
 Introduces VCL with uncertainty measured for neurons instead of weights.
 ```
 
-[Task Agnostic Continual Learning Using Online Variational Bayes](https://arxiv.org/pdf/1803.10123.pdf) (2019)
+[Task Agnostic Continual Learning Using Online Variational Bayes](https://arxiv.org/pdf/1803.10123.pdf) (2018)
 ```
 Introduces an optimizer for CL that relies on closed form updates of mu and sigma of BNN; introduce label trick for "class learning" (single-head)
 ```
@@ -118,14 +118,14 @@ Introduces an optimizer for CL that relies on closed form updates of mu and sigm
 #### 2018
 
 
+[Overcoming Catastrophic Interference using Conceptor-Aided Backpropagation (CAB)](https://openreview.net/pdf?id=B1al7jg0b) (2018)
+```
+"Conceptor-Aided Backprop" (CAB): gradients are shielded by conceptors against degradation of previously learned tasks
+```
+
 [Overcoming catastrophic forgetting with hard attention to the task (HAT)](https://arxiv.org/abs/1801.01423) (2018)
 ```
 Introducing a "hard attention" idea with binary masks 
-```
-
-[Memory Aware Synapses: Learning what (not) to forget](https://arxiv.org/pdf/1711.09601.pdf) (2018)
-```
-Importance of parameter measured based on their contribution to change in the learned prediction function.
 ```
 
 [Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence](https://arxiv.org/abs/1801.10112) (2018)
@@ -133,10 +133,6 @@ Importance of parameter measured based on their contribution to change in the le
 Formalizes the shortcomings of multi-head evaluation, as well as the importance of replay in single-head setup. Presenting an improved version of EWC. 
 ```
 
-[Overcoming Catastrophic Interference using Conceptor-Aided Backpropagation (CAB)](https://openreview.net/pdf?id=B1al7jg0b) (2018)
-```
-"Conceptor-Aided Backprop" (CAB): gradients are shielded by conceptors against degradation of previously learned tasks
-```
 
 #### 2017
 
@@ -145,15 +141,21 @@ Formalizes the shortcomings of multi-head evaluation, as well as the importance 
  Introduces prior-focused methods
 ```
 
-[Synaptic Intelligence (SI)](https://arxiv.org/abs/1703.04200) (2017)
+[Memory Aware Synapses: Learning what (not) to forget](https://arxiv.org/pdf/1711.09601.pdf) (2017)
 ```
-Importance of parameter measured based on their contribution to change in the loss. 
+Importance of parameter measured based on their contribution to change in the learned prediction function.
 ```
 
 [Variational Continual Learning (VCL)](https://arxiv.org/abs/1710.10628) (2017)
 ```
 Introduces the idea of using previous task's posterior as the new task's prior in a BNN.
 ```
+
+[Synaptic Intelligence (SI)](https://arxiv.org/abs/1703.04200) (2017)
+```
+Importance of parameter measured based on their contribution to change in the loss. 
+```
+
 
 #### 2016
 
@@ -178,6 +180,11 @@ Each task have a specific model connected to the previous ones
 
 ### Rehearsal Methods
 
+[Orthogonal Gradient Descent for Continual Learning](https://arxiv.org/abs/1910.07104) (2019)
+```
+projecting the gradients from new tasks onto a subspace in which the neural network output on previous task does not change and the projected gradient is still in a useful direction for learning the new task
+``` 
+
 [Gradient based sample selection for online continual learning](https://arxiv.org/abs/1903.08671) (2019)
 ```
 sample selection as a constraint reduction problem based on the constrained optimization view of continual learning
@@ -188,19 +195,15 @@ sample selection as a constraint reduction problem based on the constrained opti
 Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting
 ```
 
-[Orthogonal Gradient Descent for Continual Learning](https://arxiv.org/abs/1910.07104) (2019)
-```
-projecting the gradients from new tasks onto a subspace in which the neural network output on previous task does not change and the projected gradient is still in a useful direction for learning the new task
-``` 
-
-[Generative replay with feedback connections as a general strategy for continual learning](https://arxiv.org/abs/1809.10635) (2018)
-```
-smarter GR
-```
 
 [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) (2018)
 ```
 More efficient GEM; Introduces online continual learning
+```
+
+[Generative replay with feedback connections as a general strategy for continual learning](https://arxiv.org/abs/1809.10635) (2018)
+```
+smarter GR
 ```
 
 [Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) (2017) 
