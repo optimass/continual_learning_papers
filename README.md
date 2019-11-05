@@ -231,9 +231,10 @@ Learns how to update the model such that weight sharing maximises transfer and m
 
 ### Continual Meta Learning
 
-[Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080) (2019)
+
+[Task Agnostic Continual Learning via Meta Learning](https://arxiv.org/abs/1906.05201) (2019)
 ```
-Meta-learns a tasks structure; continual adaptation via non-parametric prior
+Introduces What and How framework; enables Task Agnostic CL with meta learned task inference
 ```
 
 [Online Meta-Learning](https://arxiv.org/abs/1902.08438) (2019)
@@ -241,10 +242,12 @@ Meta-learns a tasks structure; continual adaptation via non-parametric prior
 Online MAML
 ```
 
-[Task Agnostic Continual Learning via Meta Learning](https://arxiv.org/abs/1906.05201) (2019)
+[Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080) (2018)
 ```
-Introduces What and How framework; enables Task Agnostic CL with meta learned task inference
+Meta-learns a tasks structure; continual adaptation via non-parametric prior
 ```
+
+
 
 [Deep Online Learning via Meta-Learning: Continual Adaptation for Model-Based RL](https://arxiv.org/abs/1812.07671) (2018)
 ```
@@ -270,18 +273,20 @@ Extensive evaluation of CL methods for generative modeling
 
 ### Relevants 
 
-[Modular Meta-learning](https://arxiv.org/abs/1806.10166) (2018)
-```
-Trains different modular (neural nets) structures on a set of related tasks and generalize to new tasks by composing the learned modules in new ways
-```
-
+[Reccurent Independant Mechanisms](https://arxiv.org/pdf/1909.10893.pdf) (2019)
 
 [A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms](https://arxiv.org/abs/1901.10912) (2019)
 ```
 propose to meta-learn causal structures based on how fast a learner adapts to new distributions arising from sparse distributional changes, e.g. due to interventions, actions of agents and other sources of non-stationarities
 ```
 
-[Reccurent Independant Mechanisms](https://arxiv.org/pdf/1909.10893.pdf) (2019)
+
+[Modular Meta-learning](https://arxiv.org/abs/1806.10166) (2018)
+```
+Trains different modular (neural nets) structures on a set of related tasks and generalize to new tasks by composing the learned modules in new ways
+```
+
+
 
 
 [//]: ### (Unclassified)
