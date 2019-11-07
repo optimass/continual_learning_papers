@@ -290,9 +290,9 @@ Trains different modular (neural nets) structures on a set of related tasks and 
 ```
 
 
+### (Unclassified)
 
-
-[//]: ### (Unclassified)
+[Continual learning with hypernetworks](https://openreview.net/pdf?id=SJgwNerKvB) (2019)
 
 
 
