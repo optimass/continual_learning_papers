@@ -1,5 +1,7 @@
 # Continual Learning Literature
 
+email me at massimo.p.caccia at gmail.com is you would like to collaborate
+
 ### [Papers](#papers)
 
 * [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
