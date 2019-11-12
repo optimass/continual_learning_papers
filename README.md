@@ -278,6 +278,8 @@ Extensive evaluation of CL methods for generative modeling
 
 ### Relevants 
 
+#### 2019 
+
 [Reccurent Independant Mechanisms](https://arxiv.org/pdf/1909.10893.pdf) (2019)
 
 [A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms](https://arxiv.org/abs/1901.10912) (2019)
@@ -285,10 +287,21 @@ Extensive evaluation of CL methods for generative modeling
 propose to meta-learn causal structures based on how fast a learner adapts to new distributions arising from sparse distributional changes, e.g. due to interventions, actions of agents and other sources of non-stationarities
 ```
 
-
 [Modular Meta-learning](https://arxiv.org/abs/1806.10166) (2018)
 ```
 Trains different modular (neural nets) structures on a set of related tasks and generalize to new tasks by composing the learned modules in new ways
+```
+
+[Online Meta-learning](https://arxiv.org/abs/1902.08438) (2019)
+```
+
+```
+
+#### 2018
+
+[An Empirical Study of Example Forgetting during Deep Neural Network Learning](https://arxiv.org/abs/1812.05159) (2018)
+```
+(i) certain examples are forgotten with high frequency, and some not at all; (ii) (un)forgettable examples generalize across neural architectures; and (iii) based on forgetting dynamics, a significant fraction of examples can be omitted from the training data set while still maintaining state-of-the-art generalization performance
 ```
 
 
