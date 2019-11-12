@@ -174,6 +174,9 @@ Learns a separate set of posterior distributions for each weight for each task (
 ```
 
 [Incremental Learning Through Deep Adaptation](https://arxiv.org/pdf/1705.04228.pdf) (2018)
+```
+ 
+```
 
 [Progressive neural networks](https://arxiv.org/abs/1606.04671) (2016)
 ```
@@ -196,7 +199,6 @@ sample selection as a constraint reduction problem based on the constrained opti
 ```
 Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting
 ```
-
 
 [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) (2018)
 ```
@@ -253,12 +255,10 @@ Meta-learns a tasks structure; continual adaptation via non-parametric prior
 ```
 
 
-
 [Deep Online Learning via Meta-Learning: Continual Adaptation for Model-Based RL](https://arxiv.org/abs/1812.07671) (2018)
 ```
 Formulates an online learning procedure that uses SGD to update model parameters, and an EM with a Chinese restaurant process prior to develop and maintain a mixture of models to handle non-stationary task distribution
 ```
-
 
 
 [//]: ### (Lifelong Reinforcement Learning)
