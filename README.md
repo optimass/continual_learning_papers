@@ -281,6 +281,9 @@ Extensive evaluation of CL methods for generative modeling
 #### 2019 
 
 [Reccurent Independant Mechanisms](https://arxiv.org/pdf/1909.10893.pdf) (2019)
+```
+
+```
 
 [A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms](https://arxiv.org/abs/1901.10912) (2019)
 ```
@@ -292,10 +295,6 @@ propose to meta-learn causal structures based on how fast a learner adapts to ne
 Trains different modular (neural nets) structures on a set of related tasks and generalize to new tasks by composing the learned modules in new ways
 ```
 
-[Online Meta-learning](https://arxiv.org/abs/1902.08438) (2019)
-```
-
-```
 
 #### 2018
 
