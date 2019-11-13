@@ -9,7 +9,7 @@ In this work, we propose a controlled sampling of the replays. Specifically, we 
 
 ## Cartoon for explanation
 
-https://i.imgur.com/5F3jT36.png
+![](https://i.imgur.com/5F3jT36.png)
 
 Learning about dogs and horses might cause more interference on lions and zebras than on cars and oranges. Thus, replaying lions and zebras would be a more efficient strategy.
 
@@ -37,7 +37,8 @@ i.e. search in the latent space of a generative model $g_\gamma$ for samples tha
 ## Results
 
 ### qualitative
-https://i.imgur.com/ZRNTWXe.png
+
+![](https://i.imgur.com/ZRNTWXe.png)
 
 Whilst learning 8s and 9s (first row), GEN-MIR mainly retrieves 3s and 4s (bottom two rows) which are similar to 8s and 9s respectively.
 
