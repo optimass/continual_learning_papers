@@ -13,16 +13,17 @@ We argue that neither setting is ideal for studying continual lifelong learning.
 ## Online Learning
 
 Online learning focuses on regret minimization. Most standard notion of regret is to compare to the cumulative loss of the best fixed model in hindsight:
-https://i.imgur.com/pbZG4kK.png
+![](https://i.imgur.com/pbZG4kK.png)
 One way minimize regret is with Follow the Leader (FTL):
-https://i.imgur.com/NCs73vG.png
+![](https://i.imgur.com/NCs73vG.png)
 
 ## Online Meta-learning Setting:
 
 let $U_t$ be the update procedure for task $t$
 e.g. in MAML:
-https://i.imgur.com/Q4I4HkD.png
+![](https://i.imgur.com/Q4I4HkD.png)
 
+<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " />
 
 The overall protocol for the setting is as follows:
 1. At round t, the agent chooses a model defined by $w_t$
@@ -37,6 +38,6 @@ Achieving sublinear regrets means you're improving and converging to upper bound
 ## Algorithm and Analysis:
 
 Follow the meta-leader (FTML): 
-https://i.imgur.com/qWb9g8Q.png
+![](https://i.imgur.com/qWb9g8Q.png)
 
 FTML’s regret is sublinear (under some assumption)
