@@ -246,7 +246,7 @@ Introduces What and How framework; enables Task Agnostic CL with meta learned ta
 
 [Online Meta-Learning](https://arxiv.org/abs/1902.08438) (2019)
 ```
-Online MAML
+defines Online Meta-learning; propsoses Follow the Meta Leader (FTML) (~ Online MAML) 
 ```
 
 [Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080) (2018)
