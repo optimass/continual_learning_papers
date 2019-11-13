@@ -26,10 +26,10 @@ e.g. in MAML:
 <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " />
 
 The overall protocol for the setting is as follows:
-1. At round t, the agent chooses a model defined by $w_t$
-2. The world simultaneously chooses task defined by $f_t$ 
-3. The agent obtains access to the update procedure $U_t$, and uses it to update parameters as $\tilde w_t = U_t(w_t)$
-4. The agent incurs loss $f_t(\tilde w_t )$. Advance to round t + 1.
+1. ![](https://latex.codecogs.com/gif.latex?%5Ctext%7BAt%20round%20t%2C%20the%20agent%20chooses%20a%20model%20defined%20by%20%7D%20w_t)
+2. ![](https://latex.codecogs.com/gif.latex?%5Ctext%7BThe%20world%20simultaneously%20chooses%20task%20defined%20by%20%7D%20%24f_t%24)
+3. ![](https://latex.codecogs.com/gif.latex?%5Csmall%20%5Ctext%7BThe%20agent%20obtains%20access%20to%20%7D%20U_t%20%5Ctext%7B%2C%20and%20uses%20it%20to%20update%20parameters%20as%20%7D%20%5Ctilde%20w_t%20%3D%20U_t%28w_t%29)
+4. ![](https://latex.codecogs.com/gif.latex?%5Csmall%20%5Ctext%7BThe%20agent%20incurs%20loss%20%7D%20f_t%28%5Ctilde%20w_t%20%29%20%5Ctext%7B.%20Advance%20to%20round%20t%20&plus;%201%7D)
 
 the goal for the agent is to minimize regrets over rounds.
 Achieving sublinear regrets means you're improving and converging to upper bound (joint training on all tasks)
