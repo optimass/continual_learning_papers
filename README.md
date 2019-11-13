@@ -244,7 +244,7 @@ Learns how to update the model such that weight sharing maximises transfer and m
 Introduces What and How framework; enables Task Agnostic CL with meta learned task inference
 ```
 
-[Online Meta-Learning](https://arxiv.org/abs/1902.08438) (2019)
+[Online Meta-Learning](https://arxiv.org/abs/1902.08438) (2019) [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Online_Meta-learning.md)
 ```
 defines Online Meta-learning; propsoses Follow the Meta Leader (FTML) (~ Online MAML) 
 ```
