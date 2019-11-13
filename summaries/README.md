@@ -8,7 +8,7 @@
 * 2019/10/21 [Towards Robust Evaluations of Continual Learning](https://arxiv.org/abs/1805.09733) [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Towards_Robust_Evaluation_of_Continual_Learning.md)
 
 
-#### Other summaries
+### Other summaries
 
 Online Meta-Learning [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Online_Meta-learning.md)
 
