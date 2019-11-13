@@ -15,24 +15,23 @@ Learning about dogs and horses might cause more interference on lions and zebras
 
 ## Method
 
-1) incoming data: $(X_t,Y_t)$
+1) incoming data: ![](https://latex.codecogs.com/gif.latex?%28X_t%2CY_t%29)
 
-2) foreseen parameter update: $\theta^v= \theta-\alpha\nabla\mathcal{L}(f_\theta(X_t),Y_t)$
+2) foreseen parameter update: ![](https://latex.codecogs.com/gif.latex?%5Ctheta%5Ev%3D%20%5Ctheta-%5Calpha%5Cnabla%5Cmathcal%7BL%7D%28f_%5Ctheta%28X_t%29%2CY_t%29)
 
 ### applied to ER (ER-MIR)
-3) Search for the top-$k$ values $x$ in the stored memories using the criterion $$s_{MI}(x) = \mathcal{L}(f_{\theta^v}(x),y) -\mathcal{L}(f_{\theta}(x),y)$$
+3) Search for the top-k values x in the stored memories using the criterion ![](https://latex.codecogs.com/gif.latex?s_%7BMI%7D%28x%29%20%3D%20%5Cmathcal%7BL%7D%28f_%7B%5Ctheta%5Ev%7D%28x%29%2Cy%29%20-%5Cmathcal%7BL%7D%28f_%7B%5Ctheta%7D%28x%29%2Cy%29)
 
 ### or applied to GEN (GEN-MIR)
 3)   
-$$
-     \underset{Z}{\max} \, \mathcal{L}\big(f_{\theta^v}(g_\gamma(Z)),Y^*\big) -\mathcal{L}\big(f_{\theta}(g_\gamma(Z)),Y^*\big)
-$$
-$$
-         \text{s.t.}   \quad ||z_i-z_j||_2^2 > \epsilon \forall  z_i,z_j \in Z \,\text{with} \, z_i\neq z_j
-$$
-i.e. search in the latent space of a generative model $g_\gamma$ for samples that are the most forgotten given the foreseen update.
 
-4) Then add theses memories to incoming data $X_t$ and train $f_\theta$
+![](https://latex.codecogs.com/gif.latex?%5Cunderset%7BZ%7D%7B%5Cmax%7D%20%5C%2C%20%5Cmathcal%7BL%7D%5Cbig%28f_%7B%5Ctheta%5Ev%7D%28g_%5Cgamma%28Z%29%29%2CY%5E*%5Cbig%29%20-%5Cmathcal%7BL%7D%5Cbig%28f_%7B%5Ctheta%7D%28g_%5Cgamma%28Z%29%29%2CY%5E*%5Cbig%29)
+
+![](https://latex.codecogs.com/gif.latex?%5Ctext%7Bs.t.%7D%20%5Cquad%20%7C%7Cz_i-z_j%7C%7C_2%5E2%20%3E%20%5Cepsilon%20%5Cforall%20z_i%2Cz_j%20%5Cin%20Z%20%5C%2C%5Ctext%7Bwith%7D%20%5C%2C%20z_i%5Cneq%20z_j)
+
+i.e. search in the latent space of a generative model ![](https://latex.codecogs.com/gif.latex?g_%5Cgamma) for samples that are the most forgotten given the foreseen update.
+
+4) Then add theses memories to incoming data ~[](https://latex.codecogs.com/gif.latex?X_t) and train ~[](https://latex.codecogs.com/gif.latex?f_%5Ctheta)
 
 ## Results
 
