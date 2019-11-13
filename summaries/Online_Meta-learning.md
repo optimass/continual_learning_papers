@@ -10,10 +10,12 @@ Two distinct research paradigms have studied how prior tasks or experiences can 
 
 We argue that neither setting is ideal for studying continual lifelong learning. Meta-learning deals with learning to learn, but neglects the sequential and non-stationary aspects of the problem. Online learning offers an appealing theoretical framework, but does not generally consider how past experience can accelerate adaptation to a new task.
 
-### Title of a important section
+### Online Learning
+
+Online learning focuses on regret minimization. Most standard notion of regret is to compare to the cumulative loss of the best fixed model in hindsight:
+
   
-* important point
-* another important point
+
   
   
 ### Title of another important section
