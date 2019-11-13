@@ -31,7 +31,7 @@ Learning about dogs and horses might cause more interference on lions and zebras
 
 i.e. search in the latent space of a generative model ![](https://latex.codecogs.com/gif.latex?g_%5Cgamma) for samples that are the most forgotten given the foreseen update.
 
-4) Then add theses memories to incoming data ~[](https://latex.codecogs.com/gif.latex?X_t) and train ~[](https://latex.codecogs.com/gif.latex?f_%5Ctheta)
+4) Then add theses memories to incoming data ![](https://latex.codecogs.com/gif.latex?X_t) and train [](https://latex.codecogs.com/gif.latex?f_%5Ctheta)
 
 ## Results
 
