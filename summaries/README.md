@@ -10,4 +10,4 @@
 
 #### Other summaries
 
-Online Meta-Learning [[sumary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Online_Meta-learning.md)
+Online Meta-Learning [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Online_Meta-learning.md)
