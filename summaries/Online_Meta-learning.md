@@ -23,7 +23,6 @@ let $U_t$ be the update procedure for task $t$
 e.g. in MAML:
 ![](https://i.imgur.com/Q4I4HkD.png)
 
-<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " />
 
 The overall protocol for the setting is as follows:
 1. ![](https://latex.codecogs.com/gif.latex?%5Ctext%7BAt%20round%20t%2C%20the%20agent%20chooses%20a%20model%20defined%20by%20%7D%20w_t)
