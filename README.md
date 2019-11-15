@@ -244,6 +244,10 @@ Learns how to update the model such that weight sharing maximises transfer and m
 
 ### Continual Meta Learning
 
+[Learning from the Past: Continual Meta-Learning with Bayesian Graph Neural Networks](https://arxiv.org/pdf/1911.04695.pdf) (2019)
+```
+
+```
 
 [Task Agnostic Continual Learning via Meta Learning](https://arxiv.org/abs/1906.05201) (2019)
 ```
