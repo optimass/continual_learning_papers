@@ -185,6 +185,8 @@ Each task have a specific model connected to the previous ones
 
 ### Rehearsal Methods
 
+#### 2019
+
 [Orthogonal Gradient Descent for Continual Learning](https://arxiv.org/abs/1910.07104) (2019)
 ```
 projecting the gradients from new tasks onto a subspace in which the neural network output on previous task does not change and the projected gradient is still in a useful direction for learning the new task
@@ -200,6 +202,8 @@ sample selection as a constraint reduction problem based on the constrained opti
 Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting
 ```
 
+#### 2018
+
 [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) (2018)
 ```
 More efficient GEM; Introduces online continual learning
@@ -209,6 +213,8 @@ More efficient GEM; Introduces online continual learning
 ```
 smarter GR
 ```
+
+#### 2017
 
 [Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) (2017) 
 ```
@@ -274,6 +280,11 @@ Introduces unsupervised continual learning (no task label and no task boundaries
 [Generative Models from the perspective of Continual Learning](https://arxiv.org/abs/1812.09111) (2018)
 ```
 Extensive evaluation of CL methods for generative modeling
+```
+
+[Lifelong Generative Modeling](https://arxiv.org/abs/1705.09847) (2017)
+```
+first to focus on continual generative modeling (DGR's focus was still on continual supervised learning)
 ```
 
 ### Relevants 
