@@ -1,5 +1,7 @@
 # Continual Learning Literature
 
+email me at massimo.p.caccia at gmail.com is you would like to collaborate
+
 ### [Papers](#papers)
 
 * [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
@@ -172,6 +174,9 @@ Learns a separate set of posterior distributions for each weight for each task (
 ```
 
 [Incremental Learning Through Deep Adaptation](https://arxiv.org/pdf/1705.04228.pdf) (2018)
+```
+ 
+```
 
 [Progressive neural networks](https://arxiv.org/abs/1606.04671) (2016)
 ```
@@ -179,6 +184,8 @@ Each task have a specific model connected to the previous ones
 ```
 
 ### Rehearsal Methods
+
+#### 2019
 
 [Orthogonal Gradient Descent for Continual Learning](https://arxiv.org/abs/1910.07104) (2019)
 ```
@@ -195,6 +202,7 @@ sample selection as a constraint reduction problem based on the constrained opti
 Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting
 ```
 
+#### 2018
 
 [Efficient Lifelong Learning with A-GEM](https://arxiv.org/abs/1812.00420) (2018)
 ```
@@ -205,6 +213,8 @@ More efficient GEM; Introduces online continual learning
 ```
 smarter GR
 ```
+
+#### 2017
 
 [Gradient Episodic Memory (GEM)](https://arxiv.org/abs/1706.08840) (2017) 
 ```
@@ -234,15 +244,19 @@ Learns how to update the model such that weight sharing maximises transfer and m
 
 ### Continual Meta Learning
 
+[Learning from the Past: Continual Meta-Learning with Bayesian Graph Neural Networks](https://arxiv.org/pdf/1911.04695.pdf) (2019)
+```
+
+```
 
 [Task Agnostic Continual Learning via Meta Learning](https://arxiv.org/abs/1906.05201) (2019)
 ```
 Introduces What and How framework; enables Task Agnostic CL with meta learned task inference
 ```
 
-[Online Meta-Learning](https://arxiv.org/abs/1902.08438) (2019)
+[Online Meta-Learning](https://arxiv.org/abs/1902.08438) (2019) [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Online_Meta-learning.md)
 ```
-Online MAML
+defines Online Meta-learning; propsoses Follow the Meta Leader (FTML) (~ Online MAML) 
 ```
 
 [Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080) (2018)
@@ -251,12 +265,10 @@ Meta-learns a tasks structure; continual adaptation via non-parametric prior
 ```
 
 
-
 [Deep Online Learning via Meta-Learning: Continual Adaptation for Model-Based RL](https://arxiv.org/abs/1812.07671) (2018)
 ```
 Formulates an online learning procedure that uses SGD to update model parameters, and an EM with a Chinese restaurant process prior to develop and maintain a mixture of models to handle non-stationary task distribution
 ```
-
 
 
 [//]: ### (Lifelong Reinforcement Learning)
@@ -274,15 +286,24 @@ Introduces unsupervised continual learning (no task label and no task boundaries
 Extensive evaluation of CL methods for generative modeling
 ```
 
+[Lifelong Generative Modeling](https://arxiv.org/abs/1705.09847) (2017)
+```
+first to focus on continual generative modeling (DGR's focus was still on continual supervised learning)
+```
+
 ### Relevants 
 
+#### 2019 
+
 [Reccurent Independant Mechanisms](https://arxiv.org/pdf/1909.10893.pdf) (2019)
+```
+
+```
 
 [A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms](https://arxiv.org/abs/1901.10912) (2019)
 ```
 propose to meta-learn causal structures based on how fast a learner adapts to new distributions arising from sparse distributional changes, e.g. due to interventions, actions of agents and other sources of non-stationarities
 ```
-
 
 [Modular Meta-learning](https://arxiv.org/abs/1806.10166) (2018)
 ```
@@ -290,9 +311,17 @@ Trains different modular (neural nets) structures on a set of related tasks and 
 ```
 
 
+#### 2018
+
+[An Empirical Study of Example Forgetting during Deep Neural Network Learning](https://arxiv.org/abs/1812.05159) (2018)
+```
+(i) certain examples are forgotten with high frequency, and some not at all; (ii) (un)forgettable examples generalize across neural architectures; and (iii) based on forgetting dynamics, a significant fraction of examples can be omitted from the training data set while still maintaining state-of-the-art generalization performance
+```
 
 
-[//]: ### (Unclassified)
+### (Unclassified)
+
+[Continual learning with hypernetworks](https://openreview.net/pdf?id=SJgwNerKvB) (2019)
 
 
 
