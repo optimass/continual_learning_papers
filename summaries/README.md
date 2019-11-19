@@ -2,6 +2,7 @@
 
 ### Mondays 1:30PM in room H06 (6650 st-urbain)
 
+* 2019/11/25 [Neurogenesis-Inspired Dictionary Learning: Online Model Adaption in a Changing World](https://arxiv.org/abs/1701.06106)
 * 2019/11/18 [Continual learning with hypernetworks](https://arxiv.org/pdf/1906.00695.pdf)
 * 2019/11/11 [Meta-Learning Representations for Continual Learning](https://arxiv.org/abs/1905.12588)
 * 2019/11/04 [Learning to Learn without Forgetting by Maximizing Transfer and Minimizing Interference](https://arxiv.org/abs/1810.11910)
