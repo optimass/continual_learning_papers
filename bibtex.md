@@ -1,0 +1,397 @@
+@incollection{Thrun95,
+  title={Lifelong robot learning},
+  author={Thrun, Sebastian and Mitchell, Tom M},
+  booktitle={The biology and technology of intelligent autonomous agents},
+  pages={165--196},
+  year={1995},
+  publisher={Springer}
+}
+
+@article{Farquhar18,
+  title={Towards Robust Evaluations of Continual Learning},
+  author={Farquhar, Sebastian and Gal, Yarin},
+  journal={arXiv preprint arXiv:1805.09733},
+  year={2018}
+}
+
+@inproceedings{Chaudhry19,
+  title={Efficient Lifelong Learning with {A-GEM}},
+  author={Chaudhry, Arslan and Ranzato, Marc’Aurelio and Rohrbach, Marcus and Elhoseiny, Mohamed},
+  booktitle={ICLR},
+  year={2019}
+}
+
+@article{Kirkpatrick17,
+  title={Overcoming catastrophic forgetting in neural networks},
+  author={Kirkpatrick, James and Pascanu, Razvan and Rabinowitz, Neil and Veness, Joel and Desjardins, Guillaume and Rusu, Andrei A and Milan, Kieran and Quan, John and Ramalho, Tiago and Grabska-Barwinska, Agnieszka and others},
+  journal={Proc. of the national academy of sciences},
+  year={2017},
+  publisher={National Acad Sciences}
+}
+
+@incollection{Lopez-Paz17,
+title = {Gradient Episodic Memory for Continual Learning},
+author = {Lopez-Paz, David and Ranzato, Marc-Aurelio},
+booktitle = {Advances in Neural Information Processing Systems 30},
+editor = {I. Guyon and U. V. Luxburg and S. Bengio and H. Wallach and R. Fergus and S. Vishwanathan and R. Garnett},
+pages = {6467--6476},
+year = {2017},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/7225-gradient-episodic-memory-for-continual-learning.pdf}
+}
+
+@inproceedings{Shin17,
+  title={Continual learning with deep generative replay},
+  author={Shin, Hanul and Lee, Jung Kwon and Kim, Jaehong and Kim, Jiwon},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={2990--2999},
+  year={2017}
+}
+
+@ARTICLE{Goodfellow13,
+   author = {{Goodfellow}, I.~J. and {Mirza}, M. and {Xiao}, D. and {Courville}, A. and 
+	{Bengio}, Y.},
+    title = "{An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1312.6211},
+ primaryClass = "stat.ML",
+ keywords = {Statistics - Machine Learning, Computer Science - Learning, Computer Science - Neural and Evolutionary Computing},
+     year = 2013,
+    month = dec,
+   adsurl = {http://adsabs.harvard.edu/abs/2013arXiv1312.6211G},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@misc{lange2019continual,
+    title={Continual learning: A comparative study on how to defy forgetting in classification tasks},
+    author={Matthias De Lange and Rahaf Aljundi and Marc Masana and Sarah Parisot and Xu Jia and Ales Leonardis and Gregory Slabaugh and Tinne Tuytelaars},
+    year={2019},
+    eprint={1909.08383},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}
+
+@misc{lesort2019continual,
+    title={Continual Learning for Robotics},
+    author={Timothée Lesort and Vincenzo Lomonaco and Andrei Stoian and Davide Maltoni and David Filliat and Natalia Díaz-Rodríguez},
+    year={2019},
+    eprint={1907.00182},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+
+@article{Parisi18review,
+title = "Continual lifelong learning with neural networks: A review",
+journal = "Neural Networks",
+volume = "113",
+pages = "54 - 71",
+year = "2019",
+issn = "0893-6080",
+doi = "https://doi.org/10.1016/j.neunet.2019.01.012",
+url = "http://www.sciencedirect.com/science/article/pii/S0893608019300231",
+author = "German I. Parisi and Ronald Kemker and Jose L. Part and Christopher Kanan and Stefan Wermter",
+keywords = "Continual learning, Lifelong learning, Catastrophic forgetting, Developmental systems, Memory consolidation"
+}
+
+@article{Swaroop2019ImprovingAU,
+  title={Improving and Understanding Variational Continual Learning},
+  author={Siddharth Swaroop and Cuong V. Nguyen and Thang D. Bui and Richard E. Turner},
+  journal={ArXiv},
+  year={2019},
+  volume={abs/1905.02099}
+}
+
+@article{Ebrahimi2019UncertaintyguidedCL,
+  title={Uncertainty-guided Continual Learning with Bayesian Neural Networks},
+  author={Sayna Ebrahimi and Mohamed Elhoseiny and Trevor Darrell and Marcus Rohrbach},
+  journal={ArXiv},
+  year={2019},
+  volume={abs/1906.02425}
+}
+
+@incollection{NIPS2019_8690,
+title = {Uncertainty-based Continual Learning with Adaptive Regularization},
+author = {Ahn, Hongjoon and Cha, Sungmin and Lee, Donggyu and Moon, Taesup},
+booktitle = {Advances in Neural Information Processing Systems 32},
+editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+pages = {4394--4404},
+year = {2019},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/8690-uncertainty-based-continual-learning-with-adaptive-regularization.pdf}
+}
+
+@misc{zeno2018task,
+    title={Task Agnostic Continual Learning Using Online Variational Bayes},
+    author={Chen Zeno and Itay Golan and Elad Hoffer and Daniel Soudry},
+    year={2018},
+    eprint={1803.10123},
+    archivePrefix={arXiv},
+    primaryClass={stat.ML}
+}
+
+@inproceedings{He18,
+title={Overcoming Catastrophic Interference using Conceptor-Aided Backpropagation},
+author={Xu He and Herbert Jaeger},
+booktitle={International Conference on Learning Representations},
+year={2018},
+url={https://openreview.net/forum?id=B1al7jg0b},
+}
+
+@article{Serra18,
+  title = 	 {Overcoming Catastrophic Forgetting with Hard Attention to the Task},
+  author = 	 {Serra, Joan and Suris, Didac and Miron, Marius and Karatzoglou, Alexandros},
+  journal   = {ICML},
+  booktitle = 	 {Proceedings of the 35th International Conference on Machine Learning},
+  pages = 	 {4548--4557},
+  year = 	 {2018},
+  editor = 	 {Dy, Jennifer and Krause, Andreas},
+  volume = 	 {80},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Stockholmsmässan, Stockholm Sweden},
+  month = 	 {10--15 Jul},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v80/serra18a/serra18a.pdf},
+  url = 	 {http://proceedings.mlr.press/v80/serra18a.html}
+}
+
+@inproceedings{Chaudhry18,
+  title={Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence},
+  author={Chaudhry, Arslan and Dokania, Puneet K and Ajanthan, Thalaiyasingam and Torr, Philip HS},
+  booktitle={ECCV},
+  year={2018}
+}
+
+@article{Aljundi17,
+  author    = {Rahaf Aljundi and
+               Francesca Babiloni and
+               Mohamed Elhoseiny and
+               Marcus Rohrbach and
+               Tinne Tuytelaars},
+  title     = {Memory Aware Synapses: Learning what (not) to forget},
+  journal   = {CoRR},
+  volume    = {abs/1711.09601},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1711.09601},
+  archivePrefix = {arXiv},
+  eprint    = {1711.09601},
+  timestamp = {Mon, 13 Aug 2018 16:47:14 +0200},
+  biburl    = {https://dblp.org/rec/bib/journals/corr/abs-1711-09601},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@inproceedings{Nguyen17,
+title={Variational Continual Learning},
+author={Cuong V. Nguyen and Yingzhen Li and Thang D. Bui and Richard E. Turner},
+booktitle={International Conference on Learning Representations},
+year={2018},
+url={https://openreview.net/forum?id=BkQqq0gRb},
+}
+
+@InProceedings{Zenke17,
+  title = 	 {Continual Learning Through Synaptic Intelligence},
+  author = 	 {{Zenke}, Friedeman and {Poole}, Ben and {Ganguli}, Surya },
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {3987--3995},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/zenke17a/zenke17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/zenke17a.html},
+}
+
+@article{Li17,
+  title={Learning without forgetting},
+  author={Li, Zhizhong and Hoiem, Derek},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2017},
+  publisher={IEEE}
+}
+
+@misc{li2019continual,
+    title={Continual Learning Using Bayesian Neural Networks},
+    author={HongLin Li and Payam Barnaghi and Shirin Enshaeifar and Frieder Ganz},
+    year={2019},
+    eprint={1910.04112},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+
+@misc{
+rosenfeld2018incremental,
+title={Incremental Learning through Deep Adaptation},
+author={Amir Rosenfeld and John K. Tsotsos},
+year={2018},
+url={https://openreview.net/forum?id=ryj0790hb},
+}
+
+@ARTICLE{Rusu16progressive,
+   author = {{Rusu}, A.~A. and {Rabinowitz}, N.~C. and {Desjardins}, G. and 
+	{Soyer}, H. and {Kirkpatrick}, J. and {Kavukcuoglu}, K. and 
+	{Pascanu}, R. and {Hadsell}, R.},
+    title = "{Progressive Neural Networks}",
+  journal = {ArXiv e-prints},
+archivePrefix = "arXiv",
+   eprint = {1606.04671},
+ primaryClass = "cs.LG",
+ keywords = {Computer Science - Learning},
+     year = 2016,
+    month = jun,
+   adsurl = {http://adsabs.harvard.edu/abs/2016arXiv160604671R},
+  adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+}
+
+@misc{farajtabar2019orthogonal,
+    title={Orthogonal Gradient Descent for Continual Learning},
+    author={Mehrdad Farajtabar and Navid Azizan and Alex Mott and Ang Li},
+    year={2019},
+    eprint={1910.07104},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+
+@incollection{Aljundi2019Gradient,
+title = {Gradient based sample selection for online continual learning},
+author = {Aljundi, Rahaf and Lin, Min and Goujaud, Baptiste and Bengio, Yoshua},
+booktitle = {Advances in Neural Information Processing Systems 32},
+editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+pages = {11816--11825},
+year = {2019},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/9354-gradient-based-sample-selection-for-online-continual-learning.pdf}
+}
+
+@incollection{Aljundi2019Online,
+title = {Online Continual Learning with Maximal Interfered Retrieval},
+author = {Aljundi, Rahaf and Belilovsky, Eugene and Tuytelaars, Tinne and Charlin, Laurent and Caccia, Massimo and Lin, Min and Page-Caccia, Lucas},
+booktitle = {Advances in Neural Information Processing Systems 32},
+editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+pages = {11849--11860},
+year = {2019},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/9357-online-continual-learning-with-maximal-interfered-retrieval.pdf}
+}
+
+@article{Ven2018GenerativeRW,
+  title={Generative replay with feedback connections as a general strategy for continual learning},
+  author={Michiel van der Ven and Andreas S. Tolias},
+  journal={ArXiv},
+  year={2018},
+  volume={abs/1809.10635}
+}
+
+@incollection{Javed2019Meta,
+title = {Meta-Learning Representations for Continual Learning},
+author = {Javed, Khurram and White, Martha},
+booktitle = {Advances in Neural Information Processing Systems 32},
+editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+pages = {1818--1828},
+year = {2019},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/8458-meta-learning-representations-for-continual-learning.pdf}
+}
+
+@misc{luo2019learning,
+    title={Learning from the Past: Continual Meta-Learning via Bayesian Graph Modeling},
+    author={Yadan Luo and Zi Huang and Zheng Zhang and Ziwei Wang and Mahsa Baktashmotlagh and Yang Yang},
+    year={2019},
+    eprint={1911.04695},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+
+@InProceedings{pmlr-v97-finn19a,
+  title = 	 {Online Meta-Learning},
+  author = 	 {Finn, Chelsea and Rajeswaran, Aravind and Kakade, Sham and Levine, Sergey},
+  booktitle = 	 {Proceedings of the 36th International Conference on Machine Learning},
+  pages = 	 {1920--1930},
+  year = 	 {2019},
+  editor = 	 {Chaudhuri, Kamalika and Salakhutdinov, Ruslan},
+  volume = 	 {97},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {Long Beach, California, USA},
+  month = 	 {09--15 Jun},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v97/finn19a/finn19a.pdf},
+  url = 	 {http://proceedings.mlr.press/v97/finn19a.html}
+}
+
+@incollection{NIPS2019_9112,
+title = {Reconciling meta-learning and continual learning with online mixtures of tasks},
+author = {Jerfel, Ghassen and Grant, Erin and Griffiths, Tom and Heller, Katherine A},
+booktitle = {Advances in Neural Information Processing Systems 32},
+editor = {H. Wallach and H. Larochelle and A. Beygelzimer and F. d\textquotesingle Alch\'{e}-Buc and E. Fox and R. Garnett},
+pages = {9119--9130},
+year = {2019},
+publisher = {Curran Associates, Inc.},
+url = {http://papers.nips.cc/paper/9112-reconciling-meta-learning-and-continual-learning-with-online-mixtures-of-tasks.pdf}
+}
+
+@inproceedings{
+nagabandi2018deep,
+title={Deep Online Learning Via Meta-Learning: Continual Adaptation for Model-Based {RL}},
+author={Anusha Nagabandi and Chelsea Finn and Sergey Levine},
+booktitle={International Conference on Learning Representations},
+year={2019},
+url={https://openreview.net/forum?id=HyxAfnA5tm},
+}
+
+@misc{rao2019continual,
+    title={Continual Unsupervised Representation Learning},
+    author={Dushyant Rao and Francesco Visin and Andrei A. Rusu and Yee Whye Teh and Razvan Pascanu and Raia Hadsell},
+    year={2019},
+    eprint={1910.14481},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
+}
+
+@inproceedings{lesort2018generative,
+  TITLE = {{Generative Models from the perspective of Continual Learning}},
+  AUTHOR = {Lesort, Timoth{\'e}e and Caselles-Dupr{\'e}, Hugo and Garcia-Ortiz, Michael and Goudou, Jean-Fran{\c c}ois and Filliat, David},
+  URL = {https://hal.archives-ouvertes.fr/hal-01951954},
+  BOOKTITLE = {{IJCNN - International Joint Conference on Neural Networks}},
+  ADDRESS = {Budapest, Hungary},
+  YEAR = {2019},
+  MONTH = Jul,
+  PDF = {https://hal.archives-ouvertes.fr/hal-01951954/file/_NIPS_CL_Workshop__Continual_learning_for_generative_models.pdf},
+  HAL_ID = {hal-01951954},
+  HAL_VERSION = {v1},
+}
+
+@article{Ramapuram17,
+  title={Lifelong Generative Modeling},
+  author={Ramapuram, Jason and Gregorova, Magda and Kalousis, Alexandros},
+  journal={arXiv preprint arXiv:1705.09847},
+  year={2017}
+}
+
+@inproceedings{Alet2018ModularM,
+  title={Modular meta-learning},
+  author={Ferran Alet and Tom{\'a}s Lozano-P{\'e}rez and Leslie Pack Kaelbling},
+  booktitle={CoRL},
+  year={2018}
+}
+
+@inproceedings{
+toneva2018an,
+title={An Empirical Study of Example Forgetting during Deep Neural Network Learning},
+author={Mariya Toneva and Alessandro Sordoni and Remi Tachet des Combes and Adam Trischler and Yoshua Bengio and Geoffrey J. Gordon},
+booktitle={International Conference on Learning Representations},
+year={2019},
+url={https://openreview.net/forum?id=BJlxm30cKm},
+}
+
+@inproceedings{
+anonymous2020continual,
+title={Continual learning with hypernetworks},
+author={Anonymous},
+booktitle={Submitted to International Conference on Learning Representations},
+year={2020},
+url={https://openreview.net/forum?id=SJgwNerKvB},
+note={under review}
+}
+
