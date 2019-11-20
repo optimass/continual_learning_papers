@@ -187,6 +187,11 @@ Each task have a specific model connected to the previous ones
 
 #### 2019
 
+[Online Learned Continual Compression with Stacked Quantization Module](https://arxiv.org/abs/1911.08019) (2019)
+```
+
+```
+
 [Orthogonal Gradient Descent for Continual Learning](https://arxiv.org/abs/1910.07104) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L248-L255)
 ```
 projecting the gradients from new tasks onto a subspace in which the neural network output on previous task does not change and the projected gradient is still in a useful direction for learning the new task
