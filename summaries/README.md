@@ -15,3 +15,7 @@
 Online Meta-Learning [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Online_Meta-learning.md)
 
 Online Continual Learning with Maximally Interfered Retrieval [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Maximally_Interfered_Retrieval.md) [[video]](https://www.youtube.com/watch?v=wfb9UV_n8jg)
+
+### Contenders for upcoming meetings
+
+[Orthogonal Gradient Descent for Continual Learning](https://arxiv.org/abs/1910.07104) (2019)
