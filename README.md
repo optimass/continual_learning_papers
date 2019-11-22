@@ -36,7 +36,7 @@ Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR), C
 
 ### Classics
 
-[Catastrophic interference in connectionist networks: The sequential learning problem](https://www.sciencedirect.com/science/article/pii/S0079742108605368) (1989)
+[Catastrophic interference in connectionist networks: The sequential learning problem](https://www.sciencedirect.com/science/article/pii/S0079742108605368) (1989) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L398-L402)
 ```
 Introduces CL and reveals the catastrophic forgetting problem
 ```
