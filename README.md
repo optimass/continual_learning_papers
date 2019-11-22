@@ -135,7 +135,6 @@ Introducing a "hard attention" idea with binary masks
 Formalizes the shortcomings of multi-head evaluation, as well as the importance of replay in single-head setup. Presenting an improved version of EWC. 
 ```
 
-
 #### 2017
 
 [Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) (2017) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L24-L30)
@@ -157,7 +156,6 @@ Introduces the idea of using previous task's posterior as the new task's prior i
 ```
 Importance of parameter measured based on their contribution to change in the loss. 
 ```
-
 
 #### 2016
 
@@ -187,9 +185,9 @@ Each task have a specific model connected to the previous ones
 
 #### 2019
 
-[Online Learned Continual Compression with Stacked Quantization Module](https://arxiv.org/abs/1911.08019) (2019)
+[Online Learned Continual Compression with Stacked Quantization Module](https://arxiv.org/abs/1911.08019) (2019) [[code]](https://github.com/pclucas14/stacked-quantized-modules)
 ```
-
+Uses stacks of VQ-VAE modules to progressively compress the data stream, enabling better rehearsal
 ```
 
 [Orthogonal Gradient Descent for Continual Learning](https://arxiv.org/abs/1910.07104) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L248-L255)
@@ -348,16 +346,22 @@ Title                                                                           
 
 ## Continual Learning codebases
 
+
 [Continual Learning Data Former](https://github.com/TLESORT/Continual_Learning_Data_Former)
 ```
  A pytorch compatible data loader to create and use sequence of tasks for Continual Learning 
+```
+
+[Online Learned Continual Compression with Stacked Quantization Module](https://github.com/pclucas14/stacked-quantized-modules)
+\
+```
+Reproduce paper; useful of online compression
 ```
 
 [Gradient Episodic Memory for Continual Learning](https://github.com/facebookresearch/GradientEpisodicMemory)
 ```
 Reproduce paper. Nice repo because baselines and GEM are seamlessly interchangable
 ```
-
 
 [Generative Models from the perspective of Continual Learning](https://github.com/TLESORT/Generative_Continual_Learning)
 ```
