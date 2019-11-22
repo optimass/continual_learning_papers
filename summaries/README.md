@@ -18,4 +18,4 @@ Online Continual Learning with Maximally Interfered Retrieval [[summary]](https:
 
 ### Contenders for upcoming meetings
 
-[Orthogonal Gradient Descent for Continual Learning](https://arxiv.org/abs/1910.07104) (2019)
+[Orthogonal Gradient Descent for Continual Learning](https://arxiv.org/abs/1910.07104)
