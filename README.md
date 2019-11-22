@@ -36,11 +36,16 @@ Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR), C
 
 ### Classics
 
+[Catastrophic interference in connectionist networks: The sequential learning problem](https://www.sciencedirect.com/science/article/pii/S0079742108605368) (1989)
+```
+Introduces CL and reveals the catastrophic forgetting problem
+```
 
 [Lifelong robot learning](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.71.3723&rep=rep1&type=pdf) (1995) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L1-L8)
 ``` 
 argues knowledge transfer is essential if robots are to learn control with moderate learning times
 ```
+
 
 ### Influencials
 
