@@ -46,6 +46,29 @@ Introduces CL and reveals the catastrophic forgetting problem
 argues knowledge transfer is essential if robots are to learn control with moderate learning times
 ```
 
+### Surveys
+
+[Continual learning: A comparative study on how to defy forgetting in classification tasks](https://arxiv.org/abs/1909.08383) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L66-L73)
+```
+Extensive empirical study of CL methods (in the multi-head setting)
+```
+
+[Continual Learning for Robotics](https://arxiv.org/abs/1907.00182) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L75-L82)
+```
+Extensive review of CL methods and their applications in robotics and framework proposition for continual learning
+```
+
+[Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569)  (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L84-L95)
+```
+A extensive review of CL
+```
+
+[Lifelong Machine Learning](https://www.cs.uic.edu/~liub/lifelong-machine-learning-draft.pdf) (2016)
+```
+Book on Continual Learning. Extensive review of older and newer algorithm; motivations and relation to other ML paradigms
+```
+
+
 
 ### Influencials
 
@@ -79,29 +102,6 @@ Introduces generative replay
 ```
 Investigates CF in neural networks
 ```
-
-### Surveys
-
-[Continual learning: A comparative study on how to defy forgetting in classification tasks](https://arxiv.org/abs/1909.08383) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L66-L73)
-```
-Extensive empirical study of CL methods (in the multi-head setting)
-```
-
-[Continual Learning for Robotics](https://arxiv.org/abs/1907.00182) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L75-L82)
-```
-Extensive review of CL methods and their applications in robotics and framework proposition for continual learning
-```
-
-[Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569)  (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L84-L95)
-```
-A extensive review of CL
-```
-
-[Lifelong Machine Learning](https://www.cs.uic.edu/~liub/lifelong-machine-learning-draft.pdf) (2016)
-```
-Book on Continual Learning. Extensive review of older and newer algorithm; motivations and relation to other ML paradigms
-```
-
 
 ### Prior-focused Methods
 
