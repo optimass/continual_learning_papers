@@ -235,7 +235,12 @@ a model that alliviates CF via constrained optimization (doesn't increase loss o
 ```
 
 
-[//]: ### (Hybrid Methods)
+### Hybrid Methods
+
+[Continual learning with hypernetworks](https://openreview.net/pdf?id=SJgwNerKvB) (2019) [[bib]] (https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L388-L396) 
+```
+Learning task-conditioned hypernetworks for continual learning as well as task embeddings; hypernetwors offers good model compression.
+```
 
 
 ### Meta Continual Learning
@@ -303,17 +308,17 @@ first to focus on continual generative modeling (DGR's focus was still on contin
 
 #### 2019 
 
-[Reccurent Independant Mechanisms](https://arxiv.org/pdf/1909.10893.pdf) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L-L)
+[Reccurent Independant Mechanisms](https://arxiv.org/pdf/1909.10893.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L-L)
 ```
 
 ```
 
-[A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms](https://arxiv.org/abs/1901.10912) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L365-L370)
+[A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms](https://arxiv.org/abs/1901.10912) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L365-L370)
 ```
 propose to meta-learn causal structures based on how fast a learner adapts to new distributions arising from sparse distributional changes, e.g. due to interventions, actions of agents and other sources of non-stationarities
 ```
 
-[Modular Meta-learning](https://arxiv.org/abs/1806.10166) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L372-L377)
+[Modular Meta-learning](https://arxiv.org/abs/1806.10166) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L372-L377)
 ```
 Trains different modular (neural nets) structures on a set of related tasks and generalize to new tasks by composing the learned modules in new ways
 ```
@@ -321,15 +326,19 @@ Trains different modular (neural nets) structures on a set of related tasks and 
 
 #### 2018
 
-[An Empirical Study of Example Forgetting during Deep Neural Network Learning](https://arxiv.org/abs/1812.05159) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L379-L386)
+[An Empirical Study of Example Forgetting during Deep Neural Network Learning](https://arxiv.org/abs/1812.05159) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L379-L386)
 ```
 (i) certain examples are forgotten with high frequency, and some not at all; (ii) (un)forgettable examples generalize across neural architectures; and (iii) based on forgetting dynamics, a significant fraction of examples can be omitted from the training data set while still maintaining state-of-the-art generalization performance
+```
+
+[Meta-Learning Update Rules for Unsupervised Representation Learning](https://arxiv.org/abs/1804.00222)
+```
+
 ```
 
 
 ### (Unclassified)
 
-[Continual learning with hypernetworks](https://openreview.net/pdf?id=SJgwNerKvB) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L388-L396)
 
 
 
