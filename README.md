@@ -242,7 +242,7 @@ a model that alliviates CF via constrained optimization (doesn't increase loss o
 
 ### Hybrid Methods
 
-[Continual learning with hypernetworks](https://openreview.net/pdf?id=SJgwNerKvB) (2019) [[bib]] (https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L388-L396) 
+[Continual learning with hypernetworks](https://openreview.net/pdf?id=SJgwNerKvB) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L388-L396) 
 ```
 Learning task-conditioned hypernetworks for continual learning as well as task embeddings; hypernetwors offers good model compression.
 ```
