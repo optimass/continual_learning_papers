@@ -107,69 +107,68 @@ Book on Continual Learning. Extensive review of older and newer algorithm; motiv
 
 #### 2019
 
-[Improving and Understanding Variational Continual Learning](https://arxiv.org/abs/1905.02099) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L97-L103)
+[Improving and Understanding Variational Continual Learning](https://arxiv.org/abs/1905.02099) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L97-L103)
 ```
 Improved results and interpretation of VCL.
 ```
 
-[Uncertainty-guided Continual Learning with Bayesian Neural Networks](https://arxiv.org/abs/1906.02425) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L105-L111)
+[Uncertainty-guided Continual Learning with Bayesian Neural Networks](https://arxiv.org/abs/1906.02425) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L105-L111)
 ```
 Uses Bayes by Backprop for variational Continual Learning.
 ```
 
-[Uncertainty-based Continual Learning with Adaptive Regularization](https://arxiv.org/pdf/1905.11614.pdf) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L113-L122)
+[Uncertainty-based Continual Learning with Adaptive Regularization](https://arxiv.org/pdf/1905.11614.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L113-L122)
 ```
 Introduces VCL with uncertainty measured for neurons instead of weights.
 ```
 
-[Task Agnostic Continual Learning Using Online Variational Bayes](https://arxiv.org/pdf/1803.10123.pdf) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L124-L131)
+[Task Agnostic Continual Learning Using Online Variational Bayes](https://arxiv.org/pdf/1803.10123.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L124-L131)
 ```
 Introduces an optimizer for CL that relies on closed form updates of mu and sigma of BNN; introduce label trick for "class learning" (single-head)
 ```
 
 #### 2018
 
-
 [Overcoming Catastrophic Interference using Conceptor-Aided Backpropagation (CAB)](https://openreview.net/pdf?id=B1al7jg0b) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L133-L139)
 ```
 "Conceptor-Aided Backprop" (CAB): gradients are shielded by conceptors against degradation of previously learned tasks
 ```
 
-[Overcoming catastrophic forgetting with hard attention to the task (HAT)](https://arxiv.org/abs/1801.01423) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L141-L156)
+[Overcoming catastrophic forgetting with hard attention to the task (HAT)](https://arxiv.org/abs/1801.01423) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L141-L156)
 ```
 Introducing a "hard attention" idea with binary masks 
 ```
 
-[Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence](https://arxiv.org/abs/1801.10112) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L158-L163)
+[Riemannian Walk for Incremental Learning: Understanding Forgetting and Intransigence](https://arxiv.org/abs/1801.10112) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L158-L163)
 ```
 Formalizes the shortcomings of multi-head evaluation, as well as the importance of replay in single-head setup. Presenting an improved version of EWC. 
 ```
 
 #### 2017
 
-[Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) (2017) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L24-L30)
+[Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L24-L30)
 ```
  Introduces prior-focused methods
 ```
 
-[Memory Aware Synapses: Learning what (not) to forget](https://arxiv.org/pdf/1711.09601.pdf) (2017) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L165-L181)
+[Memory Aware Synapses: Learning what (not) to forget](https://arxiv.org/pdf/1711.09601.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L165-L181)
 ```
 Importance of parameter measured based on their contribution to change in the learned prediction function.
 ```
 
-[Variational Continual Learning (VCL)](https://arxiv.org/abs/1710.10628) (2017) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L183-L189)
+[Variational Continual Learning (VCL)](https://arxiv.org/abs/1710.10628) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L183-L189)
 ```
 Introduces the idea of using previous task's posterior as the new task's prior in a BNN.
 ```
 
-[Synaptic Intelligence (SI)](https://arxiv.org/abs/1703.04200) (2017) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L191-L205)
+[Synaptic Intelligence (SI)](https://arxiv.org/abs/1703.04200) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L191-L205)
 ```
 Importance of parameter measured based on their contribution to change in the loss. 
 ```
 
 #### 2016
 
-[Learning without Forgetting](https://arxiv.org/abs/1606.09282) (2016) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L207-L2013)
+[Learning without Forgetting](https://arxiv.org/abs/1606.09282) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L207-L2013)
 ```
 Functional regularization through distillation (keeping the output of the updated network on the new data close to the output of the old network on the new data)
 ```
@@ -195,7 +194,7 @@ Each task have a specific model connected to the previous ones
 
 #### 2019
 
-[Online Learned Continual Compression with Stacked Quantization Module](https://arxiv.org/abs/1911.08019) (2019) [[code]](https://github.com/pclucas14/stacked-quantized-modules)
+[Online Learned Continual Compression with Stacked Quantization Module](https://arxiv.org/abs/1911.08019) [[code]](https://github.com/pclucas14/stacked-quantized-modules)
 ```
 Uses stacks of VQ-VAE modules to progressively compress the data stream, enabling better rehearsal
 ```
