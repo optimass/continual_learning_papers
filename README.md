@@ -97,6 +97,11 @@ Extensive review of CL methods and their applications in robotics and framework 
 A extensive review of CL
 ```
 
+[Lifelong Machine Learning](https://www.cs.uic.edu/~liub/lifelong-machine-learning-draft.pdf) (2016)
+```
+Book on Continual Learning. Extensive review of older and newer algorithm; motivations and relation to other ML paradigms
+```
+
 
 ### Prior-focused Methods
 
