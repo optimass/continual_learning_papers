@@ -5,8 +5,8 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 ### [Papers](#papers)
 
 * [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
-* [Influencials](#influencials) (well cited papers. More general contributions like proposing new frameworks, evaluations, etc)
 * [Surveys](#surveys)
+* [Influencials](#influencials) (well cited papers. More general contributions like proposing new frameworks, evaluations, etc)
 * [Prior-Focused Methods](#prior-focused-methods)
 * [Dynamic Architectures Methods](#dynamic-architectures-methods)
 * [Rehearsal Methods](#rehearsal-methods)
