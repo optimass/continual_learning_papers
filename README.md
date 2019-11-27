@@ -293,7 +293,7 @@ Formulates an online learning procedure that uses SGD to update model parameters
 ```
 
 
-### (Lifelong Reinforcement Learning)
+### Lifelong Reinforcement Learning
 
 [Experience Replay for Continual Learning](https://arxiv.org/abs/1811.11682) (2018)
 ```
