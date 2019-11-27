@@ -107,6 +107,11 @@ Investigates CF in neural networks
 
 #### 2019
 
+[Functional Regularisation for Continual Learning with Gaussian Processes](https://arxiv.org/abs/1901.11356) 
+```
+
+```
+
 [Improving and Understanding Variational Continual Learning](https://arxiv.org/abs/1905.02099) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L97-L103)
 ```
 Improved results and interpretation of VCL.
@@ -372,7 +377,6 @@ Title                                                                           
 ```
 
 [Online Learned Continual Compression with Stacked Quantization Module](https://github.com/pclucas14/stacked-quantized-modules)
-\
 ```
 Reproduce paper; useful of online compression
 ```
