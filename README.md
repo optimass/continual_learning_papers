@@ -353,7 +353,7 @@ Trains different modular (neural nets) structures on a set of related tasks and 
 
 ### Datasets
 
-[CORe50: a New Dataset and Benchmark for Continuous Object Recognition](https://arxiv.org/abs/1705.03550)
+[CORe50: a New Dataset and Benchmark for Continuous Object Recognition](https://arxiv.org/abs/1705.03550) (2017)
 
 
 ### (Unclassified)
