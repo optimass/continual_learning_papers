@@ -118,7 +118,7 @@ Investigates CF in neural networks
 Improved results and interpretation of VCL.
 ```
 
-[Uncertainty-guided Continual Learning with Bayesian Neural Networks](https://arxiv.org/abs/1906.02425) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L105-L111)
+[Uncertainty-guided Continual Learning with Bayesian Neural Networks](https://arxiv.org/abs/1906.02425) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L105-L111) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/abs-1906-02425&a=mcaccia)
 ```
 Uses Bayes by Backprop for variational Continual Learning.
 ```
