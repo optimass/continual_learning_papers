@@ -15,7 +15,7 @@
 
 [Online Meta-Learning](https://arxiv.org/abs/1902.08438) [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Online_Meta-learning.md)
 
-Online Continual Learning with Maximally Interfered Retrieval(https://arxiv.org/abs/1908.04742) [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Maximally_Interfered_Retrieval.md) [[video]](https://www.youtube.com/watch?v=wfb9UV_n8jg)
+[Online Continual Learning with Maximally Interfered Retrieval](https://arxiv.org/abs/1908.04742) [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Maximally_Interfered_Retrieval.md) [[video]](https://www.youtube.com/watch?v=wfb9UV_n8jg)
 
 [Uncertainty-guided Continual Learning with Bayesian Neural Networks](https://arxiv.org/abs/1906.02425)  [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/abs-1906-02425&a=mcaccia)
 
