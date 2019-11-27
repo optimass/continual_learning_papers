@@ -293,7 +293,12 @@ Formulates an online learning procedure that uses SGD to update model parameters
 ```
 
 
-[//]: ### (Lifelong Reinforcement Learning)
+### (Lifelong Reinforcement Learning)
+
+[Experience Replay for Continual Learning](https://arxiv.org/abs/1811.11682) (2018)
+```
+Experience Replay can still (over new/fancy methods) learn new tasks quickly yet can substantially reduce catastrophic forgetting in both Atari and DMLab domains, even matching the performance of methods that require task identities
+```
 
 
 ### Continual Generative Modeling
