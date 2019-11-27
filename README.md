@@ -17,6 +17,7 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 * [Continual Generative Modeling](#continual-generative-modeling)
 * [Relevants](#relevants) (non-continual learning papers that can help us e.g. Generalization, Biology, Meta-Learning, etc)
 * [Unclassified](#unclassified) (yet!)
+* [Datasets](#datasets)
 
 
 ### [Papers classified in more details](#paper-classification)
@@ -349,6 +350,10 @@ Trains different modular (neural nets) structures on a set of related tasks and 
 ```
 
 ```
+
+### Datasets
+
+[CORe50: a New Dataset and Benchmark for Continuous Object Recognition](https://arxiv.org/abs/1705.03550)
 
 
 ### (Unclassified)
