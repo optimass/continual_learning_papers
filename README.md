@@ -16,8 +16,8 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 * [Lifelong Reinforcement Learning](#lifelong-reinforcement-learning)
 * [Continual Generative Modeling](#continual-generative-modeling)
 * [Relevants](#relevants) (non-continual learning papers that can help us e.g. Generalization, Biology, Meta-Learning, etc)
-* [Unclassified](#unclassified)
 * [Datasets](#datasets)
+* [Unclassified](#unclassified)
 
 
 ### [Papers classified in more details](#paper-classification)
