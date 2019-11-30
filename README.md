@@ -356,15 +356,13 @@ Trains different modular (neural nets) structures on a set of related tasks and 
 [CORe50: a New Dataset and Benchmark for Continuous Object Recognition](https://arxiv.org/abs/1705.03550) (2017)
 
 
-### (Unclassified)
+### Unclassified
 
 [Don’t forget, there is more than forgetting: new
 metrics for Continual Learning](https://arxiv.org/pdf/1810.13166.pdf) (2018)
 ```
 It's not all about forgetting! Forward Transfer, Model size efficiency, Samples storage size efficiency, Computational efficiency all grouped in one metric --> CL Score
 ```
-
-
 
 
 ## Paper Classification
