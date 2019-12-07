@@ -2,7 +2,7 @@
 
 email me at massimo.p.caccia at gmail.com is you would like to collaborate
 
-### [Papers](#papers)
+### [Papers ](#papers)
 
 * [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
 * [Surveys](#surveys)
@@ -24,11 +24,11 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 
 {Family, Single-Head, Task Agnostic, Online, Supervised Learning, Generative Modeling, Reinforcement Learning}
 
-### [Continual Learning codebases sa](#continual-Learning-codebases)
+### [Continual Learning codebases ](#continual-Learning-codebases)
 
 list of interesting codebases for continual learning
 
-### [Other Resources dsa](#other-resources)
+### [Other Resources ](#other-resources)
 
 #### Abreviations
 
