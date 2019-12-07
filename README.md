@@ -28,9 +28,13 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 
 list of interesting codebases for continual learning
 
+### [Other Resources](#other-resources)
+
 #### Abreviations
 
 Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR), Continual Meta Learning (CML), Meta Continual Learning (MCL)
+
+
 
 
 ## Papers
@@ -414,4 +418,17 @@ Reproduce paper
 ```
 Reproduce paper
 ```
+
+## Other Resources
+
+https://github.com/xialeiliu/Awesome-Incremental-Learning
+```
+Another CL paper repository
+```
+
+https://github.com/prprbr/awesome-lifelong-continual-learning
+```
+Another CL paper repository
+```
+
 
