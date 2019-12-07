@@ -24,17 +24,15 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 
 {Family, Single-Head, Task Agnostic, Online, Supervised Learning, Generative Modeling, Reinforcement Learning}
 
-### [Continual Learning codebases](#Continual-Learning-codebases)
+### [Continual Learning codebases sa](#continual-Learning-codebases)
 
 list of interesting codebases for continual learning
 
-### [Other Resources](#other-resources)
+### [Other Resources dsa](#other-resources)
 
 #### Abreviations
 
 Continual Learning (CL), Catastrophic Forgetting (CF), Generative Replay (GR), Continual Meta Learning (CML), Meta Continual Learning (MCL)
-
-
 
 
 ## Papers
