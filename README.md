@@ -6,7 +6,7 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 
 * [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
 * [Surveys](#surveys)
-* [Influencials](#influencials) (well cited papers. More general contributions like proposing new frameworks, evaluations, etc)
+* [Influentials](#influentials) (well cited papers. More general contributions like proposing new frameworks, evaluations, etc)
 * [Prior-Focused Methods](#prior-focused-methods) (or Bayesian methods)
 * [Rehearsal Methods](#rehearsal-methods)
 * [Dynamic Architectures or Routing Methods](#dynamic-architectures-or-routing-methods)
@@ -74,7 +74,7 @@ Book on Continual Learning. Extensive review of older and newer algorithm; motiv
 
 
 
-### Influencials
+### Influentials
 
 [Towards Robust Evaluations of Continual Learning](https://arxiv.org/abs/1805.09733) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L10-L15) [[summary]](https://github.com/optimass/continual_learning_papers/blob/master/summaries/Towards_Robust_Evaluation_of_Continual_Learning.md) 
 ```
