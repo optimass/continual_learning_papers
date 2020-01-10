@@ -7,7 +7,7 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 * [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
 * [Surveys](#surveys)
 * [Influencials](#influencials) (well cited papers. More general contributions like proposing new frameworks, evaluations, etc)
-* [Prior-Focused Methods](#prior-focused-methods)
+* [Prior-Focused Methods](#prior-focused-methods) (or Bayesian methods)
 * [Rehearsal Methods](#rehearsal-methods)
 * [Dynamic Architectures or Routing Methods](#dynamic-architectures-or-routing-methods)
 * [Hybrid Methods](#hybrid-methods)
@@ -110,6 +110,21 @@ Investigates CF in neural networks
 
 #### 2019
 
+[Continual Learning with Bayesian Neural Networks for Non-Stationary Data](https://openreview.net/forum?id=SJlsFpVtDB) (2019) **Just Accepted**
+```
+continual learning for non-stationary data using Bayesian neural networks and memory-based online variational Bayes
+```
+
+[Uncertainty-guided Continual Learning with Bayesian Neural Networks](https://arxiv.org/abs/1906.02425) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L105-L111) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/abs-1906-02425&a=mcaccia) **Just Accepted**
+```
+Uses Bayes by Backprop for variational Continual Learning.
+```
+
+[Uncertainty-based Continual Learning with Adaptive Regularization](https://arxiv.org/pdf/1905.11614.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L113-L122) **Just Accepted**
+```
+Introduces VCL with uncertainty measured for neurons instead of weights.
+```
+
 [Functional Regularisation for Continual Learning with Gaussian Processes](https://arxiv.org/abs/1901.11356) 
 ```
 
@@ -118,16 +133,6 @@ Investigates CF in neural networks
 [Improving and Understanding Variational Continual Learning](https://arxiv.org/abs/1905.02099) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L97-L103)
 ```
 Improved results and interpretation of VCL.
-```
-
-[Uncertainty-guided Continual Learning with Bayesian Neural Networks](https://arxiv.org/abs/1906.02425) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L105-L111) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/abs-1906-02425&a=mcaccia)
-```
-Uses Bayes by Backprop for variational Continual Learning.
-```
-
-[Uncertainty-based Continual Learning with Adaptive Regularization](https://arxiv.org/pdf/1905.11614.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L113-L122) **Just Accepted**
-```
-Introduces VCL with uncertainty measured for neurons instead of weights.
 ```
 
 [Task Agnostic Continual Learning Using Online Variational Bayes](https://arxiv.org/pdf/1803.10123.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L124-L131)
@@ -232,6 +237,11 @@ a model that alliviates CF via constrained optimization (doesn't increase loss o
 ### Dynamic Architectures or Routing Methods
 
 #### 2019
+
+[A Neural Dirichlet Process Mixture Model for Task-Free Continual Learning](https://arxiv.org/abs/2001.00689) (2019) **Just Accepted**
+```
+Proposes an expansion-based approach for task-free continual learning. Continual Neural Dirichlet Process Mixture (CN-DPM), consists of a growing set of neural network experts that are in charge of a subset of the data
+ ```
 
 [Continual Learning with Adaptive Weights (CLAW)](https://arxiv.org/abs/1911.09514) (2019) **Just Accepted**
 ```
