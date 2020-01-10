@@ -1,6 +1,6 @@
 # Schedule
 
-### Mondays 1:30PM in room H06 (6650 st-urbain)
+### Fridays 2:00PM in room H06 (6650 st-urbain)
 
 * 2019/12/02 [Overcoming Catastrophic Interference using Conceptor-Aided Backprop](https://openreview.net/pdf?id=B1al7jg0b)
 * 2019/11/25 [Neurogenesis-Inspired Dictionary Learning: Online Model Adaption in a Changing World](https://arxiv.org/abs/1701.06106)
