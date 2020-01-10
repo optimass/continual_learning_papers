@@ -233,6 +233,11 @@ a model that alliviates CF via constrained optimization (doesn't increase loss o
 
 #### 2019
 
+[Continual Learning with Adaptive Weights (CLAW)](https://arxiv.org/abs/1911.09514) (2019) **Just Accepted**
+```
+Ideally, the network should adaptively identify which parts of the network to share in a data driven way. Here we introduce such an approach called Continual Learning with Adaptive Weights (CLAW), which is based on probabilistic modelling and variational inference.
+```
+
 [Scalable and Order-robust Continual Learning with Additive Parameter Decomposition](https://arxiv.org/abs/1902.09432) (2019) **Just Accepted**
 ```
 Additive Parameter Decomposition (APD): the task-adaptive parameters for earlier tasks remain mostly unaffected, where we update them only to reflect the changes made to the task-shared parameters. This decomposition of parameters effectively prevents catastrophic forgetting and order-sensitivity, while being computation- and memory-efficient. 
