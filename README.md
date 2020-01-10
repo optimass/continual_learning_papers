@@ -8,8 +8,9 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 * [Surveys](#surveys)
 * [Influencials](#influencials) (well cited papers. More general contributions like proposing new frameworks, evaluations, etc)
 * [Prior-Focused Methods](#prior-focused-methods)
-* [Dynamic Architectures Methods](#dynamic-architectures-methods)
 * [Rehearsal Methods](#rehearsal-methods)
+* [Dynamic Architectures Methods](#dynamic-architectures-methods)
+* [Dynamic Routing Methods](#dynamic-routing-methods)
 * [Hybrid Methods](#hybrid-methods)
 * [Meta Continual Learning](#meta-continual-learning) (learning to continually learn)
 * [Continual Meta Learning](#continual-meta-learning) (continually learning to learn)
@@ -125,7 +126,7 @@ Improved results and interpretation of VCL.
 Uses Bayes by Backprop for variational Continual Learning.
 ```
 
-[Uncertainty-based Continual Learning with Adaptive Regularization](https://arxiv.org/pdf/1905.11614.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L113-L122)
+[Uncertainty-based Continual Learning with Adaptive Regularization](https://arxiv.org/pdf/1905.11614.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L113-L122) **Just Accepted**
 ```
 Introduces VCL with uncertainty measured for neurons instead of weights.
 ```
@@ -181,23 +182,6 @@ Importance of parameter measured based on their contribution to change in the lo
 Functional regularization through distillation (keeping the output of the updated network on the new data close to the output of the old network on the new data)
 ```
 
-### Dynamic Architectures Methods
-
-[Continual Learning Using Bayesian Neural Networks](https://arxiv.org/abs/1910.04112) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L215-L222)
-```
-Learns a separate set of posterior distributions for each weight for each task (for a BNN), which are merged using EM updates from time to time (thus posteriors are GMMs)
-```
-
-[Incremental Learning Through Deep Adaptation](https://arxiv.org/pdf/1705.04228.pdf) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L224-L230)
-```
- 
-```
-
-[Progressive neural networks](https://arxiv.org/abs/1606.04671) (2016) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L232-L246)
-```
-Each task have a specific model connected to the previous ones
-```
-
 ### Rehearsal Methods
 
 #### 2019
@@ -212,12 +196,12 @@ Uses stacks of VQ-VAE modules to progressively compress the data stream, enablin
 projecting the gradients from new tasks onto a subspace in which the neural network output on previous task does not change and the projected gradient is still in a useful direction for learning the new task
 ``` 
 
-[Gradient based sample selection for online continual learning](https://arxiv.org/abs/1903.08671) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L257-L266)
+[Gradient based sample selection for online continual learning](https://arxiv.org/abs/1903.08671) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L257-L266) **Just Accepted**
 ```
 sample selection as a constraint reduction problem based on the constrained optimization view of continual learning
 ```
 
-[Online Continual Learning with Maximaly Interfered Retrieval (MIR)](https://arxiv.org/abs/1908.04742) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L268-L277) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/1908.04742)
+[Online Continual Learning with Maximaly Interfered Retrieval (MIR)](https://arxiv.org/abs/1908.04742) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L268-L277) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/1908.04742) **Just Accepted**
 ```
 Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting
 ```
@@ -246,8 +230,37 @@ a model that alliviates CF via constrained optimization (doesn't increase loss o
  Introduces generative replay
 ```
 
+### Dynamic Architectures Methods
+
+[Continual Learning Using Bayesian Neural Networks](https://arxiv.org/abs/1910.04112) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L215-L222)
+```
+Learns a separate set of posterior distributions for each weight for each task (for a BNN), which are merged using EM updates from time to time (thus posteriors are GMMs)
+```
+
+[Incremental Learning Through Deep Adaptation](https://arxiv.org/pdf/1705.04228.pdf) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L224-L230)
+```
+ 
+```
+
+[Progressive neural networks](https://arxiv.org/abs/1606.04671) (2016) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L232-L246)
+```
+Each task have a specific model connected to the previous ones
+```
+
+### Dynamic Routing Methods
+
+[Random Path Selection for Continual Learning](https://arxiv.org/abs/1906.01120) (2019) **Just Accepted**
+```
+Proposes a random path selection algorithm, called RPSnet, that progressively chooses optimal paths for the new tasks while encouraging parameter sharing and reuse
+```
+
 
 ### Hybrid Methods
+
+[Compacting, Picking and Growing for Unforgetting Continual Learning](https://arxiv.org/abs/1910.06562) (2019) **Just Accepted**
+```
+Approach leverages the principles of deep model compression, critical weights selection, and progressive networks expansion. (All enforced in an iterative manner)
+ ```
 
 [Continual learning with hypernetworks](https://openreview.net/pdf?id=SJgwNerKvB) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L388-L396) 
 ```
@@ -257,7 +270,7 @@ Learning task-conditioned hypernetworks for continual learning as well as task e
 
 ### Meta Continual Learning
 
-[Meta-Learning Representations for Continual Learning (MRCL)](https://arxiv.org/abs/1905.12588) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L287-L296)
+[Meta-Learning Representations for Continual Learning (MRCL)](https://arxiv.org/abs/1905.12588) (2019)[[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L287-L296) **Just Accepted** 
 ```
 Learns how to continually learn i.e. learns how to do online updates without forgetting.
 ```
@@ -284,7 +297,7 @@ Introduces What and How framework; enables Task Agnostic CL with meta learned ta
 defines Online Meta-learning; propsoses Follow the Meta Leader (FTML) (~ Online MAML) 
 ```
 
-[Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L323-L332)
+[Reconciling meta-learning and continual learning with online mixtures of tasks](https://arxiv.org/abs/1812.06080) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L323-L332) **Just Accepted**
 ```
 Meta-learns a tasks structure; continual adaptation via non-parametric prior
 ```
@@ -298,7 +311,7 @@ Formulates an online learning procedure that uses SGD to update model parameters
 
 ### Lifelong Reinforcement Learning
 
-[Experience Replay for Continual Learning](https://arxiv.org/abs/1811.11682) (2018)
+[Experience Replay for Continual Learning](https://arxiv.org/abs/1811.11682) (2018) **Just Accepted**
 ```
 Experience Replay can still (over new/fancy methods) learn new tasks quickly yet can substantially reduce catastrophic forgetting in both Atari and DMLab domains, even matching the performance of methods that require task identities
 ```
@@ -306,7 +319,7 @@ Experience Replay can still (over new/fancy methods) learn new tasks quickly yet
 
 ### Continual Generative Modeling
 
-[Continual Unsupervised Representation Learning](https://arxiv.org/pdf/1910.14481.pdf) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L343-L350)
+[Continual Unsupervised Representation Learning](https://arxiv.org/pdf/1910.14481.pdf) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L343-L350) **Just Accepted**
 ```
 Introduces unsupervised continual learning (no task label and no task boundaries)
 ```
