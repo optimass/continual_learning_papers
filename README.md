@@ -9,8 +9,7 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 * [Influencials](#influencials) (well cited papers. More general contributions like proposing new frameworks, evaluations, etc)
 * [Prior-Focused Methods](#prior-focused-methods)
 * [Rehearsal Methods](#rehearsal-methods)
-* [Dynamic Architectures Methods](#dynamic-architectures-methods)
-* [Dynamic Routing Methods](#dynamic-routing-methods)
+* [Dynamic Architectures or Routing Methods](#dynamic-architectures-or-routing-methods)
 * [Hybrid Methods](#hybrid-methods)
 * [Meta Continual Learning](#meta-continual-learning) (learning to continually learn)
 * [Continual Meta Learning](#continual-meta-learning) (continually learning to learn)
@@ -230,28 +229,37 @@ a model that alliviates CF via constrained optimization (doesn't increase loss o
  Introduces generative replay
 ```
 
-### Dynamic Architectures Methods
+### Dynamic Architectures or Routing Methods
+
+#### 2019
+
+[Scalable and Order-robust Continual Learning with Additive Parameter Decomposition](https://arxiv.org/abs/1902.09432) (2019) **Just Accepted**
+```
+Additive Parameter Decomposition (APD): the task-adaptive parameters for earlier tasks remain mostly unaffected, where we update them only to reflect the changes made to the task-shared parameters. This decomposition of parameters effectively prevents catastrophic forgetting and order-sensitivity, while being computation- and memory-efficient. 
+```
+
+[Random Path Selection for Continual Learning](https://arxiv.org/abs/1906.01120) (2019) **Just Accepted**
+```
+Proposes a random path selection algorithm, called RPSnet, that progressively chooses optimal paths for the new tasks while encouraging parameter sharing and reuse
+```
 
 [Continual Learning Using Bayesian Neural Networks](https://arxiv.org/abs/1910.04112) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L215-L222)
 ```
 Learns a separate set of posterior distributions for each weight for each task (for a BNN), which are merged using EM updates from time to time (thus posteriors are GMMs)
 ```
 
+#### 2018
+
 [Incremental Learning Through Deep Adaptation](https://arxiv.org/pdf/1705.04228.pdf) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L224-L230)
 ```
  
 ```
 
+#### 2016
+
 [Progressive neural networks](https://arxiv.org/abs/1606.04671) (2016) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L232-L246)
 ```
 Each task have a specific model connected to the previous ones
-```
-
-### Dynamic Routing Methods
-
-[Random Path Selection for Continual Learning](https://arxiv.org/abs/1906.01120) (2019) **Just Accepted**
-```
-Proposes a random path selection algorithm, called RPSnet, that progressively chooses optimal paths for the new tasks while encouraging parameter sharing and reuse
 ```
 
 
