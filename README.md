@@ -15,6 +15,7 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 * [Continual Meta Learning](#continual-meta-learning) (continually learning to learn)
 * [Lifelong Reinforcement Learning](#lifelong-reinforcement-learning)
 * [Continual Generative Modeling](#continual-generative-modeling)
+* [Applications](#applications)
 * [Relevants](#relevants) (non-continual learning papers that can help us e.g. Generalization, Biology, Meta-Learning, etc)
 * [Datasets](#datasets)
 * [Unclassified](#unclassified)
@@ -285,7 +286,7 @@ Each task have a specific model connected to the previous ones
 Approach leverages the principles of deep model compression, critical weights selection, and progressive networks expansion. (All enforced in an iterative manner)
  ```
 
-[Continual learning with hypernetworks](https://openreview.net/pdf?id=SJgwNerKvB) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L388-L396) 
+[Continual learning with hypernetworks](https://openreview.net/pdf?id=SJgwNerKvB) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L388-L396) **Just Accepted**
 ```
 Learning task-conditioned hypernetworks for continual learning as well as task embeddings; hypernetwors offers good model compression.
 ```
@@ -355,6 +356,13 @@ Extensive evaluation of CL methods for generative modeling
 [Lifelong Generative Modeling](https://arxiv.org/abs/1705.09847) (2017) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L-L)
 ```
 first to focus on continual generative modeling (DGR's focus was still on continual supervised learning)
+```
+
+### Applications
+
+[Compositional Continual Language Learning](https://openreview.net/forum?id=rklnDgHtDS) (2019) **Just Accepted**
+```
+method for compositional continual learning of sequence-to-sequence models
 ```
 
 ### Relevants 
