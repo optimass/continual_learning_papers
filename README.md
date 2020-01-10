@@ -125,9 +125,9 @@ Uses Bayes by Backprop for variational Continual Learning.
 Introduces VCL with uncertainty measured for neurons instead of weights.
 ```
 
-[Functional Regularisation for Continual Learning with Gaussian Processes](https://arxiv.org/abs/1901.11356) 
+[Functional Regularisation for Continual Learning with Gaussian Processes](https://arxiv.org/abs/1901.11356) (2019) **Just Accepted**
 ```
-
+functional regularisation for Continual Learning: avoids forgetting a previous task by constructing and memorising an approximate posterior belief over the underlying task-specific function
 ```
 
 [Improving and Understanding Variational Continual Learning](https://arxiv.org/abs/1905.02099) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L97-L103)
