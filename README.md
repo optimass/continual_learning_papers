@@ -294,6 +294,11 @@ Learning task-conditioned hypernetworks for continual learning as well as task e
 
 ### Meta Continual Learning
 
+[Meta-learnt priors slow down catastrophic forgetting in neural networks](https://arxiv.org/pdf/1909.04170.pdf) (2019)
+```
+Learning MAML in a Meta continual learning way slows down forgetting
+```
+
 [Meta-Learning Representations for Continual Learning (MRCL)](https://arxiv.org/abs/1905.12588) (2019)[[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L287-L296) **Just Accepted** 
 ```
 Learns how to continually learn i.e. learns how to do online updates without forgetting.
