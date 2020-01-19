@@ -207,6 +207,7 @@ sample selection as a constraint reduction problem based on the constrained opti
 ```
 
 [Online Continual Learning with Maximaly Interfered Retrieval (MIR)](https://arxiv.org/abs/1908.04742) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L268-L277) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/1908.04742) **Just Accepted**
+
 ```
 Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting
 ```
