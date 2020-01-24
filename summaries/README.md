@@ -1,8 +1,9 @@
 # Schedule
 
-### Fridays 2:00PM in room H06 (6650 st-urbain)
+### Fridays 12:00PM in room H06 (6650 st-urbain)
 
-* 2020/01/07 [Compositional Continual Language Learning](https://openreview.net/pdf?id=rklnDgHtDS)
+* 2020/01/24 [Regularization Shortcomings for Continual Learning](https://arxiv.org/abs/1912.03049)
+* 2020/01/17 [Compositional Continual Language Learning](https://openreview.net/pdf?id=rklnDgHtDS)
 * 2019/12/02 [Overcoming Catastrophic Interference using Conceptor-Aided Backprop](https://openreview.net/pdf?id=B1al7jg0b)
 * 2019/11/25 [Neurogenesis-Inspired Dictionary Learning: Online Model Adaption in a Changing World](https://arxiv.org/abs/1701.06106)
 * 2019/11/18 [Continual learning with hypernetworks](https://arxiv.org/pdf/1906.00695.pdf)
