@@ -62,9 +62,14 @@ Extensive empirical study of CL methods (in the multi-head setting)
 Extensive review of CL methods and their applications in robotics and framework proposition for continual learning
 ```
 
+[Three scenarios for continual learning](https://arxiv.org/abs/1904.07734) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L420-L425)
+```
+An extensive review of CL methods in three different scenarios (task-, domain-, and class-incremental learning)
+```
+
 [Continual Lifelong Learning with Neural Networks: A Review](https://arxiv.org/abs/1802.07569)  (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L84-L95)
 ```
-A extensive review of CL
+An extensive review of CL
 ```
 
 [Lifelong Machine Learning](https://www.cs.uic.edu/~liub/lifelong-machine-learning-draft.pdf) (2016)
@@ -158,6 +163,11 @@ Introducing a "hard attention" idea with binary masks
 Formalizes the shortcomings of multi-head evaluation, as well as the importance of replay in single-head setup. Presenting an improved version of EWC. 
 ```
 
+[Progress & Compress: A scalable framework for continual learning](https://arxiv.org/abs/1805.06370) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L467-L472)
+```
+A new P&C architecture; online EWC for keeping the knowledge about the previous task, knowledge distillation for keeping the knowledge about the current task (Multi-head setting, RL)
+```
+
 #### 2017
 
 [Elastic Weight Consolidation (EWC)](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L24-L30)
@@ -180,9 +190,42 @@ Introduces the idea of using previous task's posterior as the new task's prior i
 Importance of parameter measured based on their contribution to change in the loss. 
 ```
 
+### Distillation-based Methods
+
+#### 2019
+
+[Overcoming Catastrophic Forgetting with Unlabeled Data in the Wild](https://arxiv.org/abs/1903.12648) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L427-L433) [[code]](https://github.com/kibok90/iccv2019-inc)
+```
+Introducing global distillation loss and balanced finetuning; leveraging unlabeled data in the open world setting (Single-head setting)
+```
+
+[Large Scale Incremental Learning](https://arxiv.org/abs/1905.13260) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L435-L441) [[code]](https://github.com/wuyuebupt/LargeScaleIncrementalLearning)
+```
+Introducing bias parameters to the last fully connected layer to resolve the data imbalance issue (Single-head setting)
+```
+
+#### 2018
+
+[Lifelong Learning via Progressive Distillation and Retrospection](http://openaccess.thecvf.com/content_ECCV_2018/papers/Saihui_Hou_Progressive_Lifelong_Learning_ECCV_2018_paper.pdf) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L443-L449) [[code]](https://github.com/hshustc/ECCV18_Lifelong_Learning)
+```
+Introducing an expert of the current task in the knowledge distillation method (Multi-head setting)
+```
+
+[End-to-End Incremental Learning](https://arxiv.org/abs/1807.09536) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L451-L457) [[code]](https://github.com/fmcp/EndToEndIncrementalLearning)
+```
+Finetuning the last fully connected layer with a balanced dataset to resolve the data imbalance issue (Single-head setting)
+```
+
+#### 2017
+
+[iCaRL: Incremental classifier and representation learning](https://arxiv.org/abs/1611.07725) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L459-L465) [[code]](https://github.com/srebuffi/iCaRL)
+```
+Binary cross-entropy loss for representation learning & exemplar memory (or coreset) for replay (Single-head setting)
+```
+
 #### 2016
 
-[Learning without Forgetting](https://arxiv.org/abs/1606.09282) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L207-L2013)
+[Learning without Forgetting](https://arxiv.org/abs/1606.09282) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L207-L213)
 ```
 Functional regularization through distillation (keeping the output of the updated network on the new data close to the output of the old network on the new data)
 ```
@@ -206,7 +249,7 @@ projecting the gradients from new tasks onto a subspace in which the neural netw
 sample selection as a constraint reduction problem based on the constrained optimization view of continual learning
 ```
 
-[Online Continual Learning with Maximaly Interfered Retrieval (MIR)](https://arxiv.org/abs/1908.04742) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L268-L277) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/1908.04742) **Just Accepted**
+[Online Continual Learning with Maximally Interfered Retrieval (MIR)](https://arxiv.org/abs/1908.04742) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L268-L277) [[summary]](https://www.shortscience.org/paper?bibtexKey=journals/corr/1908.04742) **Just Accepted**
 
 ```
 Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting
