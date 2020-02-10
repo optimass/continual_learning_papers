@@ -7,7 +7,7 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 * [Classics](#classics) (papers before Deep Learning era. Motivates and sets the stage for Continual Learning)
 * [Surveys](#surveys)
 * [Influentials](#influentials) (well cited papers. More general contributions like proposing new frameworks, evaluations, etc)
-* [Prior-Focused Methods](#prior-focused-methods) (or Bayesian methods)
+* [Regularization Methods](#regularization-methods) (or Bayesian methods)
 * [Rehearsal Methods](#rehearsal-methods)
 * [Dynamic Architectures or Routing Methods](#dynamic-architectures-or-routing-methods)
 * [Hybrid Methods](#hybrid-methods)
@@ -17,7 +17,7 @@ email me at massimo.p.caccia at gmail.com is you would like to collaborate
 * [Continual Generative Modeling](#continual-generative-modeling)
 * [Applications](#applications)
 * [Relevants](#relevants) (non-continual learning papers that can help us e.g. Generalization, Biology, Meta-Learning, etc)
-* [Datasets](#datasets)
+* [Datasets and Benchmarks](#datasets-and-benchmarks)
 * [Unclassified](#unclassified)
 
 
@@ -112,7 +112,7 @@ Introduces generative replay
 Investigates CF in neural networks
 ```
 
-### Prior-focused Methods
+### Regularization Methods
 
 #### 2019
 
@@ -446,9 +446,11 @@ Trains different modular (neural nets) structures on a set of related tasks and 
 
 ```
 
-### Datasets
+### Datasets and Benchmarks
 
 [CORe50: a New Dataset and Benchmark for Continuous Object Recognition](https://arxiv.org/abs/1705.03550) (2017)
+
+[Continual Reinforcement Learning in 3D Non-stationary Environments](https://arxiv.org/abs/1905.10112) (2019)
 
 
 ### Unclassified
