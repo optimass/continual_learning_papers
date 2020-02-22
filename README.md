@@ -1,6 +1,6 @@
 # Continual Learning Literature
 
-email me at massimo.p.caccia at gmail.com is you would like to collaborate
+email me at massimo.p.caccia at gmail.com if you would like to collaborate
 
 ### [Papers ](#papers)
 
@@ -100,7 +100,6 @@ Introduces prior-focused methods
 ```
 a model that alliviates CF via constrained optimization
 ```
-
 
 [Continual Learning with Deep Generative Replay (GR)](https://arxiv.org/abs/1705.08690) (2017) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L43-L49)
 ```
