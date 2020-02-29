@@ -8,6 +8,7 @@ email me at massimo.p.caccia at gmail.com if you would like to collaborate
 * [Surveys](#surveys)
 * [Influentials](#influentials) (well cited papers. More general contributions like proposing new frameworks, evaluations, etc)
 * [Regularization Methods](#regularization-methods) (or Bayesian methods)
+* [Distillation Methods](#distillation-methods)
 * [Rehearsal Methods](#rehearsal-methods)
 * [Dynamic Architectures or Routing Methods](#dynamic-architectures-or-routing-methods)
 * [Hybrid Methods](#hybrid-methods)
@@ -164,7 +165,7 @@ Formalizes the shortcomings of multi-head evaluation, as well as the importance 
 
 [Progress & Compress: A scalable framework for continual learning](https://arxiv.org/abs/1805.06370) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L467-L472)
 ```
-A new P&C architecture; online EWC for keeping the knowledge about the previous task, knowledge distillation for keeping the knowledge about the current task (Multi-head setting, RL)
+A new P&C architecture; online EWC for keeping the knowledge about the previous task, knowledge for keeping the knowledge about the current task (Multi-head setting, RL)
 ```
 
 #### 2017
@@ -189,7 +190,7 @@ Introduces the idea of using previous task's posterior as the new task's prior i
 Importance of parameter measured based on their contribution to change in the loss. 
 ```
 
-### Distillation-based Methods
+### Distillation Methods
 
 #### 2019
 
