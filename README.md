@@ -458,8 +458,12 @@ Trains different modular (neural nets) structures on a set of related tasks and 
 
 [Continual Reinforcement Learning in 3D Non-stationary Environments](https://arxiv.org/abs/1905.10112) (2019)
 
+
 ### Motivations
-[Learning in embedded systems](https://www.researchgate.net/publication/2466422_Learning_in_Intelligent_Embedded_Systems) (1999) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L379-L386)
+
+[Learning in embedded systems](https://apps.dtic.mil/dtic/tr/fulltext/u2/a323936.pdf) (1999) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L511-L515)
+
+[Foundations of learning in autonomous agents](https://www.sciencedirect.com/science/article/abs/pii/092188909190018G) (1999) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L517-L526)
 
 
 
