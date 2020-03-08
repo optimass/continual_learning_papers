@@ -465,7 +465,9 @@ Trains different modular (neural nets) structures on a set of related tasks and 
 
 [Foundations of learning in autonomous agents](https://www.sciencedirect.com/science/article/abs/pii/092188909190018G) (1999) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L517-L526)
 
+[An architecture for intelligent reactive systems](https://www.sri.com/wp-content/uploads/pdf/565.pdf) (1987)  [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L528-L534)
 
+[An adaptable mobile robot](https://books.google.com/books?hl=en&lr=&id=pWsNJkdZ4tgC&oi=fnd&pg=PA41&dq=info:h5z0opLMzBAJ:scholar.google.com&ots=86L0lSnLRK&sig=TqjLqumrnXpS6ca_CPmLEMc8UQs#v=onepage&q&f=false) (1992)  [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L536-L540)
 
 ### Unclassified
 
