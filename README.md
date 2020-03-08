@@ -19,7 +19,7 @@ email me at massimo.p.caccia at gmail.com if you would like to collaborate
 * [Applications](#applications)
 * [Relevants](#relevants) (non CL papers that can help us e.g. Generalization, Biology, Meta-Learning, etc)
 * [Datasets and Benchmarks](#datasets-and-benchmarks)
-* [Motivations] (#motivations) (non CL papers that motivate CL)
+* [Motivations](#motivations) (non CL papers that motivate CL)
 * [Unclassified](#unclassified)
 
 
