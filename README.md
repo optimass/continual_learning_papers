@@ -17,8 +17,9 @@ email me at massimo.p.caccia at gmail.com if you would like to collaborate
 * [Lifelong Reinforcement Learning](#lifelong-reinforcement-learning)
 * [Continual Generative Modeling](#continual-generative-modeling)
 * [Applications](#applications)
-* [Relevants](#relevants) (non-continual learning papers that can help us e.g. Generalization, Biology, Meta-Learning, etc)
+* [Relevants](#relevants) (non CL papers that can help us e.g. Generalization, Biology, Meta-Learning, etc)
 * [Datasets and Benchmarks](#datasets-and-benchmarks)
+* [Motivations] (#motivations) (non CL papers that motivate CL)
 * [Unclassified](#unclassified)
 
 
@@ -456,6 +457,10 @@ Trains different modular (neural nets) structures on a set of related tasks and 
 [CORe50: a New Dataset and Benchmark for Continuous Object Recognition](https://arxiv.org/abs/1705.03550) (2017)
 
 [Continual Reinforcement Learning in 3D Non-stationary Environments](https://arxiv.org/abs/1905.10112) (2019)
+
+### Motivations
+[Learning in embedded systems](https://www.researchgate.net/publication/2466422_Learning_in_Intelligent_Embedded_Systems) (1999) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L379-L386)
+
 
 
 ### Unclassified
