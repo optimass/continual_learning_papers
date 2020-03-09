@@ -461,9 +461,9 @@ Trains different modular (neural nets) structures on a set of related tasks and 
 
 ### Motivations
 
-[Learning in embedded systems](https://apps.dtic.mil/dtic/tr/fulltext/u2/a323936.pdf) (1999) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L511-L515)
+[Learning in embedded systems](https://apps.dtic.mil/dtic/tr/fulltext/u2/a323936.pdf) (1993) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L511-L515)
 
-[Foundations of learning in autonomous agents](https://www.sciencedirect.com/science/article/abs/pii/092188909190018G) (1999) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L517-L526)
+[Foundations of learning in autonomous agents](https://www.sciencedirect.com/science/article/abs/pii/092188909190018G) (1991) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L517-L526)
 
 [An architecture for intelligent reactive systems](https://www.sri.com/wp-content/uploads/pdf/565.pdf) (1987)  [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L528-L534)
 
