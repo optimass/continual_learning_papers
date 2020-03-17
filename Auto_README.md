@@ -1,0 +1,12 @@
+## Outline 
+- [Classics](https://github.com/TLESORT/continual_learning_papers#Classics
+- [Surveys](https://github.com/TLESORT/continual_learning_papers#Surveys
+- [Influentials](https://github.com/TLESORT/continual_learning_papers#Influentials
+- [Regularization Methods](https://github.com/TLESORT/continual_learning_papers#Regularization-Methods
+- [Distillation Methods](https://github.com/TLESORT/continual_learning_papers#Distillation-Methods
+- [Rehearsal Methods](https://github.com/TLESORT/continual_learning_papers#Rehearsal-Methods
+- [Dynamic Architectures or Routing Methods](https://github.com/TLESORT/continual_learning_papers#Dynamic-Architectures-or-Routing-Methods
+- [Hybrid Methods](https://github.com/TLESORT/continual_learning_papers#Hybrid-Methods
+- [Meta Continual Learning](https://github.com/TLESORT/continual_learning_papers#Meta-Continual-Learning
+- [Lifelong Reinforcement Learning](https://github.com/TLESORT/continual_learning_papers#Lifelong-Reinforcement-Learning
+- [Continual Generative Modeling](https://github.com/TLESORT/continual_learning_papers#Continual-Generative-Modeling
