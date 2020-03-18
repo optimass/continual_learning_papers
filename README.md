@@ -361,10 +361,13 @@ Learns how to update the model such that weight sharing maximises transfer and m
 
 ### Continual Meta Learning
 
-[Learning from the Past: Continual Meta-Learning with Bayesian Graph Neural Networks](https://arxiv.org/pdf/1911.04695.pdf) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L298-L305)
+[Online Fast Adaptation and Knowledge Accumulation: a New Approach to Continual Learning](https://arxiv.org/abs/2003.05856) (2020) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L549-L554)
+```
+Proposes a new approach to CL evaluation more aligned with real-life applications, bringing CL closer to Online Learning, Open-World problems
 ```
 
-```
+[Learning from the Past: Continual Meta-Learning with Bayesian Graph Neural Networks](https://arxiv.org/pdf/1911.04695.pdf) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L298-L305)
+
 
 [Task Agnostic Continual Learning via Meta Learning](https://arxiv.org/abs/1906.05201) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L124-L131)
 ```
