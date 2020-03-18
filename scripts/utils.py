@@ -61,17 +61,20 @@ def get_md_entry(DB, entry, add_comments=True):
     :return: markdown string
     """
     md_str = ""
-    md_str += "- **" + entry['title'] + "**"
+
+
+    if 'url' in entry.keys():
+        md_str += "- [**" + entry['title'] + "**](" + entry['url'] + ") "
+    else:
+        md_str += "- **" + entry['title'] + "**"
+
 
     md_str += ", (" + entry['year'] + ")"
 
-    if 'url' in entry.keys():
-        md_str += " [[paper]](" + entry['url'] + ") "
+    md_str += " by *" + keep_last_and_only(entry['author']) + "*"
 
 
     md_str += " [[bib]](" + create_bib_link(entry['ID']) + ") "
-
-    md_str += " by *" + keep_last_and_only(entry['author']) + "*"
 
     md_str += '\n'
 
