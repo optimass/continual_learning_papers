@@ -1,7 +1,7 @@
 import os
 import bibtexparser
 
-bibtex_filename = "bibtex_me.bib"
+bibtex_filename = "bibtex.bib"
 
 def keep_last_and_only(authors_str):
     """

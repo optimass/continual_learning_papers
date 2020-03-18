@@ -3,7 +3,7 @@
 from utils import generate_md_file
 import bibtexparser
 
-file_name = 'bibtex_me.bib'
+file_name = 'bibtex.bib'
 with open(file_name) as bibtex_file:
     bibtex_str = bibtex_file.read()
 
