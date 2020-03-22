@@ -361,7 +361,7 @@ Learns how to update the model such that weight sharing maximises transfer and m
 
 ### Continual Meta Learning
 
-[Online Fast Adaptation and Knowledge Accumulation: a New Approach to Continual Learning](https://arxiv.org/abs/2003.05856) (2020) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L549-L554)
+[Online Fast Adaptation and Knowledge Accumulation: a New Approach to Continual Learning](https://arxiv.org/abs/2003.05856) (2020) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L961-L966)
 ```
 Proposes a new approach to CL evaluation more aligned with real-life applications, bringing CL closer to Online Learning and Open-World Learning
 ```
