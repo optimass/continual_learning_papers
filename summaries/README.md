@@ -2,6 +2,7 @@
 
 ### Fridays 12:00PM in room H06 (6650 st-urbain)
 
+* 2020/02/21 [Measuring Compositionality in Representation Learning](https://arxiv.org/abs/1902.07181)
 * 2020/02/14 [A Neural Dirichlet Process Mixture Model for Task-Free Continual Learning](https://arxiv.org/pdf/2001.00689.pdf)
 * 2020/01/24 [Regularization Shortcomings for Continual Learning](https://arxiv.org/abs/1912.03049)
 * 2020/01/17 [Compositional Continual Language Learning](https://openreview.net/pdf?id=rklnDgHtDS)
