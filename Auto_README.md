@@ -37,6 +37,9 @@ An extensive review of CL
 An extensive review of CL methods in three different scenarios (task-, domain-, and class-incremental learning)
 ``` 
 - [**Born to learn: The inspiration, progress, and future of evolved plastic artificial neural networks**](http://www.sciencedirect.com/science/article/pii/S0893608018302120) , (2018) by *Andrea Soltoggio, Kenneth O. Stanley and Sebastian Risi* [[bib]](../bibtex.bib#L692-L703) 
+``` 
+no summary yet
+``` 
 - [**Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges**](http://www.sciencedirect.com/science/article/pii/S1566253519307377) , (2020) by *Timothée Lesort, Vincenzo Lomonaco, Andrei Stoian, Davide Maltoni, David Filliat and Natalia Díaz-Rodríguez* [[bib]](../bibtex.bib#L828-L840) 
 ``` 
 Extensive review of CL methods and their applications in robotics and framework proposition for continual learning
