@@ -81,6 +81,7 @@ def get_md_entry(DB, entry, add_comments=True):
     if add_comments:
         # maybe there is a comment to write
         if entry['ID'].lower() in DB.strings:
+            print("Com : " + entry['ID'])
             md_str += '``` \n'
             md_str += DB.strings[entry['ID'].lower()]
             md_str += '\n``` \n'
@@ -105,12 +106,15 @@ def get_md(DB, item, key, add_comments):
     for i in range(number_of_entries):
         if key in DB.entries[i].keys():
             if any(elem in DB.entries[i][key] for elem in item):
+                print(DB.entries[i]['ID'])
                 # all_str += get_md_entry(DB, DB.entries[i], add_comments)
                 str_md = get_md_entry(DB, DB.entries[i], add_comments)
-                list_entry.update({DB.entries[i]['year']: str_md})
-    sorted_tuple_list = sorted(list_entry.items(), reverse=True, key=lambda x: x[0])
+                list_entry.update({str_md:DB.entries[i]['year']})
+
+
+    sorted_tuple_list = sorted(list_entry.items(), reverse=True, key=lambda x: x[1])
     for elem in sorted_tuple_list:
-        all_str += elem[1]
+        all_str += elem[0]
 
     return all_str
 
