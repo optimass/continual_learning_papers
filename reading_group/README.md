@@ -1,7 +1,8 @@
 # Schedule
 
-### Fridays 12:00PM in room H06 (6650 st-urbain)
+### Fridays 12:00PM EDT
 
+* 2020/03/27 [Adversarial Continual Learning](https://arxiv.org/abs/2003.09553)
 * 2020/03/27 [Towards Continual Learning at the Edge](https://docs.google.com/presentation/d/1gzijLukELs2nUaCNID6p7WhCZXs2n3ZMh0lHjAl36G0/edit#slide=id.g5ca7fad92f_0_1648)
 * 2020/02/21 [Measuring Compositionality in Representation Learning](https://arxiv.org/abs/1902.07181)
 * 2020/02/14 [A Neural Dirichlet Process Mixture Model for Task-Free Continual Learning](https://arxiv.org/pdf/2001.00689.pdf)
