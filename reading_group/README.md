@@ -2,7 +2,7 @@
 
 ### Fridays 12:00PM EDT
 
-* 2020/04/10 [Online Learned Continual Compression with Adaptive Quantization Modules](https://arxiv.org/abs/1911.08019) 
+* 2020/04/10 [Online Learned Continual Compression with Adaptive Quantization Modules](https://arxiv.org/abs/1911.08019) [[slides]](https://docs.google.com/presentation/d/1LKZhL0nJKsJdLTWoxWgFpgXucIv46kHRlaXUAJpRtk8/edit?usp=sharing)
 * 2020/04/03 [Adversarial Continual Learning](https://arxiv.org/abs/2003.09553) [[slides]](https://drive.google.com/file/d/1cUdJEtiCzTXub8edLHKp4-JCaYQish-Y/view)
 * 2020/03/27 [Towards Continual Learning at the Edge](https://docs.google.com/presentation/d/1gzijLukELs2nUaCNID6p7WhCZXs2n3ZMh0lHjAl36G0/edit#slide=id.g5ca7fad92f_0_1648)
 * 2020/02/21 [Measuring Compositionality in Representation Learning](https://arxiv.org/abs/1902.07181)
