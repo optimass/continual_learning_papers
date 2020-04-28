@@ -14,18 +14,18 @@
 - [Continual Generative Modeling](https://github.com/TLESORT/continual_learning_papers#Continual-Generative-Modeling)
 
 ## Classics
-- **{Catastrophic forgetting in connectionist networks}**, (1999) by *French, Robert M.* [[bib]](../bibtex.bib#L880-L894) 
+- **{Catastrophic forgetting in connectionist networks}**, (1999) by *French, Robert M.* [[bib]](../bibtex.bib#L882-L896) 
 - [**Lifelong robot learning**](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.71.3723&rep=rep1&type=pdf) , (1995) by *Thrun, Sebastian and Mitchell, Tom M* [[bib]](../bibtex.bib#L3-L12) 
 ``` 
 Argues knowledge transfer is essential if robots are to learn control with moderate learning times
 ``` 
-- [**Catastrophic Interference in Connectionist Networks: The Sequential Learning Problem**](https://www.sciencedirect.com/science/article/pii/S0079742108605368) , (1989) by *Michael McCloskey and Neal J. Cohen* [[bib]](../bibtex.bib#L561-L567) 
+- [**Catastrophic Interference in Connectionist Networks: The Sequential Learning Problem**](https://www.sciencedirect.com/science/article/pii/S0079742108605368) , (1989) by *Michael McCloskey and Neal J. Cohen* [[bib]](../bibtex.bib#L563-L569) 
 ``` 
 Introduces CL and reveals the catastrophic forgetting problem
 ``` 
 
 ## Surveys
-- [**Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges**](http://www.sciencedirect.com/science/article/pii/S1566253519307377) , (2020) by *Timothée Lesort, Vincenzo Lomonaco, Andrei Stoian, Davide Maltoni, David Filliat and Natalia Díaz-Rodríguez* [[bib]](../bibtex.bib#L865-L877) 
+- [**Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges**](http://www.sciencedirect.com/science/article/pii/S1566253519307377) , (2020) by *Timothée Lesort, Vincenzo Lomonaco, Andrei Stoian, Davide Maltoni, David Filliat and Natalia Díaz-Rodríguez* [[bib]](../bibtex.bib#L867-L879) 
 ``` 
 Extensive review of CL methods and their applications in robotics and framework proposition for continual learning
 ``` 
@@ -37,11 +37,11 @@ Extensive empirical study of CL methods (in the multi-head setting)
 ``` 
 An extensive review of CL
 ``` 
-- [**Three scenarios for continual learning**](https://arxiv.org/abs/1904.07734) , (2019) by *van de Ven, Gido M and Tolias, Andreas S* [[bib]](../bibtex.bib#L587-L594) 
+- [**Three scenarios for continual learning**](https://arxiv.org/abs/1904.07734) , (2019) by *van de Ven, Gido M and Tolias, Andreas S* [[bib]](../bibtex.bib#L589-L596) 
 ``` 
 An extensive review of CL methods in three different scenarios (task-, domain-, and class-incremental learning)
 ``` 
-- [**Born to learn: The inspiration, progress, and future of evolved plastic artificial neural networks**](http://www.sciencedirect.com/science/article/pii/S0893608018302120) , (2018) by *Andrea Soltoggio, Kenneth O. Stanley and Sebastian Risi* [[bib]](../bibtex.bib#L730-L741) 
+- [**Born to learn: The inspiration, progress, and future of evolved plastic artificial neural networks**](http://www.sciencedirect.com/science/article/pii/S0893608018302120) , (2018) by *Andrea Soltoggio, Kenneth O. Stanley and Sebastian Risi* [[bib]](../bibtex.bib#L732-L743) 
 ``` 
  
 ``` 
@@ -73,7 +73,7 @@ Investigates CF in neural networks
 ``` 
 
 ## Regularization Methods
-- [**Continual Learning with Bayesian Neural Networks for Non-Stationary Data**](https://openreview.net/forum?id=SJlsFpVtDB) , (2020) by *Richard Kurle, Botond Cseke, Alexej Klushyn, Patrick van der Smagt and Stephan Günnemann* [[bib]](../bibtex.bib#L453-L460) 
+- [**Continual Learning with Bayesian Neural Networks for Non-Stationary Data**](https://openreview.net/forum?id=SJlsFpVtDB) , (2020) by *Richard Kurle, Botond Cseke, Alexej Klushyn, Patrick van der Smagt and Stephan Günnemann* [[bib]](../bibtex.bib#L454-L461) 
 ``` 
 continual learning for non-stationary data using Bayesian neural networks and memory-based online variational Bayes
 ``` 
@@ -85,7 +85,7 @@ Improved results and interpretation of VCL.
 ``` 
 Introduces VCL with uncertainty measured for neurons instead of weights.
 ``` 
-- [**Functional Regularisation for Continual Learning with Gaussian Processes**](https://arxiv.org/abs/1901.11356) , (2019) by *Titsias, Michalis K, Schwarz, Jonathan, Matthews, Alexander G de G, Pascanu, Razvan and Teh, Yee Whye* [[bib]](../bibtex.bib#L895-L902) 
+- [**Functional Regularisation for Continual Learning with Gaussian Processes**](https://arxiv.org/abs/1901.11356) , (2019) by *Titsias, Michalis K, Schwarz, Jonathan, Matthews, Alexander G de G, Pascanu, Razvan and Teh, Yee Whye* [[bib]](../bibtex.bib#L897-L904) 
 ``` 
 functional regularisation for Continual Learning: avoids forgetting a previous task by constructing and memorising an approximate posterior belief over the underlying task-specific function
 ``` 
@@ -127,19 +127,19 @@ Synaptic Intelligence (SI). Importance of parameter measured based on their cont
 ``` 
 
 ## Distillation Methods
-- [**Overcoming Catastrophic Forgetting With Unlabeled Data in the Wild**](https://arxiv.org/abs/1903.12648) , (2019) by *Lee, Kibok, Lee, Kimin, Shin, Jinwoo and Lee, Honglak* [[bib]](../bibtex.bib#L597-L605) 
+- [**Overcoming Catastrophic Forgetting With Unlabeled Data in the Wild**](https://arxiv.org/abs/1903.12648) , (2019) by *Lee, Kibok, Lee, Kimin, Shin, Jinwoo and Lee, Honglak* [[bib]](../bibtex.bib#L599-L607) 
 ``` 
 Introducing global distillation loss and balanced finetuning; leveraging unlabeled data in the open world setting (Single-head setting)
 ``` 
-- [**Large scale incremental learning**](https://arxiv.org/abs/1905.13260) , (2019) by *Wu, Yue, Chen, Yinpeng, Wang, Lijuan, Ye, Yuancheng, Liu, Zicheng, Guo, Yandong and Fu, Yun* [[bib]](../bibtex.bib#L608-L616) 
+- [**Large scale incremental learning**](https://arxiv.org/abs/1905.13260) , (2019) by *Wu, Yue, Chen, Yinpeng, Wang, Lijuan, Ye, Yuancheng, Liu, Zicheng, Guo, Yandong and Fu, Yun* [[bib]](../bibtex.bib#L610-L618) 
 ``` 
 Introducing bias parameters to the last fully connected layer to resolve the data imbalance issue (Single-head setting)
 ``` 
-- [**Lifelong learning via progressive distillation and retrospection**](https://arxiv.org/abs/1905.13260) , (2018) by *Hou, Saihui, Pan, Xinyu, Change Loy, Chen, Wang, Zilei and Lin, Dahua* [[bib]](../bibtex.bib#L619-L627) 
+- [**Lifelong learning via progressive distillation and retrospection**](https://arxiv.org/abs/1905.13260) , (2018) by *Hou, Saihui, Pan, Xinyu, Change Loy, Chen, Wang, Zilei and Lin, Dahua* [[bib]](../bibtex.bib#L621-L629) 
 ``` 
 Introducing an expert of the current task in the knowledge distillation method (Multi-head setting)
 ``` 
-- [**End-to-end incremental learning**](https://arxiv.org/abs/1807.09536) , (2018) by *Castro, Francisco M, Marin-Jimenez, Manuel J, Guil, Nicolas, Schmid, Cordelia and Alahari, Karteek* [[bib]](../bibtex.bib#L630-L638) 
+- [**End-to-end incremental learning**](https://arxiv.org/abs/1807.09536) , (2018) by *Castro, Francisco M, Marin-Jimenez, Manuel J, Guil, Nicolas, Schmid, Cordelia and Alahari, Karteek* [[bib]](../bibtex.bib#L632-L640) 
 ``` 
 Finetuning the last fully connected layer with a balanced dataset to resolve the data imbalance issue (Single-head setting)
 ``` 
@@ -147,7 +147,7 @@ Finetuning the last fully connected layer with a balanced dataset to resolve the
 ``` 
 Functional regularization through distillation (keeping the output of the updated network on the new data close to the output of the old network on the new data)
 ``` 
-- [**icarl: Incremental classifier and representation learning**](https://arxiv.org/abs/1611.07725) , (2017) by *Rebuffi, Sylvestre-Alvise, Kolesnikov, Alexander, Sperl, Georg and Lampert, Christoph H* [[bib]](../bibtex.bib#L641-L649) 
+- [**icarl: Incremental classifier and representation learning**](https://arxiv.org/abs/1611.07725) , (2017) by *Rebuffi, Sylvestre-Alvise, Kolesnikov, Alexander, Sperl, Georg and Lampert, Christoph H* [[bib]](../bibtex.bib#L643-L651) 
 ``` 
 Binary cross-entropy loss for representation learning & exemplar memory (or coreset) for replay (Single-head setting)
 ``` 
@@ -162,6 +162,9 @@ More efficient GEM; Introduces online continual learning
 projecting the gradients from new tasks onto a subspace in which the neural network output on previous task does not change and the projected gradient is still in a useful direction for learning the new task
 ``` 
 - [**Gradient based sample selection for online continual learning**](http://papers.nips.cc/paper/9354-gradient-based-sample-selection-for-online-continual-learning.pdf) , (2019) by *Aljundi, Rahaf, Lin, Min, Goujaud, Baptiste and Bengio, Yoshua* [[bib]](../bibtex.bib#L381-L391) 
+``` 
+sample selection as a constraint reduction problem based on the constrained optimization view of continual learning
+``` 
 - [**Online Continual Learning with Maximal Interfered Retrieval**](http://papers.nips.cc/paper/9357-online-continual-learning-with-maximal-interfered-retrieval.pdf) , (2019) by *Aljundi, Rahaf, Caccia, Lucas, Belilovsky, Eugene, Caccia, Massimo, Lin, Min, Charlin, Laurent and Tuytelaars, Tinne* [[bib]](../bibtex.bib#L395-L405) 
 ``` 
 Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting
@@ -170,20 +173,23 @@ Controlled sampling of memories for replay to automatically rehearse on tasks cu
 ``` 
 Uses stacks of VQ-VAE modules to progressively compress the data stream, enabling better rehearsal
 ``` 
-- [**Experience replay for continual learning**](https://arxiv.org/abs/1811.11682) , (2019) by *Rolnick, David, Ahuja, Arun, Schwarz, Jonathan, Lillicrap, Timothy and Wayne, Gregory* [[bib]](../bibtex.bib#L993-L1001) 
+- [**Experience replay for continual learning**](https://arxiv.org/abs/1811.11682) , (2019) by *Rolnick, David, Ahuja, Arun, Schwarz, Jonathan, Lillicrap, Timothy and Wayne, Gregory* [[bib]](../bibtex.bib#L995-L1003) 
 - [**Gradient Episodic Memory for Continual Learning**](http://papers.nips.cc/paper/7225-gradient-episodic-memory-for-continual-learning.pdf) , (2017) by *Lopez-Paz, David and Ranzato, Marc-Aurelio* [[bib]](../bibtex.bib#L47-L57) 
 ``` 
 A model that alliviates CF via constrained optimization
 ``` 
-- [**icarl: Incremental classifier and representation learning**](https://arxiv.org/abs/1611.07725) , (2017) by *Rebuffi, Sylvestre-Alvise, Kolesnikov, Alexander, Sperl, Georg and Lampert, Christoph H* [[bib]](../bibtex.bib#L641-L649) 
+- [**icarl: Incremental classifier and representation learning**](https://arxiv.org/abs/1611.07725) , (2017) by *Rebuffi, Sylvestre-Alvise, Kolesnikov, Alexander, Sperl, Georg and Lampert, Christoph H* [[bib]](../bibtex.bib#L643-L651) 
 ``` 
 Binary cross-entropy loss for representation learning & exemplar memory (or coreset) for replay (Single-head setting)
 ``` 
 
 ## Generative Replay Methods
-- [**{Generative Models from the perspective of Continual Learning}**](https://hal.archives-ouvertes.fr/hal-01951954) , (2019) by *Lesort, Timoth{\'e}e, Caselles-Dupr{\'e}, Hugo, Garcia-Ortiz, Michael, Goudou, Jean-Fran{\c c}ois and Filliat, David* [[bib]](../bibtex.bib#L512-L524) 
-- **Marginal replay vs conditional replay for continual learning**, (2019) by *Lesort, Timoth{\'e}e, Gepperth, Alexander, Stoian, Andrei and Filliat, David* [[bib]](../bibtex.bib#L945-L953) 
-- **Generative replay with feedback connections as a general strategy for continual learning**, (2018) by *Michiel van der Ven and Andreas S. Tolias* [[bib]](../bibtex.bib#L420-L427) 
+- [**Generative Models from the perspective of Continual Learning**](https://hal.archives-ouvertes.fr/hal-01951954) , (2019) by *Lesort, Timoth{\'e}e, Caselles-Dupr{\'e}, Hugo, Garcia-Ortiz, Michael, Goudou, Jean-Fran{\c c}ois and Filliat, David* [[bib]](../bibtex.bib#L513-L525) 
+``` 
+Extensive evaluation of CL methods for generative modeling
+``` 
+- **Marginal replay vs conditional replay for continual learning**, (2019) by *Lesort, Timoth{\'e}e, Gepperth, Alexander, Stoian, Andrei and Filliat, David* [[bib]](../bibtex.bib#L947-L955) 
+- [**Generative replay with feedback connections as a general strategy for continual learning**](https://arxiv.org/abs/1809.10635) , (2018) by *Michiel van der Ven and Andreas S. Tolias* [[bib]](../bibtex.bib#L420-L428) 
 ``` 
 smarter Generative Replay
 ``` 
@@ -211,28 +217,31 @@ Ling Shao* [[bib]](../bibtex.bib#L191-L208)
 - **Compacting, Picking and Growing for Unforgetting Continual Learning**, (2019) by *Hung, Ching-Yi, Tu, Cheng-Hao, Wu, Cheng-En, Chen, Chien-Hung, Chan, Yi-Ming and Chen, Chu-Song* [[bib]](../bibtex.bib#L114-L121) 
 
 ## Meta Continual Learning
-- **Learning to Continually Learn**, (2020) by *Beaulieu, Shawn, Frati, Lapo, Miconi, Thomas, Lehman, Joel, Stanley, Kenneth O, Clune, Jeff and Cheney, Nick* [[bib]](../bibtex.bib#L968-L974) 
-- [**Meta-Learning Representations for Continual Learning**](http://papers.nips.cc/paper/8458-meta-learning-representations-for-continual-learning.pdf) , (2019) by *Javed, Khurram and White, Martha* [[bib]](../bibtex.bib#L430-L440) 
-- **Learning from the Past: Continual Meta-Learning via Bayesian Graph Modeling**, (2019) by *Yadan Luo, Zi Huang, Zheng Zhang, Ziwei Wang, Mahsa Baktashmotlagh and Yang Yang* [[bib]](../bibtex.bib#L442-L450) 
-- [**Online Meta-Learning**](http://proceedings.mlr.press/v97/finn19a.html) , (2019) by *Finn, Chelsea, Rajeswaran, Aravind, Kakade, Sham and Levine, Sergey* [[bib]](../bibtex.bib#L463-L478) 
-- [**Reconciling meta-learning and continual learning with online mixtures of tasks**](http://papers.nips.cc/paper/9112-reconciling-meta-learning-and-continual-learning-with-online-mixtures-of-tasks.pdf) , (2019) by *Jerfel, Ghassen, Grant, Erin, Griffiths, Tom and Heller, Katherine A* [[bib]](../bibtex.bib#L480-L490) 
-- [**Deep Online Learning Via Meta-Learning: Continual Adaptation for Model-Based {RL}**](https://openreview.net/forum?id=HyxAfnA5tm) , (2019) by *Anusha Nagabandi, Chelsea Finn and Sergey Levine* [[bib]](../bibtex.bib#L493-L500) 
-- **Task Agnostic Continual Learning via Meta Learning**, (2019) by *Xu He, Jakub Sygnowski, Alexandre Galashov, Andrei A. Rusu, Yee Whye Teh and Razvan Pascanu* [[bib]](../bibtex.bib#L570-L577) 
-- **Meta-learnt priors slow down catastrophic forgetting in neural networks**, (2019) by *Spigler, Giacomo* [[bib]](../bibtex.bib#L976-L982) 
-- **Learning to learn without forgetting by maximizing transfer and minimizing interference**, (2018) by *Riemer, Matthew, Cases, Ignacio, Ajemian, Robert, Liu, Miao, Rish, Irina, Tu, Yuhai and Tesauro, Gerald* [[bib]](../bibtex.bib#L985-L991) 
+- **Learning to Continually Learn**, (2020) by *Beaulieu, Shawn, Frati, Lapo, Miconi, Thomas, Lehman, Joel, Stanley, Kenneth O, Clune, Jeff and Cheney, Nick* [[bib]](../bibtex.bib#L970-L976) 
+- [**Meta-Learning Representations for Continual Learning**](http://papers.nips.cc/paper/8458-meta-learning-representations-for-continual-learning.pdf) , (2019) by *Javed, Khurram and White, Martha* [[bib]](../bibtex.bib#L431-L441) 
+- **Learning from the Past: Continual Meta-Learning via Bayesian Graph Modeling**, (2019) by *Yadan Luo, Zi Huang, Zheng Zhang, Ziwei Wang, Mahsa Baktashmotlagh and Yang Yang* [[bib]](../bibtex.bib#L443-L451) 
+- [**Online Meta-Learning**](http://proceedings.mlr.press/v97/finn19a.html) , (2019) by *Finn, Chelsea, Rajeswaran, Aravind, Kakade, Sham and Levine, Sergey* [[bib]](../bibtex.bib#L464-L479) 
+- [**Reconciling meta-learning and continual learning with online mixtures of tasks**](http://papers.nips.cc/paper/9112-reconciling-meta-learning-and-continual-learning-with-online-mixtures-of-tasks.pdf) , (2019) by *Jerfel, Ghassen, Grant, Erin, Griffiths, Tom and Heller, Katherine A* [[bib]](../bibtex.bib#L481-L491) 
+- [**Deep Online Learning Via Meta-Learning: Continual Adaptation for Model-Based {RL}**](https://openreview.net/forum?id=HyxAfnA5tm) , (2019) by *Anusha Nagabandi, Chelsea Finn and Sergey Levine* [[bib]](../bibtex.bib#L494-L501) 
+- **Task Agnostic Continual Learning via Meta Learning**, (2019) by *Xu He, Jakub Sygnowski, Alexandre Galashov, Andrei A. Rusu, Yee Whye Teh and Razvan Pascanu* [[bib]](../bibtex.bib#L572-L579) 
+- **Meta-learnt priors slow down catastrophic forgetting in neural networks**, (2019) by *Spigler, Giacomo* [[bib]](../bibtex.bib#L978-L984) 
+- **Learning to learn without forgetting by maximizing transfer and minimizing interference**, (2018) by *Riemer, Matthew, Cases, Ignacio, Ajemian, Robert, Liu, Miao, Rish, Irina, Tu, Yuhai and Tesauro, Gerald* [[bib]](../bibtex.bib#L987-L993) 
 
 ## Lifelong Reinforcement Learning
-- [**Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges**](http://www.sciencedirect.com/science/article/pii/S1566253519307377) , (2020) by *Timothée Lesort, Vincenzo Lomonaco, Andrei Stoian, Davide Maltoni, David Filliat and Natalia Díaz-Rodríguez* [[bib]](../bibtex.bib#L865-L877) 
+- [**Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges**](http://www.sciencedirect.com/science/article/pii/S1566253519307377) , (2020) by *Timothée Lesort, Vincenzo Lomonaco, Andrei Stoian, Davide Maltoni, David Filliat and Natalia Díaz-Rodríguez* [[bib]](../bibtex.bib#L867-L879) 
 ``` 
 Extensive review of CL methods and their applications in robotics and framework proposition for continual learning
 ``` 
-- [**Experience replay for continual learning**](https://arxiv.org/abs/1811.11682) , (2019) by *Rolnick, David, Ahuja, Arun, Schwarz, Jonathan, Lillicrap, Timothy and Wayne, Gregory* [[bib]](../bibtex.bib#L993-L1001) 
+- [**Experience replay for continual learning**](https://arxiv.org/abs/1811.11682) , (2019) by *Rolnick, David, Ahuja, Arun, Schwarz, Jonathan, Lillicrap, Timothy and Wayne, Gregory* [[bib]](../bibtex.bib#L995-L1003) 
 
 ## Continual Generative Modeling
-- **Continual Unsupervised Representation Learning**, (2019) by *Dushyant Rao, Francesco Visin, Andrei A. Rusu, Yee Whye Teh, Razvan Pascanu and Raia Hadsell* [[bib]](../bibtex.bib#L502-L510) 
-- [**{Generative Models from the perspective of Continual Learning}**](https://hal.archives-ouvertes.fr/hal-01951954) , (2019) by *Lesort, Timoth{\'e}e, Caselles-Dupr{\'e}, Hugo, Garcia-Ortiz, Michael, Goudou, Jean-Fran{\c c}ois and Filliat, David* [[bib]](../bibtex.bib#L512-L524) 
-- **Marginal replay vs conditional replay for continual learning**, (2019) by *Lesort, Timoth{\'e}e, Gepperth, Alexander, Stoian, Andrei and Filliat, David* [[bib]](../bibtex.bib#L945-L953) 
-- **Generative replay with feedback connections as a general strategy for continual learning**, (2018) by *Michiel van der Ven and Andreas S. Tolias* [[bib]](../bibtex.bib#L420-L427) 
+- **Continual Unsupervised Representation Learning**, (2019) by *Dushyant Rao, Francesco Visin, Andrei A. Rusu, Yee Whye Teh, Razvan Pascanu and Raia Hadsell* [[bib]](../bibtex.bib#L503-L511) 
+- [**Generative Models from the perspective of Continual Learning**](https://hal.archives-ouvertes.fr/hal-01951954) , (2019) by *Lesort, Timoth{\'e}e, Caselles-Dupr{\'e}, Hugo, Garcia-Ortiz, Michael, Goudou, Jean-Fran{\c c}ois and Filliat, David* [[bib]](../bibtex.bib#L513-L525) 
+``` 
+Extensive evaluation of CL methods for generative modeling
+``` 
+- **Marginal replay vs conditional replay for continual learning**, (2019) by *Lesort, Timoth{\'e}e, Gepperth, Alexander, Stoian, Andrei and Filliat, David* [[bib]](../bibtex.bib#L947-L955) 
+- [**Generative replay with feedback connections as a general strategy for continual learning**](https://arxiv.org/abs/1809.10635) , (2018) by *Michiel van der Ven and Andreas S. Tolias* [[bib]](../bibtex.bib#L420-L428) 
 ``` 
 smarter Generative Replay
 ``` 
@@ -240,4 +249,4 @@ smarter Generative Replay
 ``` 
 Introduces generative replay
 ``` 
-- **Lifelong Generative Modeling**, (2017) by *Ramapuram, Jason, Gregorova, Magda and Kalousis, Alexandros* [[bib]](../bibtex.bib#L526-L532) 
+- **Lifelong Generative Modeling**, (2017) by *Ramapuram, Jason, Gregorova, Magda and Kalousis, Alexandros* [[bib]](../bibtex.bib#L528-L534) 
