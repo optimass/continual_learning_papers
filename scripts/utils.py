@@ -120,7 +120,7 @@ def get_md(DB, item, key, add_comments):
 def get_outline(list_classif, filename):
     str_outline = "# Continual Learning Literature \n"
 
-    str_outline += "This repository is maintained by Massimo Caccia and Timothée Lesort don't hesitate to send us an email to collaborate or fix some entries ({massimo.p.caccia , t.lesort} at gmail.com). The automation script of this repo is adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography)."
+    str_outline += "This repository is maintained by Massimo Caccia and Timothée Lesort don't hesitate to send us an email to collaborate or fix some entries ({massimo.p.caccia , t.lesort} at gmail.com). The automation script of this repo is adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).\n"
 
     str_outline += "## Outline \n"
 
