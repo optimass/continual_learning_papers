@@ -13,6 +13,7 @@
 - [Continual-Meta Learning](https://github.com/TLESORT/continual_learning_papers#Continual-Meta-Learning)
 - [Lifelong Reinforcement Learning](https://github.com/TLESORT/continual_learning_papers#Lifelong-Reinforcement-Learning)
 - [Continual Generative Modeling](https://github.com/TLESORT/continual_learning_papers#Continual-Generative-Modeling)
+- [Applications](https://github.com/TLESORT/continual_learning_papers#Applications)
 
 ## Classics
 - [**Catastrophic forgetting in connectionist networks**](https://www.sciencedirect.com/science/article/abs/pii/S1364661399012942) , (1999) by *French, Robert M.* [[bib]](../bibtex.bib#L901-L915) 
