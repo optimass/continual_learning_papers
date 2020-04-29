@@ -50,7 +50,7 @@ def create_bib_link(ID):
     start_bib, end_bib = get_bibtex_line(link, ID)
 
     # bibtex file is one folder upon markdown files
-    link = "../" + link
+    #link = "../blob/master/" + link
     link += "#L" + str(start_bib) + "-L" + str(end_bib)
 
     # L66-L73
@@ -81,7 +81,7 @@ def get_md_entry(DB, entry, add_comments=True):
     if add_comments:
         # maybe there is a comment to write
         if entry['ID'].lower() in DB.strings:
-            print("Com : " + entry['ID'])
+            #print("Com : " + entry['ID'])
             md_str += '``` \n'
             md_str += DB.strings[entry['ID'].lower()]
             md_str += '\n``` \n'
@@ -106,8 +106,6 @@ def get_md(DB, item, key, add_comments):
     for i in range(number_of_entries):
         if key in DB.entries[i].keys():
             if any(elem in DB.entries[i][key] for elem in item):
-                print(DB.entries[i]['ID'])
-                # all_str += get_md_entry(DB, DB.entries[i], add_comments)
                 str_md = get_md_entry(DB, DB.entries[i], add_comments)
                 list_entry.update({str_md:DB.entries[i]['year']})
 
@@ -119,14 +117,14 @@ def get_md(DB, item, key, add_comments):
     return all_str
 
 
-def get_outline(list_classif):
+def get_outline(list_classif, filename):
     str_outline = "# Continual Learning Literature \n"
 
     str_outline += "## Outline \n"
 
     for item in list_classif:
-        str_outline += "- [" + item[0] + "](https://github.com/TLESORT/continual_learning_papers#" \
-                       + item[0].replace(" ", "-") + ')\n'
+        str_outline += "- [" + item[0] + "](https://github.com/optimass/continual_learning_papers/blob/master/" + filename + "#" \
+                       + item[0].replace(" ", "-").lower() + ')\n'
 
     return str_outline
 
@@ -143,7 +141,7 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename, add_commen
     """
 
     all_in_one_str = ""
-    all_in_one_str += get_outline(list_classif)
+    all_in_one_str += get_outline(list_classif, filename)
 
     for item in list_classif:
 
@@ -153,7 +151,6 @@ def generate_md_file(DB, list_classif, key, plot_title_fct, filename, add_commen
             all_in_one_str += plot_title_fct(item)
             all_in_one_str += str
 
-    path = os.path.join(filename)
-    f = open(path, "w")
+    f = open(filename, "w")
     f.write(all_in_one_str)
     f.close()
