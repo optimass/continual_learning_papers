@@ -288,3 +288,10 @@ Extensive evaluation of CL methods for generative modeling
 ``` 
 first to focus on continual generative modeling (DGR's focus was still on continual supervised learning)
 ``` 
+
+## Applications
+- [**LAMAL: LAnguage Modeling Is All You Need for Lifelong Language Learning**](https://openreview.net/forum?id=Skgxcn4YDS) , (2020) by *Fan-Keng Sun, Cheng-Hao Ho and Hung-Yi Lee* [[bib]](../bibtex.bib#L1102-L1109) 
+- [**Compositional Language Continual Learning**](https://openreview.net/forum?id=rklnDgHtDS) , (2020) by *Yuanpeng Li, Liang Zhao, Kenneth Church and Mohamed Elhoseiny* [[bib]](../bibtex.bib#L1075-L1081) 
+``` 
+method for compositional continual learning of sequence-to-sequence models
+``` 

@@ -245,7 +245,7 @@ Uses stacks of VQ-VAE modules to progressively compress the data stream, enablin
 projecting the gradients from new tasks onto a subspace in which the neural network output on previous task does not change and the projected gradient is still in a useful direction for learning the new task
 ``` 
 
-[Gradient based sample selection for online continual learning](https://arxiv.org/abs/1903.08671) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L257-L266) **Just Accepted**
+[Gradient based sample selection for online continual learning](https://arxiv.org/Catastrophic forgetting in connectionist networksabs/1903.08671) (2019) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L257-L266) **Just Accepted**
 ```
 sample selection as a constraint reduction problem based on the constrained optimization view of continual learning
 ```
@@ -383,7 +383,7 @@ defines Online Meta-learning; propsoses Follow the Meta Leader (FTML) (~ Online 
 ```
 Meta-learns a tasks structure; continual adaptation via non-parametric prior
 ```
-
+Deep Online Learning Via Meta-Learning: Continual Adaptation for Model-Based {RL} 
 
 [Deep Online Learning via Meta-Learning: Continual Adaptation for Model-Based RL](https://arxiv.org/abs/1812.07671) (2018) [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L334-L341)
 ```
