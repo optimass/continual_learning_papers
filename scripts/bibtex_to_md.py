@@ -22,7 +22,8 @@ list_types = [["Classics", "Classic"],
                ["Generative Replay Methods", "Generative Replay"],
                ["Dynamic Architectures or Routing Methods", "Architectures", "Dynamic Architecture"],
                ["Hybrid Methods", "Hybrid"],
-               ["Meta Continual Learning", "Meta"],
+               ["Meta-Continual Learning"],
+               ["Continual-Meta Learning"],
                ["Lifelong Reinforcement Learning", "Reinforcement"],
                ["Continual Generative Modeling", "Generative"]]
 
