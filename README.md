@@ -68,7 +68,7 @@ Introduces generative replay
 ``` 
 Investigates CF in neural networks
 ``` 
-- [**Continual Learning in Practice**](https://arxiv.org/abs/1903.05202), (2018) by *T Diethe, T Borchert, E Thereska, B de Balle Pigem, N Lawrence*[[bib]](bibtex.bib#L1898-L1903)
+- [**Continual Learning in Practice**](https://arxiv.org/abs/1903.05202), (2018) by *T Diethe, T Borchert, E Thereska, B de Balle Pigem, N Lawrence* [[bib]](bibtex.bib#L1898-L1903)
 ```
 Proposes a reference architicture for a continual learning system
 ```
