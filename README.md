@@ -120,7 +120,7 @@ Importance of parameter measured based on their contribution to change in the le
 ``` 
 Synaptic Intelligence (SI). Importance of parameter measured based on their contribution to change in the loss. 
 ``` 
-- [**Facilitating Bayesian Continual Learning by Natural Gradients and Stein Gradients**](https://arxiv.org/abs/1904.10644), (2018) by *Y Chen, T Diethe, N Lawrence* [[bib]](bibtex.bib#1905-1910)
+- [**Facilitating Bayesian Continual Learning by Natural Gradients and Stein Gradients**](https://arxiv.org/abs/1904.10644), (2018) by *Y Chen, T Diethe, N Lawrence* [[bib]](bibtex.bib#L1905-L1910)
 ```
 Improves on VCL
 ```
