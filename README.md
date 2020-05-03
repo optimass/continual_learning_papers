@@ -68,6 +68,10 @@ Introduces generative replay
 ``` 
 Investigates CF in neural networks
 ``` 
+- [**Continual Learning in Practice**](https://arxiv.org/abs/1903.05202), (2018) by *T Diethe, T Borchert, E Thereska, B de Balle Pigem, N Lawrence*[[bib]](bibtex.bib#L1898-L1903)
+```
+Proposes a reference architicture for a continual learning system
+```
 
 ## Regularization Methods
 - [**Continual Learning with Bayesian Neural Networks for Non-Stationary Data**](https://openreview.net/forum?id=SJlsFpVtDB) , (2020) by *Richard Kurle, Botond Cseke, Alexej Klushyn, Patrick van der Smagt and Stephan Günnemann* [[bib]](bibtex.bib#L525-L532) 
@@ -112,10 +116,14 @@ A new P\&C architecture; online EWC for keeping the knowledge about the previous
 ``` 
 Importance of parameter measured based on their contribution to change in the learned prediction function
 ``` 
-- [**Continual Learning Through Synaptic Intelligence**](http://proceedings.mlr.press/v70/zenke17a.html) , (2017) by *Zenke, Friedeman, Poole, Ben and Ganguli, Surya * [[bib]](bibtex.bib#L350-L365) 
+- [**Continual Learning Through Synaptic Intelligence**](http://proceedings.mlr.press/v70/zenke17a.html) , (2017) by *Zenke, Friedeman, Poole, Ben and Ganguli, Surya* [[bib]](bibtex.bib#L350-L365) 
 ``` 
 Synaptic Intelligence (SI). Importance of parameter measured based on their contribution to change in the loss. 
 ``` 
+- [**Facilitating Bayesian Continual Learning by Natural Gradients and Stein Gradients**](https://arxiv.org/abs/1904.10644), (2018) by *Y Chen, T Diethe, N Lawrence* [[bib]](bibtex.bib#1905-1910)
+```
+Improves on VCL
+```
 
 ## Distillation Methods
 - [**Overcoming Catastrophic Forgetting With Unlabeled Data in the Wild**](https://arxiv.org/abs/1903.12648) , (2019) by *Lee, Kibok, Lee, Kimin, Shin, Jinwoo and Lee, Honglak* [[bib]](bibtex.bib#L687-L695) 
