@@ -7,7 +7,7 @@ file_name = 'bibtex.bib'
 with open(file_name) as bibtex_file:
     bibtex_str = bibtex_file.read()
 
-bib_db = bibtexparser.loads(bibtex_str)
+bib_db = bibtexparser.loads(bibtex_str, parser=bibtexparser.bparser.BibTexParser(ignore_nonstandard_types=False))
 
 ################################### Create Readme ####################################
 def plot_titles(titles):
