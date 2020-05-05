@@ -60,7 +60,7 @@ Proposes desideratas and reexamines the evaluation protocol
 ``` 
 - [**Continual Learning in Practice**](https://arxiv.org/abs/1903.05202) , (2018) by *Diethe, Tom, Borchert, Tom, Thereska, Eno, Pigem, Borja de Balle and Lawrence, Neil* [[bib]](bibtex.bib#L1897-L1904) 
 ``` 
-Proposes a reference architicture for a continual learning system
+Proposes a reference architecture for a continual learning system
 ``` 
 - [**Overcoming catastrophic forgetting in neural networks**](https://www.pnas.org/content/pnas/114/13/3521.full.pdf) , (2017) by *Kirkpatrick, James, Pascanu, Razvan, Rabinowitz, Neil, Veness, Joel, Desjardins, Guillaume, Rusu, Andrei A, Milan, Kieran, Quan, John, Ramalho, Tiago, Grabska-Barwinska, Agnieszka and others* [[bib]](bibtex.bib#L79-L87) 
 - [**Gradient Episodic Memory for Continual Learning**](http://papers.nips.cc/paper/7225-gradient-episodic-memory-for-continual-learning.pdf) , (2017) by *Lopez-Paz, David and Ranzato, Marc-Aurelio* [[bib]](bibtex.bib#L91-L101) 
@@ -220,7 +220,7 @@ Proposes a random path selection algorithm, called RPSnet, that progressively ch
 - [**Incremental Learning through Deep Adaptation**](https://openreview.net/forum?id=ryj0790hb) , (2018) by *Amir Rosenfeld and John K. Tsotsos* [[bib]](bibtex.bib#L391-L397) 
 - [**Continual Learning in Practice**](https://arxiv.org/abs/1903.05202) , (2018) by *Diethe, Tom, Borchert, Tom, Thereska, Eno, Pigem, Borja de Balle and Lawrence, Neil* [[bib]](bibtex.bib#L1897-L1904) 
 ``` 
-Proposes a reference architicture for a continual learning system
+Proposes a reference architecture for a continual learning system
 ``` 
 - [**Progressive Neural Networks**](https://arxiv.org/abs/1606.04671) , (2016) by *{Rusu}, A.~A., {Rabinowitz}, N.~C., {Desjardins}, G., 
 {Soyer}, H., {Kirkpatrick}, J., {Kavukcuoglu}, K., 
