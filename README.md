@@ -17,8 +17,8 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 - [Continual-Meta Learning](https://github.com/optimass/continual_learning_papers/blob/master/README.md#continual-meta-learning)
 - [Lifelong Reinforcement Learning](https://github.com/optimass/continual_learning_papers/blob/master/README.md#lifelong-reinforcement-learning)
 - [Continual Generative Modeling](https://github.com/optimass/continual_learning_papers/blob/master/README.md#continual-generative-modeling)
-- [Workshop](https://github.com/optimass/continual_learning_papers/blob/master/README.md#workshop)
 - [Applications](https://github.com/optimass/continual_learning_papers/blob/master/README.md#applications)
+- [Workshops](https://github.com/optimass/continual_learning_papers/blob/master/README.md#workshops)
 
 ## Classics
 - [**Catastrophic forgetting in connectionist networks**](https://www.sciencedirect.com/science/article/abs/pii/S1364661399012942) , (1999) by *French, Robert M.* [[bib]](bibtex.bib#L994-L1008) 
@@ -72,7 +72,7 @@ A model that alliviates CF via constrained optimization
 ``` 
 Introduces generative replay
 ``` 
-- [**An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks**](https://arxiv.org/abs/1312.6211) , (2013) by *Goodfellow, I.~J., Mirza, M., Xiao, D., Courville, A. and Bengio, Y.* [[bib]](bibtex.bib#L126-L139) 
+- [**An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks**](https://arxiv.org/abs/1312.6211) , (2013) by *Goodfellow, I.~J., Mirza, M., Xiao, D., Courville, A. and Bengio, Y.* [[bib]](bibtex.bib#L135-L148) 
 ``` 
 Investigates CF in neural networks
 ``` 
@@ -241,7 +241,7 @@ Approach leverages the principles of deep model compression, critical weights se
 ``` 
 
 ## Meta-Continual Learning
-- [**Defining Benchmarks for Continual Few-Shot Learning**](https://arxiv.org/abs/2004.11967) , (2020) by *Antoniou, Antreas, Patacchiola, Massimiliano, Ochal, Mateusz and Storkey, Amos* [[bib]](bibtex.bib#L1-L8) 
+- [**Defining Benchmarks for Continual Few-Shot Learning**](https://arxiv.org/abs/2004.11967) , (2020) by *Antoniou, Antreas, Patacchiola, Massimiliano, Ochal, Mateusz and Storkey, Amos* [[bib]](bibtex.bib#L10-L17) 
 ``` 
 (title is a good enough summary)
 ``` 
@@ -297,12 +297,6 @@ Extensive evaluation of CL methods for generative modeling
 ``` 
 - [**Lifelong Generative Modeling**](https://arxiv.org/abs/1705.09847) , (2017) by *Ramapuram, Jason, Gregorova, Magda and Kalousis, Alexandros* [[bib]](bibtex.bib#L625-L632) 
 
-## Workshop
-- [**4th Lifelong Machine Learning Workshop at ICML 2020**](https://openreview.net/group?id=ICML.cc/2020/Workshop/LifelongML#accept) , (2020) by *Shagun Sodhani, Sarath Chandar, Balaraman Ravindran and Doina Precup* [[bib]](bibtex.bib#L1-L8) 
-``` 
-(title is a good enough summary)
-``` 
-
 ## Applications
 - [**CLOPS: Continual Learning of Physiological Signals**](https://arxiv.org/abs/2004.09578) , (2020) by *Kiyasseh, Dani, Zhu, Tingting and Clifton, David A* [[bib]](bibtex.bib#L47-L54) 
 ``` 
@@ -321,3 +315,6 @@ HTM applied to real-world anomaly detection problem
 ``` 
 HTM applied to a prediction problem of taxi passenger demand
 ``` 
+
+## Workshops
+- [**4th Lifelong Machine Learning Workshop at ICML 2020**](https://openreview.net/group?id=ICML.cc/2020/Workshop/LifelongML#accept) , (2020) by *Shagun Sodhani, Sarath Chandar, Balaraman Ravindran and Doina Precup* [[bib]](bibtex.bib#L1-L8) 
