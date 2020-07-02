@@ -27,6 +27,7 @@ list_types = [["Classics", "Classic"],
                ["Lifelong Reinforcement Learning", "Reinforcement"],
                ["Continual Generative Modeling", "Generative Modeling"],
                ["Applications"],
+               ["Thesis"],
                ["Workshops", 'Workshop']]
 
 generate_md_file(DB=bib_db, list_classif=list_types, key="keywords", plot_title_fct=plot_titles, filename= "README.md", add_comments=True)
