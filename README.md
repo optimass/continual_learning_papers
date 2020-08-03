@@ -292,6 +292,10 @@ Introduces What & How framework; enables Task Agnostic CL with meta learned task
 ``` 
 
 ## Meta-Continual Learning
+- [**La-MAML: Look-ahead Meta Learning for Continual Learning**](https://arxiv.org/abs/2007.13904) , (2020) by *Gunshi Gupta, Karmesh Yadav and Liam Paull* [[bib]](bibtex.bib#L1-L7) 
+``` 
+Proposes an online replay-based meta-continual learning algorithm with learning-rate modulation to mitigate catastrophic forgetting
+``` 
 - [**Learning to Continually Learn**](https://arxiv.org/abs/2002.09571) , (2020) by *Beaulieu, Shawn, Frati, Lapo, Miconi, Thomas, Lehman, Joel, Stanley, Kenneth O, Clune, Jeff and Cheney, Nick* [[bib]](bibtex.bib#L1132-L1139) 
 ``` 
 Follow-up of OML. Meta-learns an activation-gating function instead.
