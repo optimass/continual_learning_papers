@@ -261,6 +261,14 @@ Approach leverages the principles of deep model compression, critical weights se
 ``` 
 
 ## Continual Few-Shot Learning
+- [**Wandering Within a World: Online Contextualized Few-Shot Learning**](https://arxiv.org/abs/2007.04546) , (2020) by *Mengye Ren, Michael L. Iuzzolino, Michael C. Mozer and Richard S. Zemel* [[bib]](bibtex.bib#L10-L18) 
+``` 
+proposes a new continual few-shot setting where spacial and temporal context can be leveraged to and unseen classes need to be predicted
+``` 
+- [**Defining Benchmarks for Continual Few-Shot Learning**](https://arxiv.org/abs/2004.11967) , (2020) by *Antoniou, Antreas, Patacchiola, Massimiliano, Ochal, Mateusz and Storkey, Amos* [[bib]](bibtex.bib#L52-L59) 
+``` 
+(title is a good enough summary)
+``` 
 - [**Online Fast Adaptation and Knowledge Accumulation: a New Approach to Continual Learning**](https://arxiv.org/abs/2003.05856) , (2020) by *Caccia, Massimo, Rodriguez, Pau, Ostapenko, Oleksiy, Normandin, Fabrice, Lin, Min, Caccia, Lucas, Laradji, Issam, Rish, Irina, Lacoste, Alexandre, Vazquez, David and others* [[bib]](bibtex.bib#L1174-L1181) 
 ``` 
 Proposes a new approach to CL evaluation more aligned with real-life applications, bringing CL closer to Online Learning and Open-World learning
