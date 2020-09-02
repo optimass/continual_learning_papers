@@ -150,6 +150,7 @@ Synaptic Intelligence (SI). Importance of parameter measured based on their cont
 ``` 
 
 ## Distillation Methods
+- [**PODNet: Pooled Outputs Distillation for Small-Tasks Incremental Learning**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650086.pdf) , (2020) by *Douillard, Arthur, Cord, Matthieu, Ollion, Charles, Robert, Thomas and Valle, Eduardo* [[bib]](bibtex.bib#L2198-L2205) 
 - [**Overcoming Catastrophic Forgetting With Unlabeled Data in the Wild**](https://arxiv.org/abs/1903.12648) , (2019) by *Lee, Kibok, Lee, Kimin, Shin, Jinwoo and Lee, Honglak* [[bib]](bibtex.bib#L772-L780) 
 ``` 
 Introducing global distillation loss and balanced finetuning; leveraging unlabeled data in the open world setting (Single-head setting)
