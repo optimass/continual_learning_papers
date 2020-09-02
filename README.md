@@ -151,6 +151,9 @@ Synaptic Intelligence (SI). Importance of parameter measured based on their cont
 
 ## Distillation Methods
 - [**PODNet: Pooled Outputs Distillation for Small-Tasks Incremental Learning**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650086.pdf) , (2020) by *Douillard, Arthur, Cord, Matthieu, Ollion, Charles, Robert, Thomas and Valle, Eduardo* [[bib]](bibtex.bib#L2198-L2205) 
+``` 
+Novel knowledge distillation that trades efficiently rigidity and plasticity to learn large amount of small tasks
+``` 
 - [**Overcoming Catastrophic Forgetting With Unlabeled Data in the Wild**](https://arxiv.org/abs/1903.12648) , (2019) by *Lee, Kibok, Lee, Kimin, Shin, Jinwoo and Lee, Honglak* [[bib]](bibtex.bib#L772-L780) 
 ``` 
 Introducing global distillation loss and balanced finetuning; leveraging unlabeled data in the open world setting (Single-head setting)
@@ -178,6 +181,9 @@ Binary cross-entropy loss for representation learning & exemplar memory (or core
 
 ## Rehearsal Methods
 - [**PODNet: Pooled Outputs Distillation for Small-Tasks Incremental Learning**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650086.pdf) , (2020) by *Douillard, Arthur, Cord, Matthieu, Ollion, Charles, Robert, Thomas and Valle, Eduardo* [[bib]](bibtex.bib#L2198-L2205) 
+``` 
+Novel knowledge distillation that trades efficiently rigidity and plasticity to learn large amount of small tasks
+``` 
 - [**Efficient Lifelong Learning with A-GEM**](https://arxiv.org/abs/1812.00420) , (2019) by *Chaudhry, Arslan, Ranzato, Marc’Aurelio, Rohrbach, Marcus and Elhoseiny, Mohamed* [[bib]](bibtex.bib#L151-L158) 
 ``` 
 More efficient GEM; Introduces online continual learning
