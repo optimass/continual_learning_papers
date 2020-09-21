@@ -51,7 +51,7 @@ The current list of keywords used is:
 To add a comment associated with a paper, you can create a @String line with the paper ID. For example, to add a comment to the paper Doe20XXcontinual you can add after the entry:
 
 ```
-@String(Doe20XXcontinual="This paper introduce different strategies to learn continually in various environment")
+@String(Doe20XXcontinual="This paper introduces different strategies to learn continually in various environment")
 ```
 
 NB: To keep the bibtex easy to use, we keep the entry and the string line close to each others
@@ -66,5 +66,5 @@ NB: To keep the bibtex easy to use, we keep the entry and the string line close 
   keywords={Rehearsal, Regularization}
 }
 
-@String(Doe20XXcontinual="This paper introduce different strategies to learn continually in various environment")
+@String(Doe20XXcontinual="This paper introduces different strategies to learn continually in various environment")
 ```
