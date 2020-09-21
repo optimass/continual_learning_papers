@@ -30,7 +30,7 @@ inproceedings{Doe20XXcontinual,
 It can be manually edited to add an URL and some keywords that might help for automatic classification.
 
 ```
-inproceedings{Doe20XXcontinual,
+@inproceedings{Doe20XXcontinual,
   title={Continual Lifelong Never Ending Learning in Open-Ended incremental environment},
   author={John Doe},
   booktitle={Internation Conference on Continual Learning and Lifelong Agent (ICCLLA)},
@@ -43,4 +43,28 @@ inproceedings{Doe20XXcontinual,
 The current list of keywords used is:
 ```python
 ["Classic","Survey","Influential","Regularization","Distillation","Rehearsal","Generative Replay","Dynamic Architecture","Hybrid","Meta-Continual Learning", "Continual-Meta Learning", "Reinforcement", "Generative Modeling","Applications"]
+```
+
+
+## Add a comment to a paper
+
+To add a comment associated with a paper, you can create a @String line with the paper ID. For example, to add a comment to the paper Doe20XXcontinual you can add after the entry:
+
+```
+@String(Doe20XXcontinual="This paper introduce different strategies to learn continually in various environment")
+```
+
+NB: To keep the bibtex easy to use, we keep the entry and the string line close to each others
+
+```
+@inproceedings{Doe20XXcontinual,
+  title={Continual Lifelong Never Ending Learning in Open-Ended incremental environment},
+  author={John Doe},
+  booktitle={Internation Conference on Continual Learning and Lifelong Agent (ICCLLA)},
+  year={20XX},
+  url={https://arxiv.org/abs/XXXX.XXXX},
+  keywords={Rehearsal, Regularization}
+}
+
+@String(Doe20XXcontinual="This paper introduce different strategies to learn continually in various environment")
 ```
