@@ -101,6 +101,12 @@ Proposes a new approach to CL evaluation more aligned with real-life application
 method for compositional continual learning of sequence-to-sequence models
 ``` 
 
+- [**A Wholistic View of Continual Learning with Deep Neural Networks: Forgotten Lessons and the Bridge to Active and Open World Learning
+**](https://arxiv.org/abs/2009.01797), (2020) by *Martin Mundt, Yong Won Hong, Iuliia Pliushch, and Visvanathan Ramesh* [[bib]](bibtex.bib#L2226-L2231) 
+``` 
+(title is a good enough summary)
+``` 
+
 ## Regularization Methods
 - [**Continual Learning with Bayesian Neural Networks for Non-Stationary Data**](https://openreview.net/forum?id=SJlsFpVtDB) , (2020) by *Richard Kurle, Botond Cseke, Alexej Klushyn, Patrick van der Smagt and Stephan Günnemann* [[bib]](bibtex.bib#L610-L617) 
 ``` 
