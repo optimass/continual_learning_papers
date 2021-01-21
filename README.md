@@ -70,6 +70,8 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 ``` Investigates CF in neural networks ``` 
 
 ## New Settings or Metrics
+- [**IIRC: Incremental Implicitly-Refined Classification**](https://chandar-lab.github.io/IIRC/) , (2021) by *Mohamed Abdelsalam, Mojtaba Faramarzi, Shagun Sodhani and Sarath Chandar* [[bib]](bibtex.bib#L2451-L2457) 
+``` A setup and benchmark to evaluate lifelong learning models in more real-life aligned scenarios. ``` 
 - [**Wandering Within a World: Online Contextualized Few-Shot Learning**](https://arxiv.org/abs/2007.04546) , (2020) by *Mengye Ren, Michael L. Iuzzolino, Michael C. Mozer and Richard S. Zemel* [[bib]](bibtex.bib#L42-L50) 
 ``` proposes a new continual few-shot setting where spacial and temporal context can be leveraged to and unseen classes need to be predicted ``` 
 - [**Defining Benchmarks for Continual Few-Shot Learning**](https://arxiv.org/abs/2004.11967) , (2020) by *Antoniou, Antreas, Patacchiola, Massimiliano, Ochal, Mateusz and Storkey, Amos* [[bib]](bibtex.bib#L84-L91) 
