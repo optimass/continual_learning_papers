@@ -1,5 +1,5 @@
 # Continual Learning Literature 
-This repository is maintained by Massimo Caccia and Timothée Lesort don't hesitate to send us an email to collaborate or fix some entries ({massimo.p.caccia , t.lesort} at gmail.com). The automation script of this repo is adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).
+This repository is maintained by Massimo Caccia and Timoth�e Lesort don't hesitate to send us an email to collaborate or fix some entries ({massimo.p.caccia , t.lesort} at gmail.com). The automation script of this repo is adapted from [Automatic_Awesome_Bibliography](https://github.com/TLESORT/Automatic_Awesome_Bibliography).
 
  For contributing to the repository please follow the process [here](https://github.com/optimass/continual_learning_papers/blob/master/scripts/README.md) 
 
@@ -36,7 +36,7 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 - **Towards Continual Reinforcement Learning: A Review and Perspectives**, (2020) by *Khimya Khetarpal, Matthew Riemer, Irina Rish and Doina Precup* [[bib]](bibtex.bib#L10-L18) 
 ``` A review on continual reinforcement learning ``` 
 - [**Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges**](http://www.sciencedirect.com/science/article/pii/S1566253519307377) , (2020) by *Timothée Lesort, Vincenzo Lomonaco, Andrei Stoian, Davide Maltoni, David Filliat and Natalia Díaz-Rodríguez* [[bib]](bibtex.bib#L1053-L1064) 
-- [**A Wholistic View of Continual Learning with Deep Neural Networks: Forgotten Lessons and the Bridge to Active and Open World Learning**](https://arxiv.org/abs/2009.01797) , (2020) by *Mundt, Martin, Hong, Yong Won, Pliushch, Iuliia and Ramesh, Visvanathan* [[bib]](bibtex.bib#L2276-L2283) 
+- [**A Wholistic View of Continual Learning with Deep Neural Networks: Forgotten Lessons and the Bridge to Active and Open World Learning**](https://arxiv.org/abs/2009.01797) , (2020) by *Mundt, Martin, Hong, Yong Won, Pliushch, Iuliia and Ramesh, Visvanathan* [[bib]](bibtex.bib#L2278-L2285) 
 ``` propose a consolidated view to bridge continual learning, active learning and open set recognition in DNNs ``` 
 - [**Continual learning: A comparative study on how to defy forgetting in classification tasks**](https://arxiv.org/abs/1909.08383) , (2019) by *Matthias De Lange, Rahaf Aljundi, Marc Masana, Sarah Parisot, Xu Jia, Ales Leonardis, Gregory Slabaugh and Tinne Tuytelaars* [[bib]](bibtex.bib#L225-L234) 
 ``` Extensive empirical study of CL methods (in the multi-head setting) ``` 
@@ -54,7 +54,7 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 
 ## Influentials
 - [**{REMIND Your Neural Network to Prevent Catastrophic Forgetting}**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650681.pdf) , (2020) by *{Hayes}, Tyler L., {Kafle}, Kushal, {Shrestha}, Robik and
-{Acharya}, Manoj and {Kanan}, Christopher* [[bib]](bibtex.bib#L2266-L2274) 
+{Acharya}, Manoj and {Kanan}, Christopher* [[bib]](bibtex.bib#L2268-L2276) 
 - [**Efficient Lifelong Learning with A-GEM**](https://arxiv.org/abs/1812.00420) , (2019) by *Chaudhry, Arslan, Ranzato, Marc’Aurelio, Rohrbach, Marcus and Elhoseiny, Mohamed* [[bib]](bibtex.bib#L162-L169) 
 ``` More efficient GEM; Introduces online continual learning ``` 
 - [**Towards Robust Evaluations of Continual Learning**](https://arxiv.org/abs/1805.09733) , (2018) by *Farquhar, Sebastian and Gal, Yarin* [[bib]](bibtex.bib#L152-L159) 
@@ -70,7 +70,7 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 ``` Investigates CF in neural networks ``` 
 
 ## New Settings or Metrics
-- [**IIRC: Incremental Implicitly-Refined Classification**](https://chandar-lab.github.io/IIRC/) , (2021) by *Mohamed Abdelsalam, Mojtaba Faramarzi, Shagun Sodhani and Sarath Chandar* [[bib]](bibtex.bib#L2451-L2457) 
+- [**IIRC: Incremental Implicitly-Refined Classification**](https://chandar-lab.github.io/IIRC/) , (2021) by *Mohamed Abdelsalam, Mojtaba Faramarzi, Shagun Sodhani and Sarath Chandar* [[bib]](bibtex.bib#L2453-L2459) 
 ``` A setup and benchmark to evaluate lifelong learning models in more real-life aligned scenarios. ``` 
 - [**Wandering Within a World: Online Contextualized Few-Shot Learning**](https://arxiv.org/abs/2007.04546) , (2020) by *Mengye Ren, Michael L. Iuzzolino, Michael C. Mozer and Richard S. Zemel* [[bib]](bibtex.bib#L42-L50) 
 ``` proposes a new continual few-shot setting where spacial and temporal context can be leveraged to and unseen classes need to be predicted ``` 
@@ -80,7 +80,7 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 ``` Proposes a new approach to CL evaluation more aligned with real-life applications, bringing CL closer to Online Learning and Open-World learning ``` 
 - [**Compositional Language Continual Learning**](https://openreview.net/forum?id=rklnDgHtDS) , (2020) by *Yuanpeng Li, Liang Zhao, Kenneth Church and Mohamed Elhoseiny* [[bib]](bibtex.bib#L1246-L1252) 
 ``` method for compositional continual learning of sequence-to-sequence models ``` 
-- [**A Wholistic View of Continual Learning with Deep Neural Networks: Forgotten Lessons and the Bridge to Active and Open World Learning**](https://arxiv.org/abs/2009.01797) , (2020) by *Mundt, Martin, Hong, Yong Won, Pliushch, Iuliia and Ramesh, Visvanathan* [[bib]](bibtex.bib#L2276-L2283) 
+- [**A Wholistic View of Continual Learning with Deep Neural Networks: Forgotten Lessons and the Bridge to Active and Open World Learning**](https://arxiv.org/abs/2009.01797) , (2020) by *Mundt, Martin, Hong, Yong Won, Pliushch, Iuliia and Ramesh, Visvanathan* [[bib]](bibtex.bib#L2278-L2285) 
 ``` propose a consolidated view to bridge continual learning, active learning and open set recognition in DNNs ``` 
 
 ## Regularization Methods
@@ -114,7 +114,9 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 - **Overcoming catastrophic forgetting by incremental moment matching**, (2017) by *Lee, Sang-Woo, Kim, Jin-Hwa, Jun, Jaehyun, Ha, Jung-Woo and Zhang, Byoung-Tak* [[bib]](bibtex.bib#L1651-L1658) 
 
 ## Distillation Methods
-- [**PODNet: Pooled Outputs Distillation for Small-Tasks Incremental Learning**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650086.pdf) , (2020) by *Douillard, Arthur, Cord, Matthieu, Ollion, Charles, Robert, Thomas and Valle, Eduardo* [[bib]](bibtex.bib#L2247-L2254) 
+- [**Online Continual Learning under Extreme Memory Constraints**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123730715.pdf) , (2020) by *Fini, Enrico, Lathuilière, Stèphane, Sangineto, Enver, Nabi, Moin and Ricci, Elisa* [[bib]](bibtex.bib#L2180-L2187) 
+``` Introduces Memory-Constrained Online Continual Learning, a setting where no information can be transferred between tasks, and proposes a distillation-based solution (Batch-level Distillation) ``` 
+- [**PODNet: Pooled Outputs Distillation for Small-Tasks Incremental Learning**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650086.pdf) , (2020) by *Douillard, Arthur, Cord, Matthieu, Ollion, Charles, Robert, Thomas and Valle, Eduardo* [[bib]](bibtex.bib#L2249-L2256) 
 ``` Novel knowledge distillation that trades efficiently rigidity and plasticity to learn large amount of small tasks ``` 
 - [**Overcoming Catastrophic Forgetting With Unlabeled Data in the Wild**](https://arxiv.org/abs/1903.12648) , (2019) by *Lee, Kibok, Lee, Kimin, Shin, Jinwoo and Lee, Honglak* [[bib]](bibtex.bib#L778-L786) 
 ``` Introducing global distillation loss and balanced finetuning; leveraging unlabeled data in the open world setting (Single-head setting) ``` 
@@ -131,16 +133,16 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 ``` Binary cross-entropy loss for representation learning & exemplar memory (or coreset) for replay (Single-head setting) ``` 
 
 ## Rehearsal Methods
-- [**Graph-Based Continual Learning**](https://openreview.net/forum?id=HHSEKOnPvaO) , (2021) by *Binh Tang and David S. Matteson* [[bib]](bibtex.bib#L2322-L2329) 
+- [**Graph-Based Continual Learning**](https://openreview.net/forum?id=HHSEKOnPvaO) , (2021) by *Binh Tang and David S. Matteson* [[bib]](bibtex.bib#L2324-L2331) 
 ``` Use graphs to link saved samples and improve the memory quality. ``` 
 - [**GDumb: A Simple Approach that Questions Our Progress in Continual Learning**](http://www.robots.ox.ac.uk/~tvg/publications/2020/gdumb.pdf) , (2020) by *Prabhu, Ameya, Torr, Philip HS and Dokania, Puneet K* [[bib]](bibtex.bib#L1-L7) 
 ``` introduces a super simple methods that outperforms almost all methods in all of the CL benchmarks. We need new better benchamrks ``` 
 - [**Continual Learning: Tackling Catastrophic Forgetting in Deep Neural Networks with Replay Processes**](https://arxiv.org/abs/2007.00487) , (2020) by *Timothée Lesort* [[bib]](bibtex.bib#L54-L63) 
 - [**Imbalanced Continual Learning with Partitioning Reservoir Sampling**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123580409.pdf) , (2020) by *Kim, Chris Dongjoo, Jeong, Jinseo and Kim, Gunhee* [[bib]](bibtex.bib#L2171-L2178) 
-- [**PODNet: Pooled Outputs Distillation for Small-Tasks Incremental Learning**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650086.pdf) , (2020) by *Douillard, Arthur, Cord, Matthieu, Ollion, Charles, Robert, Thomas and Valle, Eduardo* [[bib]](bibtex.bib#L2247-L2254) 
+- [**PODNet: Pooled Outputs Distillation for Small-Tasks Incremental Learning**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650086.pdf) , (2020) by *Douillard, Arthur, Cord, Matthieu, Ollion, Charles, Robert, Thomas and Valle, Eduardo* [[bib]](bibtex.bib#L2249-L2256) 
 ``` Novel knowledge distillation that trades efficiently rigidity and plasticity to learn large amount of small tasks ``` 
 - [**{REMIND Your Neural Network to Prevent Catastrophic Forgetting}**](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650681.pdf) , (2020) by *{Hayes}, Tyler L., {Kafle}, Kushal, {Shrestha}, Robik and
-{Acharya}, Manoj and {Kanan}, Christopher* [[bib]](bibtex.bib#L2266-L2274) 
+{Acharya}, Manoj and {Kanan}, Christopher* [[bib]](bibtex.bib#L2268-L2276) 
 - [**Efficient Lifelong Learning with A-GEM**](https://arxiv.org/abs/1812.00420) , (2019) by *Chaudhry, Arslan, Ranzato, Marc’Aurelio, Rohrbach, Marcus and Elhoseiny, Mohamed* [[bib]](bibtex.bib#L162-L169) 
 ``` More efficient GEM; Introduces online continual learning ``` 
 - [**Orthogonal Gradient Descent for Continual Learning**](https://arxiv.org/abs/1910.07104) , (2019) by *Mehrdad Farajtabar, Navid Azizan, Alex Mott and Ang Li* [[bib]](bibtex.bib#L527-L536) 
@@ -236,7 +238,7 @@ Caiming Xiong* [[bib]](bibtex.bib#L1924-L1942)
 - [**Learning to learn without forgetting by maximizing transfer and minimizing interference**](https://arxiv.org/abs/1810.11910) , (2018) by *Riemer, Matthew, Cases, Ignacio, Ajemian, Robert, Liu, Miao, Rish, Irina, Tu, Yuhai and Tesauro, Gerald* [[bib]](bibtex.bib#L1184-L1191) 
 
 ## Lifelong Reinforcement Learning
-- [**Reset-Free Lifelong Learning with Skill-Space Planning**](https://openreview.net/forum?id=HIGSa_3kOx3) , (2021) by *Kevin Lu, Aditya Grover, Pieter Abbeel and Igor Mordatch* [[bib]](bibtex.bib#L2415-L2422) 
+- [**Reset-Free Lifelong Learning with Skill-Space Planning**](https://openreview.net/forum?id=HIGSa_3kOx3) , (2021) by *Kevin Lu, Aditya Grover, Pieter Abbeel and Igor Mordatch* [[bib]](bibtex.bib#L2417-L2424) 
 - **Towards Continual Reinforcement Learning: A Review and Perspectives**, (2020) by *Khimya Khetarpal, Matthew Riemer, Irina Rish and Doina Precup* [[bib]](bibtex.bib#L10-L18) 
 ``` A review on continual reinforcement learning ``` 
 - [**Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges**](http://www.sciencedirect.com/science/article/pii/S1566253519307377) , (2020) by *Timothée Lesort, Vincenzo Lomonaco, Andrei Stoian, Davide Maltoni, David Filliat and Natalia Díaz-Rodríguez* [[bib]](bibtex.bib#L1053-L1064) 
