@@ -137,6 +137,8 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 ## Rehearsal Methods
 - [**Graph-Based Continual Learning**](https://openreview.net/forum?id=HHSEKOnPvaO) , (2021) by *Binh Tang and David S. Matteson* [[bib]](bibtex.bib#L2324-L2331) 
 ``` Use graphs to link saved samples and improve the memory quality. ``` 
+- **Online Class-Incremental Continual Learning with Adversarial Shapley Value**, (2021) by *Shim*, Dongsub, Mai*, Zheda, Jeong*, Jihwan, Sanner, Scott, Kim, Hyunwoo and Jang, Jongseong* [[bib]](bibtex.bib#L2488-L2494) 
+``` Use Shapley Value adversarially to select which samples to relay ``` 
 - [**GDumb: A Simple Approach that Questions Our Progress in Continual Learning**](http://www.robots.ox.ac.uk/~tvg/publications/2020/gdumb.pdf) , (2020) by *Prabhu, Ameya, Torr, Philip HS and Dokania, Puneet K* [[bib]](bibtex.bib#L1-L7) 
 ``` introduces a super simple methods that outperforms almost all methods in all of the CL benchmarks. We need new better benchamrks ``` 
 - [**Continual Learning: Tackling Catastrophic Forgetting in Deep Neural Networks with Replay Processes**](https://arxiv.org/abs/2007.00487) , (2020) by *Timothée Lesort* [[bib]](bibtex.bib#L54-L63) 
