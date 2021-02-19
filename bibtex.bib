@@ -15,7 +15,7 @@ url={https://papers.nips.cc/paper/2020/file/b704ea2c39778f07c617f6b7ce480e9e-Pap
   title={GDumb: A Simple Approach that Questions Our Progress in Continual Learning},
   author={Prabhu, Ameya and Torr, Philip HS and Dokania, Puneet K},
   url={http://www.robots.ox.ac.uk/~tvg/publications/2020/gdumb.pdf},
-  keywords={Survey, Rehearsal},
+  keywords={Empirical Study, Rehearsal},
   year={2020}
 }
 @String(prabhu12356gdumb="introduces a super simple methods that outperforms almost all methods in all of the CL benchmarks. We need new better benchamrks")
@@ -167,7 +167,7 @@ url={https://papers.nips.cc/paper/2020/file/b704ea2c39778f07c617f6b7ce480e9e-Pap
   author={Farquhar, Sebastian and Gal, Yarin},
   journal={arXiv preprint arXiv:1805.09733},
   year={2018},
-  keywords={Influentials, Survey},
+  keywords={Influentials, Empirical Study},
   url={https://arxiv.org/abs/1805.09733},
 }
 @String(Farquhar18="Proposes desideratas and reexamines the evaluation protocol")
@@ -242,7 +242,7 @@ archivePrefix="arXiv",
     eprint={1909.08383},
     archivePrefix={arXiv},
     primaryClass={cs.CV},
-    keywords="Survey",
+    keywords="Empirical Study",
     url={https://arxiv.org/abs/1909.08383},
 }
 @String(deLange2019continual="Extensive empirical study of CL methods (in the multi-head setting)")
@@ -783,7 +783,7 @@ url={https://openreview.net/forum?id=SJgwNerKvB},
   author={van de Ven, Gido M and Tolias, Andreas S},
   journal={arXiv preprint arXiv:1904.07734},
   year={2019},
-  keywords={"Survey"},
+  keywords={"Empirical Study"},
   url={https://arxiv.org/abs/1904.07734},  
 }
 @String(van2019three="An extensive review of CL methods in three different scenarios (task-, domain-, and class-incremental learning)")
@@ -917,24 +917,11 @@ url={https://openreview.net/forum?id=SJ1Xmf-Rb},
   PDF={https://hal.archives-ouvertes.fr/hal-01418129/file/article.pdf},
   HAL_ID={hal-01418129},
   HAL_VERSION={v1},
-    keywords={"Survey"}
+    keywords={Survey}
 }
 
 @String(gepperth2016incremental="A survey on incremental learning and the various applications fields")
 
-@article{Soltoggio2019Born,
-title="Born to learn: The inspiration, progress, and future of evolved plastic artificial neural networks",
-journal="Neural Networks",
-volume="108",
-pages="48 - 67",
-year="2018",
-issn="0893-6080",
-doi="https://doi.org/10.1016/j.neunet.2018.07.013",
-url="http://www.sciencedirect.com/science/article/pii/S0893608018302120",
-author="Andrea Soltoggio and Kenneth O. Stanley and Sebastian Risi",
-keywords={"Survey"},
-}
-@String(Soltoggio2019Born=" ")
 
 @inproceedings{aljundi2017expertGate,
   title={Expert gate: Lifelong learning with a network of experts},
@@ -1959,7 +1946,7 @@ title={Catastrophic forgetting: still a problem for DNNs},
 year=2018,
 booktitle={International Conference on Artificial Neural Networks ({ICANN})},
 author={Pf\"ulb, B and Gepperth, A and Abdullah, S and Krawczyk, A},
-keywords={Survey}
+keywords={Empirical Study}
 }
 
 @inproceedings{Rahaf2019selfless,
@@ -2518,6 +2505,16 @@ issn = {0893-6080},
 doi = {https://doi.org/10.1016/j.neunet.2020.12.003},
 url = {https://www.sciencedirect.com/science/article/pii/S0893608020304202},
 author = {Eden Belouadah and Adrian Popescu and Ioannis Kanellos},
-keywords = {Survey, Incremental learning, Catastrophic forgetting, Imbalanced learning, Image classification, Convolutional neural networks},
+keywords = {Empirical Study, Incremental learning, Catastrophic forgetting, Imbalanced learning, Image classification, Convolutional neural networks},
 abstract = {The ability of artificial agents to increment their capabilities when confronted with new data is an open challenge in artificial intelligence. The main challenge faced in such cases is catastrophic forgetting, i.e., the tendency of neural networks to underfit past data when new ones are ingested. A first group of approaches tackles forgetting by increasing deep model capacity to accommodate new knowledge. A second type of approaches fix the deep model size and introduce a mechanism whose objective is to ensure a good compromise between stability and plasticity of the model. While the first type of algorithms were compared thoroughly, this is not the case for methods which exploit a fixed size model. Here, we focus on the latter, place them in a common conceptual and experimental framework and propose the following contributions: (1) define six desirable properties of incremental learning algorithms and analyze them according to these properties, (2) introduce a unified formalization of the class-incremental learning problem, (3) propose a common evaluation framework which is more thorough than existing ones in terms of number of datasets, size of datasets, size of bounded memory and number of incremental states, (4) investigate the usefulness of herding for past exemplars selection, (5) provide experimental evidence that it is possible to obtain competitive performance without the use of knowledge distillation to tackle catastrophic forgetting and (6) facilitate reproducibility by integrating all tested methods in a common open-source repository. The main experimental finding is that none of the existing algorithms achieves the best results in all evaluated settings. Important differences arise notably if a bounded memory of past classes is allowed or not.}
+}
+
+@misc{mai2021online,
+      title={Online Continual Learning in Image Classification: An Empirical Survey},
+      author={Zheda Mai and Ruiwen Li and Jihwan Jeong and David Quispe and Hyunwoo Kim and Scott Sanner},
+      year={2021},
+      eprint={2101.10423},
+      archivePrefix={arXiv},
+      keywords = {Empirical Study, Incremental learning, Catastrophic forgetting, Imbalanced learning, Image classification, Convolutional neural networks},
+      primaryClass={cs.LG}
 }
