@@ -42,7 +42,7 @@ It can be manually edited to add an URL and some keywords that might help for au
 
 The current list of keywords used is:
 ```python
-["Classic","Survey","Influential","Regularization","Distillation","Rehearsal","Generative Replay","Dynamic Architecture","Hybrid","Meta-Continual Learning", "Continual-Meta Learning", "Reinforcement", "Generative Modeling","Applications"]
+["Empirical Study", "Survey","Influential","Regularization","Distillation","Rehearsal","Generative Replay","Dynamic Architecture","Hybrid","Meta-Continual Learning", "Continual-Meta Learning", "Reinforcement", "Generative Modeling","Applications"]
 ```
 
 
