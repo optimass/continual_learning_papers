@@ -14,6 +14,7 @@ def plot_titles(titles):
     return '\n' + "## " + titles[0] + '\n'
 
 list_types = [["Classics", "Classic"],
+               ["Empirical Study", "Empirical"],
                ["Surveys", "Survey", "survey"],
                ["Influentials", "Influential"],
                ["New Settings or Metrics", "Setting", "Metric"],
