@@ -44,7 +44,7 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 - [**Towards Robust Evaluations of Continual Learning**](https://arxiv.org/abs/1805.09733) , (2018) by *Farquhar, Sebastian and Gal, Yarin* [[bib]](bibtex.bib#L165-L172) 
 ``` Proposes desideratas and reexamines the evaluation protocol ``` 
 - **Catastrophic forgetting: still a problem for DNNs**, (2018) by *Pf\"ulb, B, Gepperth, A, Abdullah, S and Krawczyk, A* [[bib]](bibtex.bib#L1944-L1950) 
-- **{Measuring Catastrophic Forgetting in Neural Networks}**, (2017) by *{Kemker}, R., {McClure}, M., {Abitino}, A., {Hayes}, T. and 
+- **{Measuring Catastrophic Forgetting in Neural Networks}**, (2017) by *{Kemker}, R., {McClure}, M., {Abitino}, A. and {Hayes}, T. and
 {Kanan}, C.* [[bib]](bibtex.bib#L1106-L1119) 
 - [**{CORe50: a New Dataset and Benchmark for Continuous Object Recognition}**](http://proceedings.mlr.press/v78/lomonaco17a.html) , (2017) by *Vincenzo Lomonaco and Davide Maltoni* [[bib]](bibtex.bib#L1121-L1136) 
 - [**An Empirical Investigation of Catastrophic Forgetting in Gradient-Based Neural Networks**](https://arxiv.org/abs/1312.6211) , (2013) by *Goodfellow, I.~J., Mirza, M., Xiao, D., Courville, A. and Bengio, Y.* [[bib]](bibtex.bib#L222-L235) 
@@ -60,6 +60,7 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 ``` An extensive review of CL in Natural Language Processing (NLP) ``` 
 - [**Continual lifelong learning with neural networks: A review**](http://www.sciencedirect.com/science/article/pii/S0893608019300231) , (2019) by *German I. Parisi, Ronald Kemker, Jose L. Part, Christopher Kanan and Stefan Wermter* [[bib]](bibtex.bib#L250-L261) 
 ``` An extensive review of CL ``` 
+- **Online learning: A comprehensive survey**, (2018) by *Hoi, Steven CH, Sahoo, Doyen, Lu, Jing and Zhao, Peilin* [[bib]](bibtex.bib#L2557-L2563) 
 - [**{Incremental learning algorithms and applications}**](https://hal.archives-ouvertes.fr/hal-01418129) , (2016) by *Gepperth, Alexander and Hammer, Barbara* [[bib]](bibtex.bib#L910-L921) 
 ``` A survey on incremental learning and the various applications fields ``` 
 
@@ -162,7 +163,7 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 ``` projecting the gradients from new tasks onto a subspace in which the neural network output on previous task does not change and the projected gradient is still in a useful direction for learning the new task ``` 
 - [**Gradient based sample selection for online continual learning**](http://papers.nips.cc/paper/9354-gradient-based-sample-selection-for-online-continual-learning.pdf) , (2019) by *Aljundi, Rahaf, Lin, Min, Goujaud, Baptiste and Bengio, Yoshua* [[bib]](bibtex.bib#L553-L563) 
 ``` sample selection as a constraint reduction problem based on the constrained optimization view of continual learning ``` 
-- [**Online Continual Learning with Maximal Interfered Retrieval**](http://papers.nips.cc/paper/9357-online-continual-learning-with-maximal-interfered-retrieval.pdf) , (2019) by *Aljundi, Rahaf, 
+- [**Online Continual Learning with Maximal Interfered Retrieval**](http://papers.nips.cc/paper/9357-online-continual-learning-with-maximal-interfered-retrieval.pdf) , (2019) by *Aljundi, Rahaf and
 , Lucas, Belilovsky, Eugene, Caccia, Massimo, Lin, Min, Charlin, Laurent and Tuytelaars, Tinne* [[bib]](bibtex.bib#L567-L578) 
 ``` Controlled sampling of memories for replay to automatically rehearse on tasks currently undergoing the most forgetting ``` 
 - [**Online Learned Continual Compression with Adaptative Quantization Module**](https://arxiv.org/abs/1911.08019) , (2019) by *Caccia, Lucas, Belilovsky, Eugene, Caccia, Massimo and Pineau, Joelle* [[bib]](bibtex.bib#L582-L589) 
@@ -211,8 +212,8 @@ Caiming Xiong* [[bib]](bibtex.bib#L1924-L1942)
 - [**Continual Learning in Practice**](https://arxiv.org/abs/1903.05202) , (2018) by *Diethe, Tom, Borchert, Tom, Thereska, Eno, Pigem, Borja de Balle and Lawrence, Neil* [[bib]](bibtex.bib#L2029-L2036) 
 ``` Proposes a reference architecture for a continual learning system ``` 
 - **Lifelong learning with dynamically expandable networks**, (2017) by *Yoon, Jaehong, Yang, Eunho, Lee, Jeongtae and Hwang, Sung Ju* [[bib]](bibtex.bib#L1792-L1798) 
-- [**Progressive Neural Networks**](https://arxiv.org/abs/1606.04671) , (2016) by *{Rusu}, A.~A., {Rabinowitz}, N.~C., {Desjardins}, G., 
-{Soyer}, H., {Kirkpatrick}, J., {Kavukcuoglu}, K., 
+- [**Progressive Neural Networks**](https://arxiv.org/abs/1606.04671) , (2016) by *{Rusu}, A.~A., {Rabinowitz}, N.~C., {Desjardins}, G. and
+{Soyer}, H., {Kirkpatrick}, J., {Kavukcuoglu}, K. and
 {Pascanu}, R. and {Hadsell}, R.* [[bib]](bibtex.bib#L502-L517) 
 ``` Each task have a specific model connected to the previous ones ``` 
 
