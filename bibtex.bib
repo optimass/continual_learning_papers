@@ -411,21 +411,28 @@ url={https://openreview.net/forum?id=B1al7jg0b},
 
 
 
-@article{Aljundi17,
-  author   ={Rahaf Aljundi and Francesca Babiloni and Mohamed Elhoseiny and Marcus Rohrbach and Tinne Tuytelaars},
-  title    ={Memory Aware Synapses: Learning what (not) to forget},
-  journal  ={CoRR},
-  volume   ={abs/1711.09601},
-  year     ={2017},
-  url      ={http://arxiv.org/abs/1711.09601},
-  archivePrefix={arXiv},
-  eprint   ={1711.09601},
-  timestamp={Mon, 13 Aug 2018 16:47:14 +0200},
-  biburl   ={https://dblp.org/rec/bib/journals/corr/abs-1711-09601},
-  bibsource={dblp computer science bibliography, https://dblp.org},
+@InProceedings{Aljundi2018Memory,
+author="Aljundi, Rahaf
+and Babiloni, Francesca
+and Elhoseiny, Mohamed
+and Rohrbach, Marcus
+and Tuytelaars, Tinne",
+editor="Ferrari, Vittorio
+and Hebert, Martial
+and Sminchisescu, Cristian
+and Weiss, Yair",
+title="Memory Aware Synapses: Learning What (not) to Forget",
+booktitle="Computer Vision -- ECCV 2018",
+year="2018",
+publisher="Springer International Publishing",
+address="Cham",
+pages="144--161",
+abstract="Humans can learn in a continuous manner. Old rarely utilized knowledge can be overwritten by new incoming information while important, frequently used knowledge is prevented from being erased. In artificial learning systems, lifelong learning so far has focused mainly on accumulating knowledge over tasks and overcoming catastrophic forgetting. In this paper, we argue that, given the limited model capacity and the unlimited new information to be learned, knowledge has to be preserved or erased selectively. Inspired by neuroplasticity, we propose a novel approach for lifelong learning, coined Memory Aware Synapses (MAS). It computes the importance of the parameters of a neural network in an unsupervised and online manner. Given a new sample which is fed to the network, MAS accumulates an importance measure for each parameter of the network, based on how sensitive the predicted output function is to a change in this parameter. When learning a new task, changes to important parameters can then be penalized, effectively preventing important knowledge related to previous tasks from being overwritten. Further, we show an interesting connection between a local version of our method and Hebb's rule, which is a model for the learning process in the brain. We test our method on a sequence of object recognition tasks and on the challenging problem of learning an embedding for predicting <subject, predicate, object> triplets. We show state-of-the-art performance and, for the first time, the ability to adapt the importance of the parameters based on unlabeled data towards what the network needs (not) to forget, which may vary depending on test conditions.",
+isbn="978-3-030-01219-9",
+  url={http://arxiv.org/abs/1711.09601},
     keywords={Regularization}
 }
-@String(Aljundi17="Importance of parameter measured based on their contribution to change in the learned prediction function")
+@String(Aljundi2018Memory="Importance of parameter measured based on their contribution to change in the learned prediction function")
 
 
 
