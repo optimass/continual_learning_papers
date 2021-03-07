@@ -300,6 +300,7 @@ Caiming Xiong* [[bib]](bibtex.bib#L1907-L1925)
 - [**Avalanche: an End-to-End Library for Continual Learning**](https://avalanche.continualai.org/) , (2021) by *ContinualAI* [[bib]](bibtex.bib#L2319-L2326) 
 ``` A library for Continual Supervised Learning ``` 
 - [**Continuous Coordination As a Realistic Scenario for Lifelong Learning**](https://github.com/chandar-lab/Lifelong-Hanabi) , (2021) by *Hadi Nekoei, Akilesh Badrinaaraayanan, Aaron Courville and Sarath Chandar* [[bib]](bibtex.bib#L2329-L2338) 
+``` a multi-agent lifelong learning testbed that supports both zero-shot and few-shot settings. ``` 
 - [**Continuum, Data Loaders for Continual Learning**](https://github.com/Continvvm/continuum) , (2020) by *Douillard, Arthur and Lesort, Timothée* [[bib]](bibtex.bib#L2285-L2294) 
 ``` A library proposing continual supervised learning scenarios and metrics. ``` 
 - [**Framework for Analysis of Class-Incremental Learning**](https://github.com/mmasana/FACIL) , (2020) by *Masana, Marc, Liu, Xialei, Twardowski, Bartlomiej, Menta, Mikel, Bagdanov, Andrew D and van de Weijer, Joost* [[bib]](bibtex.bib#L2309-L2316) 
