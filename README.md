@@ -295,7 +295,7 @@ Caiming Xiong* [[bib]](bibtex.bib#L1907-L1925)
 - [**Continual learning in reinforcement environments**](https://www.cs.utexas.edu/~ring/Ring-dissertation.pdf) , (1994) by *Ring, Mark Bishop* [[bib]](bibtex.bib#L1472-L1479) 
 
 ## Libraries
-- [**Sequoia - Towards a Systematic Organization of Continual Learning Research**](https://github.com/lebrice/Sequoia) , (2021) by *Normandin, Fabrice, Golemo, Florian, Ostapenko, Oleksiy Riemer, Matthew,, Rodriguez, Pau, Hurtado, Julio,, Khetarpal, Khimya, Lesort, Timothée, Charlin, Laurent, Rish, Irina and Caccia, Massimo* [[bib]](bibtex.bib#L2297-L2306) 
+- [**Sequoia - Towards a Systematic Organization of Continual Learning Research**](https://github.com/lebrice/Sequoia) , (2021) by *Normandin, Fabrice, Golemo, Florian, Ostapenko, Oleksiy, Riemer, Matthew, Rodriguez, Pau, Hurtado, Julio, Khetarpal, Khimya, Lesort, Timothée, Charlin, Laurent, Rish, Irina and Caccia, Massimo* [[bib]](bibtex.bib#L2297-L2306) 
 ``` A library that unifies Continual Supervised and Continual Reinforcement Learning research ``` 
 - [**Avalanche: an End-to-End Library for Continual Learning**](https://avalanche.continualai.org/) , (2021) by *ContinualAI* [[bib]](bibtex.bib#L2319-L2326) 
 ``` A library for Continual Supervised Learning ``` 
