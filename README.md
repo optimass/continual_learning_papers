@@ -302,7 +302,7 @@ Caiming Xiong* [[bib]](bibtex.bib#L1907-L1925)
 - [**Continuous Coordination As a Realistic Scenario for Lifelong Learning**](https://github.com/chandar-lab/Lifelong-Hanabi) , (2021) by *Hadi Nekoei, Akilesh Badrinaaraayanan, Aaron Courville and Sarath Chandar* [[bib]](bibtex.bib#L2329-L2338) 
 - [**Continuum, Data Loaders for Continual Learning**](https://github.com/Continvvm/continuum) , (2020) by *Douillard, Arthur and Lesort, Timothée* [[bib]](bibtex.bib#L2285-L2294) 
 ``` A library proposing continual supervised learning scenarios and metrics. ``` 
-- [**Class-incremental learning: survey and performance evaluation**](https://github.com/mmasana/FACIL) , (2020) by *Masana, Marc, Liu, Xialei, Twardowski, Bartlomiej, Menta, Mikel, Bagdanov, Andrew D and van de Weijer, Joost* [[bib]](bibtex.bib#L2309-L2316) 
+- [**Framework for Analysis of Class-Incremental Learning**](https://github.com/mmasana/FACIL) , (2020) by *Masana, Marc, Liu, Xialei, Twardowski, Bartlomiej, Menta, Mikel, Bagdanov, Andrew D and van de Weijer, Joost* [[bib]](bibtex.bib#L2309-L2316) 
 ``` A library for Continual Class-Incremental Learning ``` 
 
 ## Workshops
