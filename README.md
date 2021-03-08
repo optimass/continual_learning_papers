@@ -33,8 +33,8 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 ``` Introduces CL and reveals the catastrophic forgetting problem ``` 
 
 ## Empirical Study
-- [**A comprehensive study of class incremental learning algorithms for visual tasks**](https://www.sciencedirect.com/science/article/pii/S0893608020304202) , (2021) by *Eden Belouadah, Adrian Popescu and Ioannis Kanellos* [[bib]](bibtex.bib#L2526-L2538) 
-- **Online Continual Learning in Image Classification: An Empirical Survey**, (2021) by *Zheda Mai, Ruiwen Li, Jihwan Jeong, David Quispe, Hyunwoo Kim and Scott Sanner* [[bib]](bibtex.bib#L2540-L2548) 
+- [**A comprehensive study of class incremental learning algorithms for visual tasks**](https://www.sciencedirect.com/science/article/pii/S0893608020304202) , (2021) by *Eden Belouadah, Adrian Popescu and Ioannis Kanellos* [[bib]](bibtex.bib#L2525-L2537) 
+- **Online Continual Learning in Image Classification: An Empirical Survey**, (2021) by *Zheda Mai, Ruiwen Li, Jihwan Jeong, David Quispe, Hyunwoo Kim and Scott Sanner* [[bib]](bibtex.bib#L2539-L2547) 
 - [**GDumb: A Simple Approach that Questions Our Progress in Continual Learning**](http://www.robots.ox.ac.uk/~tvg/publications/2020/gdumb.pdf) , (2020) by *Prabhu, Ameya, Torr, Philip HS and Dokania, Puneet K* [[bib]](bibtex.bib#L14-L20) 
 ``` introduces a super simple methods that outperforms almost all methods in all of the CL benchmarks. We need new better benchamrks ``` 
 - [**Continual learning: A comparative study on how to defy forgetting in classification tasks**](https://arxiv.org/abs/1909.08383) , (2019) by *Matthias De Lange, Rahaf Aljundi, Marc Masana, Sarah Parisot, Xu Jia, Ales Leonardis, Gregory Slabaugh and Tinne Tuytelaars* [[bib]](bibtex.bib#L238-L247) 
@@ -57,7 +57,7 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 - [**Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges**](http://www.sciencedirect.com/science/article/pii/S1566253519307377) , (2020) by *Timothée Lesort, Vincenzo Lomonaco, Andrei Stoian, Davide Maltoni, David Filliat and Natalia Díaz-Rodríguez* [[bib]](bibtex.bib#L1036-L1047) 
 - [**A Wholistic View of Continual Learning with Deep Neural Networks: Forgotten Lessons and the Bridge to Active and Open World Learning**](https://arxiv.org/abs/2009.01797) , (2020) by *Mundt, Martin, Hong, Yong Won, Pliushch, Iuliia and Ramesh, Visvanathan* [[bib]](bibtex.bib#L2261-L2268) 
 ``` propose a consolidated view to bridge continual learning, active learning and open set recognition in DNNs ``` 
-- [**Continual Lifelong Learning in Natural Language Processing: A Survey**](https://www.aclweb.org/anthology/2020.coling-main.574) , (2020) by *Magdalena Biesialska, Katarzyna Biesialska, Marta R. Costa-jussà* [[bib]](bibtex.bib#L2491-L2503) 
+- [**Continual Lifelong Learning in Natural Language Processing: A Survey**](https://www.aclweb.org/anthology/2020.coling-main.574) , (2020) by *Magdalena Biesialska, Katarzyna Biesialska, Marta R. Costa-jussà* [[bib]](bibtex.bib#L2490-L2502) 
 ``` An extensive review of CL in Natural Language Processing (NLP) ``` 
 - [**Continual lifelong learning with neural networks: A review**](http://www.sciencedirect.com/science/article/pii/S0893608019300231) , (2019) by *German I. Parisi, Ronald Kemker, Jose L. Part, Christopher Kanan and Stefan Wermter* [[bib]](bibtex.bib#L250-L261) 
 ``` An extensive review of CL ``` 
@@ -82,7 +82,7 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 ``` Investigates CF in neural networks ``` 
 
 ## New Settings or Metrics
-- [**IIRC: Incremental Implicitly-Refined Classification**](https://chandar-lab.github.io/IIRC/) , (2021) by *Mohamed Abdelsalam, Mojtaba Faramarzi, Shagun Sodhani and Sarath Chandar* [[bib]](bibtex.bib#L2481-L2487) 
+- [**IIRC: Incremental Implicitly-Refined Classification**](https://chandar-lab.github.io/IIRC/) , (2021) by *Mohamed Abdelsalam, Mojtaba Faramarzi, Shagun Sodhani and Sarath Chandar* [[bib]](bibtex.bib#L2480-L2486) 
 ``` A setup and benchmark to evaluate lifelong learning models in more real-life aligned scenarios. ``` 
 - [**Wandering Within a World: Online Contextualized Few-Shot Learning**](https://arxiv.org/abs/2007.04546) , (2020) by *Mengye Ren, Michael L. Iuzzolino, Michael C. Mozer and Richard S. Zemel* [[bib]](bibtex.bib#L55-L63) 
 ``` proposes a new continual few-shot setting where spacial and temporal context can be leveraged to and unseen classes need to be predicted ``` 
@@ -146,9 +146,9 @@ This repository is maintained by Massimo Caccia and Timothée Lesort don't hesit
 ``` Binary cross-entropy loss for representation learning & exemplar memory (or coreset) for replay (Single-head setting) ``` 
 
 ## Rehearsal Methods
-- [**Graph-Based Continual Learning**](https://openreview.net/forum?id=HHSEKOnPvaO) , (2021) by *Binh Tang and David S. Matteson* [[bib]](bibtex.bib#L2352-L2359) 
+- [**Graph-Based Continual Learning**](https://openreview.net/forum?id=HHSEKOnPvaO) , (2021) by *Binh Tang and David S. Matteson* [[bib]](bibtex.bib#L2351-L2358) 
 ``` Use graphs to link saved samples and improve the memory quality. ``` 
-- [**Online Class-Incremental Continual Learning with Adversarial Shapley Value**](https://arxiv.org/pdf/2009.00093.pdf) , (2021) by *Dongsub Shim\*, Zheda Mai\*, Jihwan Jeong\*, Scott Sanner, Hyunwoo Kim, Jongseong Jang* [[bib]](bibtex.bib#L2516-L2523) 
+- [**Online Class-Incremental Continual Learning with Adversarial Shapley Value**](https://arxiv.org/pdf/2009.00093.pdf) , (2021) by *Dongsub Shim\*, Zheda Mai\*, Jihwan Jeong\*, Scott Sanner, Hyunwoo Kim, Jongseong Jang* [[bib]](bibtex.bib#L2515-L2522) 
 ``` Use Shapley Value adversarially to select which samples to relay ``` 
 - [**Dark Experience for General Continual Learning: a Strong, Simple Baseline**](https://papers.nips.cc/paper/2020/file/b704ea2c39778f07c617f6b7ce480e9e-Paper.pdf) , (2020) by *Buzzega, Pietro, Boschini, Matteo, Porrello, Angelo, Abati, Davide and Calderara, Simone* [[bib]](bibtex.bib#L1-L11) 
 - [**GDumb: A Simple Approach that Questions Our Progress in Continual Learning**](http://www.robots.ox.ac.uk/~tvg/publications/2020/gdumb.pdf) , (2020) by *Prabhu, Ameya, Torr, Philip HS and Dokania, Puneet K* [[bib]](bibtex.bib#L14-L20) 
@@ -260,7 +260,7 @@ Caiming Xiong* [[bib]](bibtex.bib#L1907-L1925)
 - [**Learning to learn without forgetting by maximizing transfer and minimizing interference**](https://arxiv.org/abs/1810.11910) , (2018) by *Riemer, Matthew, Cases, Ignacio, Ajemian, Robert, Liu, Miao, Rish, Irina, Tu, Yuhai and Tesauro, Gerald* [[bib]](bibtex.bib#L1167-L1174) 
 
 ## Lifelong Reinforcement Learning
-- [**Reset-Free Lifelong Learning with Skill-Space Planning**](https://openreview.net/forum?id=HIGSa_3kOx3) , (2021) by *Kevin Lu, Aditya Grover, Pieter Abbeel and Igor Mordatch* [[bib]](bibtex.bib#L2445-L2452) 
+- [**Reset-Free Lifelong Learning with Skill-Space Planning**](https://openreview.net/forum?id=HIGSa_3kOx3) , (2021) by *Kevin Lu, Aditya Grover, Pieter Abbeel and Igor Mordatch* [[bib]](bibtex.bib#L2444-L2451) 
 - **Towards Continual Reinforcement Learning: A Review and Perspectives**, (2020) by *Khimya Khetarpal, Matthew Riemer, Irina Rish and Doina Precup* [[bib]](bibtex.bib#L23-L31) 
 ``` A review on continual reinforcement learning ``` 
 - [**Continual learning for robotics: Definition, framework, learning strategies, opportunities and challenges**](http://www.sciencedirect.com/science/article/pii/S1566253519307377) , (2020) by *Timothée Lesort, Vincenzo Lomonaco, Andrei Stoian, Davide Maltoni, David Filliat and Natalia Díaz-Rodríguez* [[bib]](bibtex.bib#L1036-L1047) 
@@ -297,9 +297,9 @@ Caiming Xiong* [[bib]](bibtex.bib#L1907-L1925)
 ## Libraries
 - [**Sequoia - Towards a Systematic Organization of Continual Learning Research**](https://github.com/lebrice/Sequoia) , (2021) by *Fabrice Normandin, Florian  Golemo,  Oleksiy Ostapenko,  Matthew Riemer,  Pau Rodriguez,  Julio Hurtado,  Khimya Khetarpal, Timothée Lesort,  Laurent Charlin, Irina Rish and Massimo Caccia* [[bib]](bibtex.bib#L2297-L2306) 
 ``` A library that unifies Continual Supervised and Continual Reinforcement Learning research ``` 
-- [**Avalanche: an End-to-End Library for Continual Learning**](https://avalanche.continualai.org/) , (2021) by *ContinualAI* [[bib]](bibtex.bib#L2319-L2326) 
+- [**Avalanche: an End-to-End Library for Continual Learning**](https://avalanche.continualai.org/) , (2021) by *Vincenzo Lomonaco, Lorenzo Pellegrini, Andrea Cossu, Gabriele Graffieti and Antonio Carta * [[bib]](bibtex.bib#L2319-L2325) 
 ``` A library for Continual Supervised Learning ``` 
-- [**Continuous Coordination As a Realistic Scenario for Lifelong Learning**](https://github.com/chandar-lab/Lifelong-Hanabi) , (2021) by *Hadi Nekoei, Akilesh Badrinaaraayanan, Aaron Courville and Sarath Chandar* [[bib]](bibtex.bib#L2329-L2338) 
+- [**Continuous Coordination As a Realistic Scenario for Lifelong Learning**](https://github.com/chandar-lab/Lifelong-Hanabi) , (2021) by *Hadi Nekoei, Akilesh Badrinaaraayanan, Aaron Courville and Sarath Chandar* [[bib]](bibtex.bib#L2328-L2337) 
 ``` a multi-agent lifelong learning testbed that supports both zero-shot and few-shot settings. ``` 
 - [**Continuum, Data Loaders for Continual Learning**](https://github.com/Continvvm/continuum) , (2020) by *Douillard, Arthur and Lesort, Timothée* [[bib]](bibtex.bib#L2285-L2294) 
 ``` A library proposing continual supervised learning scenarios and metrics. ``` 
@@ -309,4 +309,4 @@ Caiming Xiong* [[bib]](bibtex.bib#L1907-L1925)
 ## Workshops
 - [**Workshop on Continual Learning at ICML 2020**](https://sites.google.com/view/cl-icml/organizers?authuser=0) , (2020) by *Rahaf Aljundi, Haytham Fayek, Eugene Belilovsky, David Lopez-Paz, Arslan Chaudhry, Marc Pickett, Puneet Dokania, Jonathan Schwarz, Sayna Ebrahimi* [[bib]](bibtex.bib#L78-L85) 
 - [**4th Lifelong Machine Learning Workshop at ICML 2020**](https://openreview.net/group?id=ICML.cc/2020/Workshop/LifelongML#accept) , (2020) by *Shagun Sodhani, Sarath Chandar, Balaraman Ravindran and Doina Precup* [[bib]](bibtex.bib#L88-L95) 
-- [**1st Lifelong Learning for Machine Translation Shared Task at WMT20 (EMNLP 2020)**](http://www.statmt.org/wmt20/lifelong-learning-task.html) , (2020) by *Loïc Barrault, Magdalena Biesialska, Marta R. Costa-jussà, Fethi Bougares, Olivier Galibert* [[bib]](bibtex.bib#L2507-L2509) 
+- [**1st Lifelong Learning for Machine Translation Shared Task at WMT20 (EMNLP 2020)**](http://www.statmt.org/wmt20/lifelong-learning-task.html) , (2020) by *Loïc Barrault, Magdalena Biesialska, Marta R. Costa-jussà, Fethi Bougares, Olivier Galibert* [[bib]](bibtex.bib#L2506-L2508) 
