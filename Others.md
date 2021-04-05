@@ -1,3 +1,33 @@
+## Continual Learning codebases
+
+[Sequoia](https://github.com/lebrice/Sequoia)
+```A Playground for research at the intersection of Continual, Reinforcement, and Self-Supervised Learning.```
+
+[FACIL](https://github.com/mmasana/FACIL)
+```Framework for Analysis of Class-Incremental Learning```
+
+[Mammoth - An Extendible (General) Continual Learning Framework for Pytorch](https://github.com/aimagelab/mammoth)
+```Official repository of Dark Experience for General Continual Learning: a Strong, Simple Baseline```
+
+[Continuum](https://github.com/Continvvm/continuum)
+```Continuum: Simple Management of Complex Continual Learning Scenarios```
+
+[Gradient Episodic Memory for Continual Learning](https://github.com/facebookresearch/GradientEpisodicMemory)
+```Reproduce paper. Nice repo because baselines and GEM are seamlessly interchangable```
+
+
+[Generative Models from the perspective of Continual Learning](https://github.com/TLESORT/Generative_Continual_Learning)
+```Complete repo for experiments in Generative Continual Learning```
+
+[Online Continual Learning with Maximally Interfered Retrieval](https://github.com/optimass/Maximally_Interfered_Retrieval)
+```Reproduce paper```
+
+[Learning to Learn without Forgetting by Maximizing Transfer and Minimizing Interference (MER)](https://github.com/mattriemer/mer)
+```Reproduce paper```
+
+[Avalanche](https://github.com/ContinualAI/avalanche)
+```Avalanche: an End-to-End Library for Continual Learning```
+
 
 ### Datasets and Benchmarks
 
@@ -16,44 +46,11 @@
 
 [An adaptable mobile robot](https://books.google.com/books?hl=en&lr=&id=pWsNJkdZ4tgC&oi=fnd&pg=PA41&dq=info:h5z0opLMzBAJ:scholar.google.com&ots=86L0lSnLRK&sig=TqjLqumrnXpS6ca_CPmLEMc8UQs#v=onepage&q&f=false) (1992)  [[bib]](https://github.com/optimass/continual_learning_papers/blob/master/bibtex.bib#L536-L540)
 
-## Continual Learning codebases
-
-[Continual Learning Data Former](https://github.com/TLESORT/Continual_Learning_Data_Former)
-```
- A pytorch compatible data loader to create and use sequence of tasks for Continual Learning 
-```
-
-[Gradient Episodic Memory for Continual Learning](https://github.com/facebookresearch/GradientEpisodicMemory)
-```
-Reproduce paper. Nice repo because baselines and GEM are seamlessly interchangable
-```
-
-
-[Generative Models from the perspective of Continual Learning](https://github.com/TLESORT/Generative_Continual_Learning)
-```
-Complete repo for experiments in Generative Continual Learning
-```
-
-[Online Continual Learning with Maximally Interfered Retrieval](https://github.com/optimass/Maximally_Interfered_Retrieval)
-```
-Reproduce paper
-```
-
-[Learning to Learn without Forgetting by Maximizing Transfer and Minimizing Interference (MER)](https://github.com/mattriemer/mer)
-```
-Reproduce paper
-```
-
-
 
 ## Other Resources
 
 https://github.com/xialeiliu/Awesome-Incremental-Learning
-```
-Another CL paper repository
-```
+```Another CL paper repository```
 
 https://github.com/prprbr/awesome-lifelong-continual-learning
-```
-Another CL paper repository
-```
+```Another CL paper repository```
