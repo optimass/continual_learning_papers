@@ -12,6 +12,9 @@
 [Continuum](https://github.com/Continvvm/continuum)
 ```Continuum: Simple Management of Complex Continual Learning Scenarios```
 
+[A continual learning survey: Defying forgetting in classification tasks](https://github.com/Mattdl/CLsurvey)
+```Implementation of the survey baselines```
+
 [Gradient Episodic Memory for Continual Learning](https://github.com/facebookresearch/GradientEpisodicMemory)
 ```Reproduce paper. Nice repo because baselines and GEM are seamlessly interchangable```
 
