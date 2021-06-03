@@ -1,7 +1,7 @@
 import os
 import bibtexparser
 
-bibtex_filename = "bibtex.bib"
+bibtex_filename = str(os.path.join(os.path.dirname(os.getcwd()),'bibtex.bib'))
 
 
 def keep_last_and_only(authors_str):
