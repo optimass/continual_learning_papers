@@ -1270,6 +1270,15 @@ year={2020},
 url={https://openreview.net/forum?id=BkepbpNFwr}
 }
 
+@inproceedings{lee2019neural,
+  title={A Neural Dirichlet Process Mixture Model for Task-Free Continual Learning},
+  author={Lee, Soochan and Ha, Junsoo and Zhang, Dongsu and Kim, Gunhee},
+  booktitle={International Conference on Learning Representations},
+  year={2019},
+  url={https://arxiv.org/pdf/2001.00689.pdf},
+  keywords={"Hybrid"}
+}
+@String(lee2019neural="This paper introduces expansion-based approach for task-free continual learning")
 
 @inproceedings{
 Li2020Compositional,
@@ -1282,6 +1291,15 @@ keywords={Applications, Setting}
 }
 @String(Li2020Compositional="method for compositional continual learning of sequence-to-sequence models")
 
+
+@article{lomonaco2020cvpr,
+  title={CVPR 2020 Continual Learning in Computer Vision Competition: Approaches, Results, Current Challenges and Future Directions},
+  author={Lomonaco, Vincenzo and Pellegrini, Lorenzo and Rodriguez, Pau and Caccia, Massimo and She, Qi and Chen, Yu and Jodelet, Quentin and Wang, Ruiping and Mai, Zheda and Vazquez, David and others},
+  journal={arXiv preprint arXiv:2009.09929},
+  year={2020},
+  keywords={Workshop}
+}
+@String(lomonaco2020cvpr="surveys the results of the first CL competition at CVPR")
 
 @inproceedings{pfulb2019a,
 title={A comprehensive, application-oriented study of catastrophic forgetting in {DNN}s},
@@ -2001,12 +2019,22 @@ url={https://openreview.net/forum?id=Bkxbrn0cYX},
   publisher={Elsevier}
 }
 
-@article{doan2020theoretical,
-  title={A Theoretical Analysis of Catastrophic Forgetting through the NTK Overlap Matrix},
-  author={Doan, Thang and Bennani, Mehdi and Mazoure, Bogdan and Rabusseau, Guillaume and Alquier, Pierre},
-  journal={arXiv preprint arXiv:2010.04003},
-  year={2020}
+@InProceedings{Doan2021Theoretical,
+  title = 	 { A Theoretical Analysis of Catastrophic Forgetting through the NTK Overlap Matrix },
+  author =       {Doan, Thang and Abbana Bennani, Mehdi and Mazoure, Bogdan and Rabusseau, Guillaume and Alquier, Pierre},
+  booktitle = 	 {Proceedings of The 24th International Conference on Artificial Intelligence and Statistics},
+  pages = 	 {1072--1080},
+  year = 	 {2021},
+  editor = 	 {Arindam Banerjee and Kenji Fukumizu},
+  volume = 	 {130},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {13--15 Apr},
+  publisher =    {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v130/doan21a/doan21a.pdf},
+  url = 	 {http://proceedings.mlr.press/v130/doan21a.html},
+  keywors={Regularization}
 }
+@String(Doan2021Theoretical="Analysis of CF under NTK regime with a modified version of OGD, PCA-OGD")
 
 @inproceedings{Nehmzow09,
   title={A proposal for continual learning in robotics},
@@ -2615,3 +2643,58 @@ archivePrefix = {arXiv},
   year={2020},
   organization={IEEE Computer Society}
 }
+
+@article{diaz2018don,
+  title={Don't forget, there is more than forgetting: new metrics for Continual Learning},
+  author={D{\'\i}az-Rodr{\'\i}guez, Natalia and Lomonaco, Vincenzo and Filliat, David and Maltoni, Davide},
+  journal={arXiv preprint arXiv:1810.13166},
+  year={2018}
+  keywords={Metric}
+}
+@String(diaz2018don="introduces a CL score that takes more than just forgetting into account")
+
+@misc{normandin2021sequoia,
+  author={Fabrice Normandin and Florian  Golemo and  Oleksiy Ostapenko and  Matthew Riemer and  Pau Rodriguez and  Julio Hurtado and  Khimya Khetarpal and Timothée Lesort and  Laurent Charlin and Irina Rish and Massimo Caccia},
+  title={Sequoia - Towards a Systematic Organization of Continual Learning Research},
+  publisher={Github},
+  journal={Github repository},
+  howpublished={\url{https://github.com/lebrice/Sequoia}},
+  url={https://github.com/lebrice/Sequoia},
+  year={2021},
+  keywords={Library, Framework}
+}
+@String(normandin2021sequoia="A library that unifies Continual Supervised and Continual Reinforcement Learning research")
+
+@article{masana2020class,
+  title={Framework for Analysis of Class-Incremental Learning},
+  author={Masana, Marc and Liu, Xialei and Twardowski, Bartlomiej and Menta, Mikel and Bagdanov, Andrew D and van de Weijer, Joost},
+  journal={arXiv preprint arXiv:2010.15277},
+  year={2020},
+  url={https://github.com/mmasana/FACIL},
+  keywords={Library, Framework}
+}
+@String(masana2020class="A library for Continual Class-Incremental Learning")
+
+@article{continualai2021avalanche,
+   title = {Avalanche: an End-to-End Library for Continual Learning},
+   author = {Vincenzo Lomonaco and Lorenzo Pellegrini and Andrea Cossu and Gabriele Graffieti and Antonio Carta},
+   publisher={Github},
+   journal={Github repository},
+   url = {https://avalanche.continualai.org/},
+   year = {2021},
+   keywords={Library, Framework},
+}
+@String(continualai2021avalanche="A library for Continual Supervised Learning")
+
+@misc{nekoei2021continuous,
+      title={Continuous Coordination As a Realistic Scenario for Lifelong Learning},
+      author={Hadi Nekoei and Akilesh Badrinaaraayanan and Aaron Courville and Sarath Chandar},
+      year={2021},
+      eprint={2103.03216},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://github.com/chandar-lab/Lifelong-Hanabi},
+      keywords={Library, Framework},
+}
+@String(nekoei2021continuous="a multi-agent lifelong learning testbed that supports both zero-shot and few-shot settings.")
+
