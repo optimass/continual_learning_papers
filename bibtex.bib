@@ -1,40 +1,3 @@
-@article{fernando2017pathnet,
-  title={Pathnet: Evolution channels gradient descent in super neural networks},
-  author={Fernando, Chrisantha and Banarse, Dylan and Blundell, Charles and Zwols, Yori and Ha, David and Rusu, Andrei A and Pritzel, Alexander and Wierstra, Daan},
-  journal={arXiv preprint arXiv:1701.08734},
-  year={2017},
-  keywords={Continual RL}
-}
-
-@article{diaz2018don,
-  title={Don't forget, there is more than forgetting: new metrics for Continual Learning},
-  author={D{\'\i}az-Rodr{\'\i}guez, Natalia and Lomonaco, Vincenzo and Filliat, David and Maltoni, Davide},
-  journal={arXiv preprint arXiv:1810.13166},
-  year={2018}
-  keywords={Metric}
-}
-@String(diaz2018don="introduces a CL score that takes more than just forgetting into account")
-
-@inproceedings{lee2019neural,
-  title={A Neural Dirichlet Process Mixture Model for Task-Free Continual Learning},
-  author={Lee, Soochan and Ha, Junsoo and Zhang, Dongsu and Kim, Gunhee},
-  booktitle={International Conference on Learning Representations},
-  year={2019},
-  url={https://arxiv.org/pdf/2001.00689.pdf},
-  keywords={"Hybrid"}
-}
-@String(lee2019neural="This paper introduces expansion-based approach for task-free continual learning")
-
-
-@article{lomonaco2020cvpr,
-  title={CVPR 2020 Continual Learning in Computer Vision Competition: Approaches, Results, Current Challenges and Future Directions},
-  author={Lomonaco, Vincenzo and Pellegrini, Lorenzo and Rodriguez, Pau and Caccia, Massimo and She, Qi and Chen, Yu and Jodelet, Quentin and Wang, Ruiping and Mai, Zheda and Vazquez, David and others},
-  journal={arXiv preprint arXiv:2009.09929},
-  year={2020},
-  keywords={Empirical Study}
-}
-@String(lomonaco2020cvpr="surveys the results of the first CL competition at CVPR")
-
 @incollection{buzzega2020dark,
  author = {Buzzega, Pietro and Boschini, Matteo and Porrello, Angelo and Abati, Davide and Calderara, Simone},
  booktitle = {Advances in Neural Information Processing Systems 33},
@@ -47,15 +10,16 @@ url={https://papers.nips.cc/paper/2020/file/b704ea2c39778f07c617f6b7ce480e9e-Pap
     keywords={Rehearsal, Distillation}
 }
 
-
-@article{prabhu12356gdumb,
-  title={GDumb: A Simple Approach that Questions Our Progress in Continual Learning},
+@inproceedings{prabhu2020gdumb,
+  title={GDumb: A simple approach that questions our progress in continual learning},
   author={Prabhu, Ameya and Torr, Philip HS and Dokania, Puneet K},
-  url={http://www.robots.ox.ac.uk/~tvg/publications/2020/gdumb.pdf},
-  keywords={Rehearsal},
-  year={2020}
+  booktitle={European Conference on Computer Vision},
+  pages={524--540},
+  year={2020},
+  organization={Springer},
+  keywords={Empirical Study, Rehearsal}
 }
-@String(prabhu12356gdumb="introduces a super simple methods that outperforms almost all methods in all of the CL benchmarks. We need new better benchamrks")
+@String(prabhu2020gdumb="introduces a super simple methods that outperforms almost all methods in all of the CL benchmarks. We need new better benchamrks")
 
 @misc{khetarpal2020continual,
       title={Towards Continual Reinforcement Learning: A Review and Perspectives},
@@ -114,7 +78,7 @@ url={https://papers.nips.cc/paper/2020/file/b704ea2c39778f07c617f6b7ce480e9e-Pap
 
 @article{clicml2020,
   title={Workshop on Continual Learning at ICML 2020},
-  author={Rahaf Aljundi, Haytham Fayek, Eugene Belilovsky, David Lopez-Paz, Arslan Chaudhry, Marc Pickett, Puneet Dokania, Jonathan Schwarz, Sayna Ebrahimi},
+  author={Rahaf Aljundi and Haytham Fayek and Eugene Belilovsky and David Lopez-Paz and Arslan Chaudhry and Marc Pickett and Puneet Dokania and Jonathan Schwarz and Sayna Ebrahimi},
   journal={ICML},
   year={2020},
   url={https://sites.google.com/view/cl-icml/organizers?authuser=0},
@@ -537,9 +501,9 @@ url={https://openreview.net/forum?id=ryj0790hb},
 }
 
 @ARTICLE{Rusu16progressive,
-   author={{Rusu}, A.~A. and {Rabinowitz}, N.~C. and {Desjardins}, G. and
-	{Soyer}, H. and {Kirkpatrick}, J. and {Kavukcuoglu}, K. and
-	{Pascanu}, R. and {Hadsell}, R.},
+   author={Rusu, A.~A. and Rabinowitz, N.~C. and Desjardins, G. and
+	Soyer, H. and Kirkpatrick, J. and Kavukcuoglu, K. and
+	Pascanu, R. and Hadsell, R.},
     title={Progressive Neural Networks},
   journal={ArXiv e-prints},
 archivePrefix="arXiv",
@@ -547,7 +511,7 @@ archivePrefix="arXiv",
  primaryClass="cs.LG",
  keywords={Computer Science - Learning, Dynamic Architecture},
      year=2016,
-    month={June},
+    month={jun},
    adsurl={http://adsabs.harvard.edu/abs/2016arXiv160604671R},
   adsnote={Provided by the SAO/NASA Astrophysics Data System},
    url={https://arxiv.org/abs/1606.04671}
@@ -683,7 +647,7 @@ url={https://openreview.net/forum?id=SJlsFpVtDB},
   volume=	 {97},
   series=	 {Proceedings of Machine Learning Research},
   address=	 {Long Beach, California, USA},
-  month=	 {09--15 June},
+  month=	 {09--15 Jun},
   publisher=	 {PMLR},
   pdf=	 {http://proceedings.mlr.press/v97/finn19a/finn19a.pdf},
   url=	 {http://proceedings.mlr.press/v97/finn19a.html},
@@ -731,9 +695,9 @@ url={http://papers.nips.cc/paper/9112-reconciling-meta-learning-and-continual-le
 
 @inproceedings{lesort2018generative,
   TITLE={Generative Models from the perspective of Continual Learning},
-  AUTHOR={Lesort, Timoth{\'e}e and Caselles-Dupr{\'e}, Hugo and Garcia-Ortiz, Michael and Goudou, Jean-Fran{\c c}ois and Filliat, David},
+  AUTHOR={Lesort, Timothée and Caselles-Dupré, Hugo and Garcia-Ortiz, Michael and Goudou, Jean-Fran{\c c}ois and Filliat, David},
   URL={https://hal.archives-ouvertes.fr/hal-01951954},
-  BOOKTITLE={{IJCNN - International Joint Conference on Neural Networks}},
+  BOOKTITLE={IJCNN - International Joint Conference on Neural Networks},
   ADDRESS={Budapest, Hungary},
   YEAR={2019},
   MONTH={Jul},
@@ -756,7 +720,7 @@ url={http://papers.nips.cc/paper/9112-reconciling-meta-learning-and-continual-le
 
 @inproceedings{Alet2018ModularM,
   title={Modular meta-learning},
-  author={Ferran Alet and Tom{\'a}s Lozano-P{\'e}rez and Leslie Pack Kaelbling},
+  author={Ferran Alet and Tom{\'a}s Lozano-Pérez and Leslie Pack Kaelbling},
   booktitle={CoRL},
   year={2018},
     keywords={}
@@ -770,6 +734,13 @@ booktitle={International Conference on Learning Representations},
 year={2019},
 url={https://openreview.net/forum?id=BJlxm30cKm},
     keywords={}
+}
+
+@book{zhang2020dive,
+    title={Dive into Deep Learning},
+    author={Aston Zhang and Zachary C. Lipton and Mu Li and Alexander J. Smola},
+    note={\url{https://d2l.ai}},
+    year={2020}
 }
 
 @inproceedings{
@@ -805,7 +776,7 @@ url={https://openreview.net/forum?id=SJgwNerKvB},
   keywords={"Continual-Meta Learning"},
   url={https://arxiv.org/abs/1906.05201}
 }
-@String(He2019TaskAC="Introduces What & How framework; enables Task Agnostic CL with meta learned task inference")
+@String(He2019TaskAC="Introduces What \& How framework; enables Task Agnostic CL with meta learned task inference")
 
 @article{Harrison2019ContinuousMW,
   title={Continuous Meta-Learning without Tasks},
@@ -878,7 +849,7 @@ url={https://openreview.net/forum?id=SJgwNerKvB},
     keywords={Distillation, Rehearsal},
   url={https://arxiv.org/abs/1611.07725}
 }
-@String(rebuffi2017icarl="Binary cross-entropy loss for representation learning & exemplar memory (or coreset) for replay (Single-head setting)")
+@String(rebuffi2017icarl="Binary cross-entropy loss for representation learning \& exemplar memory (or coreset) for replay (Single-head setting)")
 
 
 @InProceedings{Hou_2019_CVPR,
@@ -928,10 +899,10 @@ url={https://openreview.net/forum?id=SJ1Xmf-Rb},
 }
 
 @inproceedings{gepperth2016incremental,
-  TITLE={{Incremental learning algorithms and applications}},
+  TITLE={Incremental learning algorithms and applications},
   AUTHOR={Gepperth, Alexander and Hammer, Barbara},
   URL={https://hal.archives-ouvertes.fr/hal-01418129},
-  BOOKTITLE={{European Symposium on Artificial Neural Networks (ESANN)}},
+  BOOKTITLE={European Symposium on Artificial Neural Networks (ESANN)},
   ADDRESS={Bruges, Belgium},
   YEAR={2016},
   PDF={https://hal.archives-ouvertes.fr/hal-01418129/file/article.pdf},
@@ -960,7 +931,7 @@ journal={AAAI Spring Symposium Series},
 keywords={AAAI Technical Report SS-13-05},
 number={Solomonoff 1989},
 pages={49--55},
-title={{Lifelong Machine Learning Systems: Beyond Learning Algorithms}},
+title={Lifelong Machine Learning Systems: Beyond Learning Algorithms},
 year={2013}
 }
 
@@ -982,9 +953,9 @@ year={2013}
 }
 
 @article{Traore19DisCoRL,
-  author   ={Ren{\'{e}} Traor{\'{e}} and
-               Hugo Caselles{-}Dupr{\'{e}} and
-               Timoth{\'{e}}e Lesort and
+  author   ={René Traoré and
+               Hugo Caselles{-}Dupré and
+               Timothée Lesort and
                Te Sun and
                Guanghang Cai and
                Natalia D{\'{\i}}az Rodr{\'{\i}}guez and
@@ -1124,9 +1095,9 @@ url={https://www.sciencedirect.com/science/article/abs/pii/S1364661399012942}
 
 
 @article{Kemker2017Measuring,
-   author={{Kemker}, R. and {McClure}, M. and {Abitino}, A. and {Hayes}, T. and
-	{Kanan}, C.},
-    title="{Measuring Catastrophic Forgetting in Neural Networks}",
+   author={Kemker, R. and McClure, M. and Abitino, A. and Hayes, T. and
+	Kanan, C.},
+    title="Measuring Catastrophic Forgetting in Neural Networks",
   journal={ArXiv e-prints},
 archivePrefix="arXiv",
    eprint={1708.02072},
@@ -1139,7 +1110,7 @@ archivePrefix="arXiv",
 }
 
 @InProceedings{Lomonaco2017core50,
-  title=	 {{CORe50: a New Dataset and Benchmark for Continuous Object Recognition}},
+  title=	 {CORe50: a New Dataset and Benchmark for Continuous Object Recognition},
   author=	 {Vincenzo Lomonaco and Davide Maltoni},
   booktitle=	 {Proceedings of the 1st Annual Conference on Robot Learning},
   pages=	 {17--26},
@@ -1157,7 +1128,7 @@ archivePrefix="arXiv",
 
 @inproceedings{lesort2018marginal,
   title={Marginal replay vs conditional replay for continual learning},
-  author={Lesort, Timoth{\'e}e and Gepperth, Alexander and Stoian, Andrei and Filliat, David},
+  author={Lesort, Timothée and Gepperth, Alexander and Stoian, Andrei and Filliat, David},
   booktitle={International Conference on Artificial Neural Networks},
   pages={466--480},
   year={2019},
@@ -1263,15 +1234,6 @@ url={https://openreview.net/forum?id=SJxSOJStPr}
 
 
 @inproceedings{
-Li2020Compositional,
-title={Compositional Language Continual Learning},
-author={Yuanpeng Li and Liang Zhao and Kenneth Church and Mohamed Elhoseiny},
-booktitle={International Conference on Learning Representations},
-year={2020},
-url={https://openreview.net/forum?id=rklnDgHtDS}
-}
-
-@inproceedings{
 Wen2020BatchEnsemble:,
 title={BatchEnsemble: an Alternative Approach to Efficient Ensemble and Lifelong Learning},
 author={Yeming Wen and Dustin Tran and Jimmy Ba},
@@ -1282,7 +1244,7 @@ url={https://openreview.net/forum?id=Sklf1yrYDr}
 
 @inproceedings{
 Yoo2020SNOW:,
-title={SNOW: Subscribing to Knowledge via Channel Pooling for Transfer & Lifelong Learning of Convolutional Neural Networks},
+title={SNOW: Subscribing to Knowledge via Channel Pooling for Transfer \& Lifelong Learning of Convolutional Neural Networks},
 author={Chungkuk Yoo and Bumsoo Kang and Minsik Cho},
 booktitle={International Conference on Learning Representations},
 year={2020},
@@ -1340,7 +1302,7 @@ url={https://openreview.net/forum?id=BkloRs0qK7},
 
 @article{lesort2019regularization,
   title={Regularization Shortcomings for Continual Learning},
-  author={Lesort, Timoth{\'e}e and Stoian, Andrei and Filliat, David},
+  author={Lesort, Timothée and Stoian, Andrei and Filliat, David},
   journal={arXiv preprint arXiv:1912.03049},
   year={2019}
 }
@@ -1406,7 +1368,7 @@ url = {http://papers.nips.cc/paper/7836-memory-replay-gans-learning-to-generate-
 
 @ARTICLE{Bellas10cognitive,
   title={A cognitive developmental robotics architecture for lifelong learning by evolution in real robots},
-  author={Bellas, Francisco and Fai{\~n}a, Andr{\'e}s and Varela, Gervasio and Duro, Richard J},
+  author={Bellas, Francisco and Fai{\~n}a, Andrés and Varela, Gervasio and Duro, Richard J},
   booktitle={The 2010 International Joint Conference on Neural Networks (IJCNN)},
   pages={1--8},
   year={2010},
@@ -1517,17 +1479,17 @@ keywords={Thesis}
 
 @article{Mankowitz18,
   title={Unicorn: Continual Learning with a Universal, Off-policy Agent},
-  author={Mankowitz, Daniel J and {\v{Z}}{\'\i}dek, Augustin and Barreto, Andr{\'e} and Horgan, Dan and Hessel, Matteo and Quan, John and Oh, Junhyuk and van Hasselt, Hado and Silver, David and Schaul, Tom},
+  author={Mankowitz, Daniel J and {\v{Z}}{\'\i}dek, Augustin and Barreto, André and Horgan, Dan and Hessel, Matteo and Quan, John and Oh, Junhyuk and van Hasselt, Hado and Silver, David and Schaul, Tom},
   journal={arXiv preprint arXiv:1802.08294},
   year={2018}
 }
 
 @article{gepperth16bio,
-  TITLE = {{A Bio-Inspired Incremental Learning Architecture for Applied Perceptual Problems}},
+  TITLE = {A Bio-Inspired Incremental Learning Architecture for Applied Perceptual Problems},
   AUTHOR = {Gepperth, Alexander and Karaoguz, Cem},
   URL = {https://hal.archives-ouvertes.fr/hal-01418123},
-  JOURNAL = {{Cognitive Computation}},
-  PUBLISHER = {{Springer}},
+  JOURNAL = {Cognitive Computation},
+  PUBLISHER = {Springer},
   VOLUME = {8},
   PAGES = {924 - 934},
   YEAR = {2016},
@@ -1556,7 +1518,7 @@ keywords={Thesis}
   url       = {http://arxiv.org/abs/1701.08734},
   archivePrefix = {arXiv},
   eprint    = {1701.08734},
-  timestamp = {Wed, 07 June 2017 14:42:32 +0200},
+  timestamp = {Wed, 07 Jun 2017 14:42:32 +0200},
   biburl    = {http://dblp.org/rec/bib/journals/corr/FernandoBBZHRPW17},
   bibsource = {dblp computer science bibliography, http://dblp.org}
 }
@@ -1650,7 +1612,7 @@ keywords={}
   url       = {http://arxiv.org/abs/1607.00122},
   archivePrefix = {arXiv},
   eprint    = {1607.00122},
-  timestamp = {Wed, 07 June 2017 14:40:16 +0200},
+  timestamp = {Wed, 07 Jun 2017 14:40:16 +0200},
   biburl    = {https://dblp.org/rec/bib/journals/corr/JungJJK16},
   bibsource = {dblp computer science bibliography, https://dblp.org},
 keywords={}
@@ -1704,14 +1666,14 @@ keywords={}
 
 
 @article{Mermillod13,
-author = {Mermillod, Martial and Bugaiska, Aur{\'{e}}lia and Bonin, Patrick},
+author = {Mermillod, Martial and Bugaiska, Aurélia and Bonin, Patrick},
 doi = {10.3389/fpsyg.2013.00504},
 issn = {1664-1078},
 journal = {Frontiers in psychology},
 number = {August},
 pages = {504},
 pmid = {23935590},
-title = {{The stability-plasticity dilemma: investigating the continuum from catastrophic forgetting to age-limited learning effects.}},
+title = {The stability-plasticity dilemma: investigating the continuum from catastrophic forgetting to age-limited learning effects.},
 url = {http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=3732997{\&}tool=pmcentrez{\&}rendertype=abstract},
 volume = {4},
 year = {2013},
@@ -1719,8 +1681,8 @@ keywords={}
 }
 
 @ARTICLE{Romeres16,
-       author = {{Romeres}, Diego and {Zorzi}, Mattia and {Camoriano}, Raffaello and
-        {Chiuso}, Alessandro},
+       author = {Romeres, Diego and Zorzi, Mattia and Camoriano, Raffaello and
+        Chiuso, Alessandro},
         title = "{Online semi-parametric learning for inverse dynamics modeling}",
       journal = {arXiv e-prints},
      keywords = {Mathematics - Optimization and Control, Computer Science - Machine
@@ -1786,7 +1748,7 @@ keywords={}
 }
 
 @ARTICLE{kamra2017deep,
-   author = {{Kamra}, N. and {Gupta}, U. and {Liu}, Y.},
+   author = {Kamra, N. and Gupta, U. and Liu, Y.},
     title = "{Deep Generative Dual Memory Network for Continual Learning}",
   journal = {ArXiv e-prints},
 archivePrefix = "arXiv",
@@ -1826,7 +1788,7 @@ volume = {7},
 number = {2},
 pages = {123-146},
 year  = {1995},
-publisher = {Taylor & Francis},
+publisher = {Taylor \& Francis},
 doi = {10.1080/09540099550039318},
 URL = {https://doi.org/10.1080/09540099550039318},
 eprint = {https://doi.org/10.1080/09540099550039318},
@@ -1834,8 +1796,8 @@ keywords={Classic, Rehearsal}
 }
 
 @ARTICLE{caselles2018continual,
-       author = {{Caselles-Dupr{\'e}}, Hugo and {Garcia-Ortiz}, Michael and
-         {Filliat}, David},
+       author = {Caselles-Dupré, Hugo and Garcia-Ortiz, Michael and
+         Filliat, David},
         title = "{S-TRIGGER: Continual State Representation Learning via Self-Triggered Generative Replay}",
       journal = {arXiv e-prints},
      keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
@@ -1988,7 +1950,7 @@ url={https://openreview.net/forum?id=Bkxbrn0cYX},
 }
 
 @InProceedings{Ruvolo13,
-  title = 	 {{ELLA}: An Efficient Lifelong Learning Algorithm},
+  title = 	 {ELLA: An Efficient Lifelong Learning Algorithm},
   author = 	 {Paul Ruvolo and Eric Eaton},
   booktitle = 	 {Proceedings of the 30th International Conference on Machine Learning},
   pages = 	 {507--515},
@@ -1998,7 +1960,7 @@ url={https://openreview.net/forum?id=Bkxbrn0cYX},
   number =       {1},
   series = 	 {Proceedings of Machine Learning Research},
   address = 	 {Atlanta, Georgia, USA},
-  month = 	 {17--19 June},
+  month = 	 {17--19 Jun},
   publisher = 	 {PMLR},
   pdf = 	 {http://proceedings.mlr.press/v28/ruvolo13.pdf},
   url = 	 {http://proceedings.mlr.press/v28/ruvolo13.html},
@@ -2039,6 +2001,12 @@ url={https://openreview.net/forum?id=Bkxbrn0cYX},
   publisher={Elsevier}
 }
 
+@article{doan2020theoretical,
+  title={A Theoretical Analysis of Catastrophic Forgetting through the NTK Overlap Matrix},
+  author={Doan, Thang and Bennani, Mehdi and Mazoure, Bogdan and Rabusseau, Guillaume and Alquier, Pierre},
+  journal={arXiv preprint arXiv:2010.04003},
+  year={2020}
+}
 
 @inproceedings{Nehmzow09,
   title={A proposal for continual learning in robotics},
@@ -2286,13 +2254,13 @@ url={https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650681.pdf}
 }
 
 @ARTICLE{Hayes202REMIND,
-       author = {{Hayes}, Tyler L. and {Kafle}, Kushal and {Shrestha}, Robik and
-         {Acharya}, Manoj and {Kanan}, Christopher},
+       author = {Hayes, Tyler L. and Kafle, Kushal and Shrestha, Robik and
+         Acharya, Manoj and Kanan, Christopher},
         title = "{REMIND Your Neural Network to Prevent Catastrophic Forgetting}",
   booktitle={Proceedings of the IEEE European Conference on Computer Vision (ECCV)},
   year={2020},
 url={https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123650681.pdf},
-keywords={Rehearsal, Influential}
+keywords={Rehearsal}
 }
 
 @inproceedings{mundt2020wholistic,
@@ -2316,6 +2284,7 @@ keywords={Rehearsal, Influential}
       eprint={2012.04740},
       archivePrefix={arXiv},
       primaryClass={cs.LG},
+  keywords={"Library"; "Framework"}
 }
 @String(Montiel2020river="A library for online learning.")
 
@@ -2325,57 +2294,10 @@ keywords={Rehearsal, Influential}
   publisher={Github},
   journal={Github repository},
   howpublished={\url{https://github.com/Continvvm/continuum}},
-  url={https://github.com/Continvvm/continuum},
   year={2020},
-  keywords={Library, Framework}
+  keywords={"Library"; "Framework"}
 }
-@String(douillardlesort2020continuum="A library proposing continual supervised learning scenarios and metrics.")
-
-@misc{normandin2021sequoia,
-  author={Fabrice Normandin and Florian  Golemo and  Oleksiy Ostapenko and  Matthew Riemer and  Pau Rodriguez and  Julio Hurtado and  Khimya Khetarpal and Timothée Lesort and  Laurent Charlin and Irina Rish and Massimo Caccia},
-  title={Sequoia - Towards a Systematic Organization of Continual Learning Research},
-  publisher={Github},
-  journal={Github repository},
-  howpublished={\url{https://github.com/lebrice/Sequoia}},
-  url={https://github.com/lebrice/Sequoia},
-  year={2021},
-  keywords={Library, Framework}
-}
-@String(normandin2021sequoia="A library that unifies Continual Supervised and Continual Reinforcement Learning research")
-
-@article{masana2020class,
-  title={Framework for Analysis of Class-Incremental Learning},
-  author={Masana, Marc and Liu, Xialei and Twardowski, Bartlomiej and Menta, Mikel and Bagdanov, Andrew D and van de Weijer, Joost},
-  journal={arXiv preprint arXiv:2010.15277},
-  year={2020},
-  url={https://github.com/mmasana/FACIL},
-  keywords={Library, Framework}
-}
-@String(masana2020class="A library for Continual Class-Incremental Learning")
-
-@article{continualai2021avalanche,
-   title = {Avalanche: an End-to-End Library for Continual Learning},
-   author = {Vincenzo Lomonaco and Lorenzo Pellegrini and Andrea Cossu and Gabriele Graffieti and Antonio Carta},
-   publisher={Github},
-   journal={Github repository},
-   url = {https://avalanche.continualai.org/},
-   year = {2021},
-   keywords={Library, Framework},
-}
-@String(continualai2021avalanche="A library for Continual Supervised Learning")
-
-@misc{nekoei2021continuous,
-      title={Continuous Coordination As a Realistic Scenario for Lifelong Learning},
-      author={Hadi Nekoei and Akilesh Badrinaaraayanan and Aaron Courville and Sarath Chandar},
-      year={2021},
-      eprint={2103.03216},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://github.com/chandar-lab/Lifelong-Hanabi},
-      keywords={Library, Framework},
-}
-@String(nekoei2021continuous="a multi-agent lifelong learning testbed that supports both zero-shot and few-shot settings.")
-
+@String(douillardlesort2020continuum="A library proposing continual learning scenarios and metrics.")
 
 @inproceedings{saha2021gradient,
 title={Gradient Projection Memory for Continual Learning},
@@ -2436,7 +2358,7 @@ keywords={}
 }
 
 @inproceedings{cha2021cpr,
-title={{\{}CPR{\}}: Classifier-Projection Regularization for Continual Learning},
+title={CPR: Classifier-Projection Regularization for Continual Learning},
 author={Sungmin Cha and Hsiang Hsu and Taebaek Hwang and Flavio Calmon and Taesup Moon},
 booktitle={International Conference on Learning Representations},
 year={2021},
@@ -2445,7 +2367,7 @@ keywords={}
 }
 
 @inproceedings{ayub2021eec,
-title={{\{}EEC{\}}: Learning to Encode and Regenerate Images for Continual Learning},
+title={EEC: Learning to Encode and Regenerate Images for Continual Learning},
 author={Ali Ayub and Alan Wagner},
 booktitle={International Conference on Learning Representations},
 year={2021},
@@ -2521,7 +2443,7 @@ keywords={}
 	author={Mohamed Abdelsalam and Mojtaba Faramarzi and Shagun Sodhani and Sarath Chandar},
 	year={2021},
 	url={https://chandar-lab.github.io/IIRC/},
-	keywords={Benchmark & Setting}
+	keywords={Benchmark and Setting}
 }
 
 @String(abdelsalam2021iirc="A setup and benchmark to evaluate lifelong learning models in more real-life aligned scenarios.")
@@ -2544,7 +2466,7 @@ keywords={}
 
 @article{llmt2020,
   title={1st Lifelong Learning for Machine Translation Shared Task at WMT20 (EMNLP 2020)},
-  author={Loïc Barrault, Magdalena Biesialska, Marta R. Costa-jussà, Fethi Bougares, Olivier Galibert},
+  author={Loïc Barrault and Magdalena Biesialska and Marta R. Costa-jussà and Fethi Bougares and  Olivier Galibert},
   journal={WMT20 @ EMNLP},
   year={2020},
   url={http://www.statmt.org/wmt20/lifelong-learning-task.html},
@@ -2553,7 +2475,7 @@ keywords={}
 
 @inproceedings{shim2020online,
   title={Online Class-Incremental Continual Learning with Adversarial Shapley Value},
-  author={Dongsub Shim\*, Zheda Mai\*, Jihwan Jeong\*, Scott Sanner, Hyunwoo Kim, Jongseong Jang},
+  author={Dongsub Shim and Zheda Mai and Jihwan Jeong\* and Scott Sanner and Hyunwoo Kim and Jongseong Jang},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
   year={2021},
   url={https://arxiv.org/pdf/2009.00093.pdf},
@@ -2586,12 +2508,12 @@ abstract = {The ability of artificial agents to increment their capabilities whe
 }
 
 @ARTICLE{Douillard2020Insights,
-       author = {{Douillard}, Arthur and {Valle}, Eduardo and {Ollion}, Charles and {Robert}, Thomas and {Cord}, Matthieu},
+       author = {Douillard, Arthur and Valle, Eduardo and Ollion, Charles and Robert, Thomas and Cord, Matthieu},
         title = "{Insights from the Future for Continual Learning}",
       journal = {arXiv e-prints},
      keywords = {Computer Science - Computer Vision and Pattern Recognition},
          year = 2020,
-        month = {June},
+        month = jun,
           eid = {arXiv:2006.13748},
         pages = {arXiv:2006.13748},
 archivePrefix = {arXiv},
@@ -2639,20 +2561,57 @@ archivePrefix = {arXiv},
   keywors={Rehearsal}
 }
 
-
-@InProceedings{Doan2021Theoretical,
-  title = 	 { A Theoretical Analysis of Catastrophic Forgetting through the NTK Overlap Matrix },
-  author =       {Doan, Thang and Abbana Bennani, Mehdi and Mazoure, Bogdan and Rabusseau, Guillaume and Alquier, Pierre},
-  booktitle = 	 {Proceedings of The 24th International Conference on Artificial Intelligence and Statistics},
-  pages = 	 {1072--1080},
-  year = 	 {2021},
-  editor = 	 {Arindam Banerjee and Kenji Fukumizu},
-  volume = 	 {130},
-  series = 	 {Proceedings of Machine Learning Research},
-  month = 	 {13--15 Apr},
-  publisher =    {PMLR},
-  pdf = 	 {http://proceedings.mlr.press/v130/doan21a/doan21a.pdf},
-  url = 	 {http://proceedings.mlr.press/v130/doan21a.html},
-  keywors={Regularization}
+@misc{douillard2021continuum,
+      title={Continuum: Simple Management of Complex Continual Learning Scenarios}, 
+      author={Arthur Douillard and Timothée Lesort},
+      year={2021},
+      eprint={2102.06253},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2102.06253}
 }
-@String(Doan2021Theoretical="Analysis of CF under NTK regime with a modified version of OGD, PCA-OGD")
+
+@misc{yan2021der,
+      title={DER: Dynamically Expandable Representation for Class Incremental Learning}, 
+      author={Shipeng Yan and Jiangwei Xie and Xuming He},
+      year={2021},
+      eprint={2103.16788},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+
+@inproceedings{hayes2020lifelong,
+  title={Lifelong machine learning with deep streaming linear discriminant analysis},
+  author={Hayes, Tyler L and Kanan, Christopher},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={220--221},
+  year={2020}
+}
+
+@ARTICLE{PangIncremental2005,
+  author={ {Shaoning Pang} and S. {Ozawa} and N. {Kasabov}},
+  journal={IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)}, 
+  title={Incremental linear discriminant analysis for classification of data streams}, 
+  year={2005},
+  volume={35},
+  number={5},
+  pages={905-914},
+  doi={10.1109/TSMCB.2005.847744}}
+
+
+@article{lesort2021understanding,
+  title={Understanding Continual Learning Settings with Data Distribution Drift Analysis},
+  author={Lesort, Timothée and Caccia, Massimo and Rish, Irina},
+  journal={arXiv preprint arXiv:2104.01678},
+  year={2021}
+}
+@String(lesort2021understanding="A white paper that propose a formal description of continual learning scenarios type.")
+
+@inproceedings{lomonaco2020rehearsal,
+  title={Rehearsal-free continual learning over small non-iid batches},
+  author={Lomonaco, Vincenzo and Maltoni, Davide and Pellegrini, Lorenzo},
+  booktitle={2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
+  pages={989--998},
+  year={2020},
+  organization={IEEE Computer Society}
+}
