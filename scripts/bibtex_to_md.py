@@ -4,7 +4,7 @@ from utils import generate_md_file
 import bibtexparser
 import os
 
-file_name = str(os.path.join(os.path.dirname(os.getcwd()),'bibtex.bib'))
+file_name = str(os.path.join(os.getcwd(),'bibtex.bib'))
 
 with open(file_name) as bibtex_file:
     bibtex_str = bibtex_file.read()
